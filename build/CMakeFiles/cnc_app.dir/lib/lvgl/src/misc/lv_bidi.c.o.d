@@ -1,0 +1,42 @@
+CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_bidi.c.o: \
+ /home/merry/proyecto_cnc_hmi/lib/lvgl/src/misc/lv_bidi.c \
+ /usr/include/stdc-predef.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/12/include/stddef.h \
+ /home/merry/proyecto_cnc_hmi/lib/lvgl/src/misc/lv_bidi.h \
+ /home/merry/proyecto_cnc_hmi/lib/lvgl/src/misc/../lv_conf_internal.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/12/include/stdint.h \
+ /usr/include/stdint.h \
+ /usr/include/arm-linux-gnueabihf/bits/libc-header-start.h \
+ /usr/include/features.h /usr/include/features-time64.h \
+ /usr/include/arm-linux-gnueabihf/bits/wordsize.h \
+ /usr/include/arm-linux-gnueabihf/bits/timesize.h \
+ /usr/include/arm-linux-gnueabihf/sys/cdefs.h \
+ /usr/include/arm-linux-gnueabihf/bits/long-double.h \
+ /usr/include/arm-linux-gnueabihf/gnu/stubs.h \
+ /usr/include/arm-linux-gnueabihf/gnu/stubs-hard.h \
+ /usr/include/arm-linux-gnueabihf/bits/types.h \
+ /usr/include/arm-linux-gnueabihf/bits/typesizes.h \
+ /usr/include/arm-linux-gnueabihf/bits/time64.h \
+ /usr/include/arm-linux-gnueabihf/bits/wchar.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdint-intn.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdint-uintn.h \
+ /home/merry/proyecto_cnc_hmi/lib/lvgl/src/misc/../lv_conf_kconfig.h \
+ /home/merry/proyecto_cnc_hmi/src/lv_conf.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/12/include/stdbool.h \
+ /home/merry/proyecto_cnc_hmi/lib/lvgl/src/misc/lv_txt.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/12/include/stdarg.h \
+ /home/merry/proyecto_cnc_hmi/lib/lvgl/src/misc/lv_area.h \
+ /home/merry/proyecto_cnc_hmi/lib/lvgl/src/misc/../font/lv_font.h \
+ /home/merry/proyecto_cnc_hmi/lib/lvgl/src/misc/../font/../lv_conf_internal.h \
+ /home/merry/proyecto_cnc_hmi/lib/lvgl/src/misc/../font/lv_symbol_def.h \
+ /home/merry/proyecto_cnc_hmi/lib/lvgl/src/misc/../font/../misc/lv_area.h \
+ /home/merry/proyecto_cnc_hmi/lib/lvgl/src/misc/lv_printf.h \
+ /usr/include/inttypes.h \
+ /home/merry/proyecto_cnc_hmi/lib/lvgl/src/misc/lv_types.h \
+ /home/merry/proyecto_cnc_hmi/lib/lvgl/src/misc/../misc/lv_mem.h \
+ /home/merry/proyecto_cnc_hmi/lib/lvgl/src/misc/../misc/../lv_conf_internal.h \
+ /usr/include/string.h \
+ /usr/include/arm-linux-gnueabihf/bits/types/locale_t.h \
+ /usr/include/arm-linux-gnueabihf/bits/types/__locale_t.h \
+ /usr/include/strings.h \
+ /home/merry/proyecto_cnc_hmi/lib/lvgl/src/misc/../misc/lv_types.h

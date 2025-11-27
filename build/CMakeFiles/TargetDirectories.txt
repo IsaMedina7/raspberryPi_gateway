@@ -1,0 +1,3 @@
+/home/merry/proyecto_cnc_hmi/build/CMakeFiles/cnc_app.dir
+/home/merry/proyecto_cnc_hmi/build/CMakeFiles/edit_cache.dir
+/home/merry/proyecto_cnc_hmi/build/CMakeFiles/rebuild_cache.dir
