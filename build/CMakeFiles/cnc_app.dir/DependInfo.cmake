@@ -225,7 +225,20 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/merry/proyecto_cnc_hmi/src/logger/logger.c" "CMakeFiles/cnc_app.dir/src/logger/logger.c.o" "gcc" "CMakeFiles/cnc_app.dir/src/logger/logger.c.o.d"
   "/home/merry/proyecto_cnc_hmi/src/main.c" "CMakeFiles/cnc_app.dir/src/main.c.o" "gcc" "CMakeFiles/cnc_app.dir/src/main.c.o.d"
   "/home/merry/proyecto_cnc_hmi/src/mqtt/mqtt_service.c" "CMakeFiles/cnc_app.dir/src/mqtt/mqtt_service.c.o" "gcc" "CMakeFiles/cnc_app.dir/src/mqtt/mqtt_service.c.o.d"
-  "/home/merry/proyecto_cnc_hmi/src/ui/ui_manager.c" "CMakeFiles/cnc_app.dir/src/ui/ui_manager.c.o" "gcc" "CMakeFiles/cnc_app.dir/src/ui/ui_manager.c.o.d"
+  "/home/merry/proyecto_cnc_hmi/src/ui/components/ui_comp_hook.c" "CMakeFiles/cnc_app.dir/src/ui/components/ui_comp_hook.c.o" "gcc" "CMakeFiles/cnc_app.dir/src/ui/components/ui_comp_hook.c.o.d"
+  "/home/merry/proyecto_cnc_hmi/src/ui/images/ui_img_324518500.c" "CMakeFiles/cnc_app.dir/src/ui/images/ui_img_324518500.c.o" "gcc" "CMakeFiles/cnc_app.dir/src/ui/images/ui_img_324518500.c.o.d"
+  "/home/merry/proyecto_cnc_hmi/src/ui/images/ui_img_680980976.c" "CMakeFiles/cnc_app.dir/src/ui/images/ui_img_680980976.c.o" "gcc" "CMakeFiles/cnc_app.dir/src/ui/images/ui_img_680980976.c.o.d"
+  "/home/merry/proyecto_cnc_hmi/src/ui/images/ui_img_745144479.c" "CMakeFiles/cnc_app.dir/src/ui/images/ui_img_745144479.c.o" "gcc" "CMakeFiles/cnc_app.dir/src/ui/images/ui_img_745144479.c.o.d"
+  "/home/merry/proyecto_cnc_hmi/src/ui/images/ui_img_hibernacion_png.c" "CMakeFiles/cnc_app.dir/src/ui/images/ui_img_hibernacion_png.c.o" "gcc" "CMakeFiles/cnc_app.dir/src/ui/images/ui_img_hibernacion_png.c.o.d"
+  "/home/merry/proyecto_cnc_hmi/src/ui/images/ui_img_home_24_png.c" "CMakeFiles/cnc_app.dir/src/ui/images/ui_img_home_24_png.c.o" "gcc" "CMakeFiles/cnc_app.dir/src/ui/images/ui_img_home_24_png.c.o.d"
+  "/home/merry/proyecto_cnc_hmi/src/ui/images/ui_img_plus_png.c" "CMakeFiles/cnc_app.dir/src/ui/images/ui_img_plus_png.c.o" "gcc" "CMakeFiles/cnc_app.dir/src/ui/images/ui_img_plus_png.c.o.d"
+  "/home/merry/proyecto_cnc_hmi/src/ui/lv_i18n.c" "CMakeFiles/cnc_app.dir/src/ui/lv_i18n.c.o" "gcc" "CMakeFiles/cnc_app.dir/src/ui/lv_i18n.c.o.d"
+  "/home/merry/proyecto_cnc_hmi/src/ui/screens/ui_main.c" "CMakeFiles/cnc_app.dir/src/ui/screens/ui_main.c.o" "gcc" "CMakeFiles/cnc_app.dir/src/ui/screens/ui_main.c.o.d"
+  "/home/merry/proyecto_cnc_hmi/src/ui/screens/ui_seleccionarTarea.c" "CMakeFiles/cnc_app.dir/src/ui/screens/ui_seleccionarTarea.c.o" "gcc" "CMakeFiles/cnc_app.dir/src/ui/screens/ui_seleccionarTarea.c.o.d"
+  "/home/merry/proyecto_cnc_hmi/src/ui/ui.c" "CMakeFiles/cnc_app.dir/src/ui/ui.c.o" "gcc" "CMakeFiles/cnc_app.dir/src/ui/ui.c.o.d"
+  "/home/merry/proyecto_cnc_hmi/src/ui/ui_events.c" "CMakeFiles/cnc_app.dir/src/ui/ui_events.c.o" "gcc" "CMakeFiles/cnc_app.dir/src/ui/ui_events.c.o.d"
+  "/home/merry/proyecto_cnc_hmi/src/ui/ui_helpers.c" "CMakeFiles/cnc_app.dir/src/ui/ui_helpers.c.o" "gcc" "CMakeFiles/cnc_app.dir/src/ui/ui_helpers.c.o.d"
+  "/home/merry/proyecto_cnc_hmi/src/ui/ui_logic.c" "CMakeFiles/cnc_app.dir/src/ui/ui_logic.c.o" "gcc" "CMakeFiles/cnc_app.dir/src/ui/ui_logic.c.o.d"
   )
 
 # Targets to which this target links.

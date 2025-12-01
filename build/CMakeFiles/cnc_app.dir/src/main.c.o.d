@@ -304,5 +304,13 @@ CMakeFiles/cnc_app.dir/src/main.c.o: \
  /home/merry/proyecto_cnc_hmi/lib/lv_drivers/sdl/sdl.h \
  /home/merry/proyecto_cnc_hmi/lib/lv_drv_conf.h \
  /home/merry/proyecto_cnc_hmi/src/mqtt/mqtt_service.h \
+ /home/merry/proyecto_cnc_hmi/src/files/file_manager.h \
  /home/merry/proyecto_cnc_hmi/src/logger/logger.h \
- /home/merry/proyecto_cnc_hmi/src/ui/ui_manager.h
+ /home/merry/proyecto_cnc_hmi/src/ui/ui.h \
+ /home/merry/proyecto_cnc_hmi/lib/lvgl/lvgl.h \
+ /home/merry/proyecto_cnc_hmi/src/ui/lv_i18n.h \
+ /home/merry/proyecto_cnc_hmi/src/ui/ui_helpers.h \
+ /home/merry/proyecto_cnc_hmi/src/ui/ui.h \
+ /home/merry/proyecto_cnc_hmi/src/ui/ui_events.h \
+ /home/merry/proyecto_cnc_hmi/src/ui/screens/ui_main.h \
+ /home/merry/proyecto_cnc_hmi/src/ui/screens/ui_seleccionarTarea.h

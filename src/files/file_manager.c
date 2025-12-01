@@ -3,6 +3,8 @@
 #include <string.h>
 #include <dirent.h> // Librería estándar de Linux para directorios
 
+FileList mis_archivos;
+
 void fm_scan_directory(FileList *list) {
     DIR *d;
     struct dirent *dir;

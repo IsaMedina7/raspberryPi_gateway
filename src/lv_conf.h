@@ -15,7 +15,7 @@
 
 // Memoria
 #define LV_MEM_CUSTOM 0
-#define LV_MEM_SIZE (128 * 1024U)
+#define LV_MEM_SIZE (4096 * 1024U) // <--- AUMENTADO A 4MB (Antes 128KB)
 
 // Funcionalidades
 #define LV_USE_LOG 1
@@ -23,8 +23,13 @@
 #define LV_USE_USER_DATA 1
 
 // Fuentes
+#define LV_FONT_MONTSERRAT_12 1
 #define LV_FONT_MONTSERRAT_14 1
+#define LV_FONT_MONTSERRAT_16 1
+#define LV_FONT_MONTSERRAT_18 1
 #define LV_FONT_MONTSERRAT_20 1
+#define LV_FONT_MONTSERRAT_24 1
+#define LV_FONT_MONTSERRAT_26 1 
 #define LV_FONT_MONTSERRAT_28 1
 
 // Tema

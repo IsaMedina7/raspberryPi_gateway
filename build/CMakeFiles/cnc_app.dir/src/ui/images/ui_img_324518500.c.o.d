@@ -1,7 +1,7 @@
-CMakeFiles/cnc_app.dir/src/ui/ui_manager.c.o: \
- /home/merry/proyecto_cnc_hmi/src/ui/ui_manager.c \
+CMakeFiles/cnc_app.dir/src/ui/images/ui_img_324518500.c.o: \
+ /home/merry/proyecto_cnc_hmi/src/ui/images/ui_img_324518500.c \
  /usr/include/stdc-predef.h \
- /home/merry/proyecto_cnc_hmi/src/ui/ui_manager.h \
+ /home/merry/proyecto_cnc_hmi/src/ui/images/../ui.h \
  /home/merry/proyecto_cnc_hmi/lib/lvgl/lvgl.h \
  /home/merry/proyecto_cnc_hmi/lib/lvgl/src/misc/lv_log.h \
  /home/merry/proyecto_cnc_hmi/lib/lvgl/src/misc/../lv_conf_internal.h \
@@ -252,40 +252,9 @@ CMakeFiles/cnc_app.dir/src/ui/ui_manager.c.o: \
  /home/merry/proyecto_cnc_hmi/lib/lvgl/src/extra/widgets/imgbtn/../../../lvgl.h \
  /home/merry/proyecto_cnc_hmi/lib/lvgl/src/extra/widgets/span/lv_span.h \
  /home/merry/proyecto_cnc_hmi/lib/lvgl/src/extra/widgets/span/../../../lvgl.h \
- /usr/include/stdio.h \
- /usr/include/arm-linux-gnueabihf/bits/types/__fpos_t.h \
- /usr/include/arm-linux-gnueabihf/bits/types/__mbstate_t.h \
- /usr/include/arm-linux-gnueabihf/bits/types/__fpos64_t.h \
- /usr/include/arm-linux-gnueabihf/bits/types/__FILE.h \
- /usr/include/arm-linux-gnueabihf/bits/types/FILE.h \
- /usr/include/arm-linux-gnueabihf/bits/types/struct_FILE.h \
- /usr/include/arm-linux-gnueabihf/bits/stdio_lim.h \
- /usr/include/arm-linux-gnueabihf/bits/floatn.h \
- /usr/include/arm-linux-gnueabihf/bits/floatn-common.h \
- /home/merry/proyecto_cnc_hmi/src/ui/../mqtt/mqtt_service.h \
- /usr/include/pthread.h /usr/include/sched.h \
- /usr/include/arm-linux-gnueabihf/bits/types/time_t.h \
- /usr/include/arm-linux-gnueabihf/bits/types/struct_timespec.h \
- /usr/include/arm-linux-gnueabihf/bits/endian.h \
- /usr/include/arm-linux-gnueabihf/bits/endianness.h \
- /usr/include/arm-linux-gnueabihf/bits/sched.h \
- /usr/include/arm-linux-gnueabihf/bits/types/struct_sched_param.h \
- /usr/include/arm-linux-gnueabihf/bits/cpu-set.h /usr/include/time.h \
- /usr/include/arm-linux-gnueabihf/bits/time.h \
- /usr/include/arm-linux-gnueabihf/bits/types/clock_t.h \
- /usr/include/arm-linux-gnueabihf/bits/types/struct_tm.h \
- /usr/include/arm-linux-gnueabihf/bits/types/clockid_t.h \
- /usr/include/arm-linux-gnueabihf/bits/types/timer_t.h \
- /usr/include/arm-linux-gnueabihf/bits/types/struct_itimerspec.h \
- /usr/include/arm-linux-gnueabihf/bits/pthreadtypes.h \
- /usr/include/arm-linux-gnueabihf/bits/thread-shared-types.h \
- /usr/include/arm-linux-gnueabihf/bits/pthreadtypes-arch.h \
- /usr/include/arm-linux-gnueabihf/bits/atomic_wide_counter.h \
- /usr/include/arm-linux-gnueabihf/bits/struct_mutex.h \
- /usr/include/arm-linux-gnueabihf/bits/struct_rwlock.h \
- /usr/include/arm-linux-gnueabihf/bits/setjmp.h \
- /usr/include/arm-linux-gnueabihf/bits/types/__sigset_t.h \
- /usr/include/arm-linux-gnueabihf/bits/types/struct___jmp_buf_tag.h \
- /usr/include/arm-linux-gnueabihf/bits/pthread_stack_min-dynamic.h \
- /usr/include/arm-linux-gnueabihf/bits/pthread_stack_min.h \
- /home/merry/proyecto_cnc_hmi/src/ui/../logger/logger.h
+ /home/merry/proyecto_cnc_hmi/src/ui/images/../lv_i18n.h \
+ /home/merry/proyecto_cnc_hmi/src/ui/images/../ui_helpers.h \
+ /home/merry/proyecto_cnc_hmi/src/ui/images/../ui.h \
+ /home/merry/proyecto_cnc_hmi/src/ui/images/../ui_events.h \
+ /home/merry/proyecto_cnc_hmi/src/ui/images/../screens/ui_main.h \
+ /home/merry/proyecto_cnc_hmi/src/ui/images/../screens/ui_seleccionarTarea.h

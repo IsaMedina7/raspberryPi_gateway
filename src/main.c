@@ -3,17 +3,31 @@
 #include <string.h>
 #include <unistd.h>
 #include <pthread.h>
+#include <time.h>
 
 #include "lvgl.h"
 #include "sdl/sdl.h"
 #include "mqtt/mqtt_service.h"
+#include "files/file_manager.h"
 #include "logger/logger.h"
-#include "ui/ui_manager.h"
+#include "ui/ui.h"
 
+// Variables Globales
 SystemState global_state;
 pthread_mutex_t state_mutex;
 lv_obj_t * cursor_obj;
 
+// --- DECLARACIONES EXTERNAS ---
+extern void IrSeleccionarTarea(lv_event_t * e);
+extern void EnviarArchivoDesdeRoller(lv_event_t * e);
+extern void retrocederMain(lv_event_t * e); // <--- NUEVA
+
+// Objetos UI externos
+extern lv_obj_t * ui_agregarTareas; // Botón +
+extern lv_obj_t * ui_asignarTarea;  // Botón Confirmar
+extern lv_obj_t * ui_btnAtras;      // Botón Volver (De ui_seleccionarTarea.h)
+
+// --- HARDWARE INIT ---
 void hal_init(void) {
     sdl_init();
     static lv_disp_draw_buf_t disp_buf;
@@ -38,37 +52,53 @@ void hal_init(void) {
     lv_indev_set_cursor(mouse_indev, cursor_obj);
 }
 
+void exportar_estado_json() {
+    FILE *f = fopen("state.json", "w");
+    if (f) { fprintf(f, "{\"ts\": %ld}", time(NULL)); fclose(f); }
+}
+
+// --- HILO UI ---
 void* thread_ui_loop(void* arg) {
     lv_init();
     hal_init();
 
-    printf("[UI] Iniciando Panel CNC 800x480...\n");
-    ui_init(); // Cargar la interfaz nueva
+    printf("[UI] Iniciando interfaz...\n");
+    ui_init();
+
+    // === PARCHE DE CONEXIÓN MANUAL ===
+
+    // 1. Botón "+" (Ir a archivos)
+    if (ui_agregarTareas) {
+        lv_obj_add_flag(ui_agregarTareas, LV_OBJ_FLAG_CLICKABLE);
+        lv_obj_remove_event_cb(ui_agregarTareas, NULL);
+        lv_obj_add_event_cb(ui_agregarTareas, IrSeleccionarTarea, LV_EVENT_CLICKED, NULL);
+    }
+
+    // 2. Botón "Asignar" (Enviar archivo)
+    if (ui_asignarTarea) {
+        lv_obj_add_flag(ui_asignarTarea, LV_OBJ_FLAG_CLICKABLE);
+        lv_obj_remove_event_cb(ui_asignarTarea, NULL);
+        lv_obj_add_event_cb(ui_asignarTarea, EnviarArchivoDesdeRoller, LV_EVENT_CLICKED, NULL);
+    }
+
+    // 3. Botón "Atrás" (Volver al Main) - ¡NUEVO!
+    if (ui_btnAtras) {
+        printf("[DEBUG] Conectando botón 'Atrás'...\n");
+        lv_obj_add_flag(ui_btnAtras, LV_OBJ_FLAG_CLICKABLE);
+        lv_obj_remove_event_cb(ui_btnAtras, NULL);
+        lv_obj_add_event_cb(ui_btnAtras, retrocederMain, LV_EVENT_CLICKED, NULL);
+    }
+    // ================================
 
     while(1) {
         lv_timer_handler();
 
-        // Revisar actualizaciones del Backend (MQTT)
         pthread_mutex_lock(&state_mutex);
         if (global_state.hay_actualizacion) {
-            int idx = global_state.ultima_maquina_actualizada_id - 1;
-
-            if(idx >= 0 && idx < MAX_MAQUINAS) {
-                // 1. Actualizar Estado (Texto y Color)
-                ui_update_status(global_state.maquinas[idx].estado);
-
-                // 2. Actualizar Coordenadas (Si llegan en el mensaje)
-                ui_update_coords(global_state.maquinas[idx].pos_x,
-                                 global_state.maquinas[idx].pos_y,
-                                 global_state.maquinas[idx].pos_z);
-
-                // 3. Log interno
-                logger_log("INFO", "Actualizacion recibida");
-            }
+            exportar_estado_json();
             global_state.hay_actualizacion = 0;
         }
         pthread_mutex_unlock(&state_mutex);
-
         usleep(5000);
     }
     return NULL;

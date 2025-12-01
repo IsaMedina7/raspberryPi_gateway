@@ -5337,29 +5337,341 @@ src/mqtt/mqtt_service.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cnc_app.dir/build.make CMakeFiles/cnc_app.dir/src/mqtt/mqtt_service.c.s
 .PHONY : src/mqtt/mqtt_service.c.s
 
-src/ui/ui_manager.o: src/ui/ui_manager.c.o
-.PHONY : src/ui/ui_manager.o
+src/ui/components/ui_comp_hook.o: src/ui/components/ui_comp_hook.c.o
+.PHONY : src/ui/components/ui_comp_hook.o
 
 # target to build an object file
-src/ui/ui_manager.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cnc_app.dir/build.make CMakeFiles/cnc_app.dir/src/ui/ui_manager.c.o
-.PHONY : src/ui/ui_manager.c.o
+src/ui/components/ui_comp_hook.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cnc_app.dir/build.make CMakeFiles/cnc_app.dir/src/ui/components/ui_comp_hook.c.o
+.PHONY : src/ui/components/ui_comp_hook.c.o
 
-src/ui/ui_manager.i: src/ui/ui_manager.c.i
-.PHONY : src/ui/ui_manager.i
+src/ui/components/ui_comp_hook.i: src/ui/components/ui_comp_hook.c.i
+.PHONY : src/ui/components/ui_comp_hook.i
 
 # target to preprocess a source file
-src/ui/ui_manager.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cnc_app.dir/build.make CMakeFiles/cnc_app.dir/src/ui/ui_manager.c.i
-.PHONY : src/ui/ui_manager.c.i
+src/ui/components/ui_comp_hook.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cnc_app.dir/build.make CMakeFiles/cnc_app.dir/src/ui/components/ui_comp_hook.c.i
+.PHONY : src/ui/components/ui_comp_hook.c.i
 
-src/ui/ui_manager.s: src/ui/ui_manager.c.s
-.PHONY : src/ui/ui_manager.s
+src/ui/components/ui_comp_hook.s: src/ui/components/ui_comp_hook.c.s
+.PHONY : src/ui/components/ui_comp_hook.s
 
 # target to generate assembly for a file
-src/ui/ui_manager.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cnc_app.dir/build.make CMakeFiles/cnc_app.dir/src/ui/ui_manager.c.s
-.PHONY : src/ui/ui_manager.c.s
+src/ui/components/ui_comp_hook.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cnc_app.dir/build.make CMakeFiles/cnc_app.dir/src/ui/components/ui_comp_hook.c.s
+.PHONY : src/ui/components/ui_comp_hook.c.s
+
+src/ui/images/ui_img_324518500.o: src/ui/images/ui_img_324518500.c.o
+.PHONY : src/ui/images/ui_img_324518500.o
+
+# target to build an object file
+src/ui/images/ui_img_324518500.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cnc_app.dir/build.make CMakeFiles/cnc_app.dir/src/ui/images/ui_img_324518500.c.o
+.PHONY : src/ui/images/ui_img_324518500.c.o
+
+src/ui/images/ui_img_324518500.i: src/ui/images/ui_img_324518500.c.i
+.PHONY : src/ui/images/ui_img_324518500.i
+
+# target to preprocess a source file
+src/ui/images/ui_img_324518500.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cnc_app.dir/build.make CMakeFiles/cnc_app.dir/src/ui/images/ui_img_324518500.c.i
+.PHONY : src/ui/images/ui_img_324518500.c.i
+
+src/ui/images/ui_img_324518500.s: src/ui/images/ui_img_324518500.c.s
+.PHONY : src/ui/images/ui_img_324518500.s
+
+# target to generate assembly for a file
+src/ui/images/ui_img_324518500.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cnc_app.dir/build.make CMakeFiles/cnc_app.dir/src/ui/images/ui_img_324518500.c.s
+.PHONY : src/ui/images/ui_img_324518500.c.s
+
+src/ui/images/ui_img_680980976.o: src/ui/images/ui_img_680980976.c.o
+.PHONY : src/ui/images/ui_img_680980976.o
+
+# target to build an object file
+src/ui/images/ui_img_680980976.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cnc_app.dir/build.make CMakeFiles/cnc_app.dir/src/ui/images/ui_img_680980976.c.o
+.PHONY : src/ui/images/ui_img_680980976.c.o
+
+src/ui/images/ui_img_680980976.i: src/ui/images/ui_img_680980976.c.i
+.PHONY : src/ui/images/ui_img_680980976.i
+
+# target to preprocess a source file
+src/ui/images/ui_img_680980976.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cnc_app.dir/build.make CMakeFiles/cnc_app.dir/src/ui/images/ui_img_680980976.c.i
+.PHONY : src/ui/images/ui_img_680980976.c.i
+
+src/ui/images/ui_img_680980976.s: src/ui/images/ui_img_680980976.c.s
+.PHONY : src/ui/images/ui_img_680980976.s
+
+# target to generate assembly for a file
+src/ui/images/ui_img_680980976.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cnc_app.dir/build.make CMakeFiles/cnc_app.dir/src/ui/images/ui_img_680980976.c.s
+.PHONY : src/ui/images/ui_img_680980976.c.s
+
+src/ui/images/ui_img_745144479.o: src/ui/images/ui_img_745144479.c.o
+.PHONY : src/ui/images/ui_img_745144479.o
+
+# target to build an object file
+src/ui/images/ui_img_745144479.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cnc_app.dir/build.make CMakeFiles/cnc_app.dir/src/ui/images/ui_img_745144479.c.o
+.PHONY : src/ui/images/ui_img_745144479.c.o
+
+src/ui/images/ui_img_745144479.i: src/ui/images/ui_img_745144479.c.i
+.PHONY : src/ui/images/ui_img_745144479.i
+
+# target to preprocess a source file
+src/ui/images/ui_img_745144479.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cnc_app.dir/build.make CMakeFiles/cnc_app.dir/src/ui/images/ui_img_745144479.c.i
+.PHONY : src/ui/images/ui_img_745144479.c.i
+
+src/ui/images/ui_img_745144479.s: src/ui/images/ui_img_745144479.c.s
+.PHONY : src/ui/images/ui_img_745144479.s
+
+# target to generate assembly for a file
+src/ui/images/ui_img_745144479.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cnc_app.dir/build.make CMakeFiles/cnc_app.dir/src/ui/images/ui_img_745144479.c.s
+.PHONY : src/ui/images/ui_img_745144479.c.s
+
+src/ui/images/ui_img_hibernacion_png.o: src/ui/images/ui_img_hibernacion_png.c.o
+.PHONY : src/ui/images/ui_img_hibernacion_png.o
+
+# target to build an object file
+src/ui/images/ui_img_hibernacion_png.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cnc_app.dir/build.make CMakeFiles/cnc_app.dir/src/ui/images/ui_img_hibernacion_png.c.o
+.PHONY : src/ui/images/ui_img_hibernacion_png.c.o
+
+src/ui/images/ui_img_hibernacion_png.i: src/ui/images/ui_img_hibernacion_png.c.i
+.PHONY : src/ui/images/ui_img_hibernacion_png.i
+
+# target to preprocess a source file
+src/ui/images/ui_img_hibernacion_png.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cnc_app.dir/build.make CMakeFiles/cnc_app.dir/src/ui/images/ui_img_hibernacion_png.c.i
+.PHONY : src/ui/images/ui_img_hibernacion_png.c.i
+
+src/ui/images/ui_img_hibernacion_png.s: src/ui/images/ui_img_hibernacion_png.c.s
+.PHONY : src/ui/images/ui_img_hibernacion_png.s
+
+# target to generate assembly for a file
+src/ui/images/ui_img_hibernacion_png.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cnc_app.dir/build.make CMakeFiles/cnc_app.dir/src/ui/images/ui_img_hibernacion_png.c.s
+.PHONY : src/ui/images/ui_img_hibernacion_png.c.s
+
+src/ui/images/ui_img_home_24_png.o: src/ui/images/ui_img_home_24_png.c.o
+.PHONY : src/ui/images/ui_img_home_24_png.o
+
+# target to build an object file
+src/ui/images/ui_img_home_24_png.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cnc_app.dir/build.make CMakeFiles/cnc_app.dir/src/ui/images/ui_img_home_24_png.c.o
+.PHONY : src/ui/images/ui_img_home_24_png.c.o
+
+src/ui/images/ui_img_home_24_png.i: src/ui/images/ui_img_home_24_png.c.i
+.PHONY : src/ui/images/ui_img_home_24_png.i
+
+# target to preprocess a source file
+src/ui/images/ui_img_home_24_png.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cnc_app.dir/build.make CMakeFiles/cnc_app.dir/src/ui/images/ui_img_home_24_png.c.i
+.PHONY : src/ui/images/ui_img_home_24_png.c.i
+
+src/ui/images/ui_img_home_24_png.s: src/ui/images/ui_img_home_24_png.c.s
+.PHONY : src/ui/images/ui_img_home_24_png.s
+
+# target to generate assembly for a file
+src/ui/images/ui_img_home_24_png.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cnc_app.dir/build.make CMakeFiles/cnc_app.dir/src/ui/images/ui_img_home_24_png.c.s
+.PHONY : src/ui/images/ui_img_home_24_png.c.s
+
+src/ui/images/ui_img_plus_png.o: src/ui/images/ui_img_plus_png.c.o
+.PHONY : src/ui/images/ui_img_plus_png.o
+
+# target to build an object file
+src/ui/images/ui_img_plus_png.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cnc_app.dir/build.make CMakeFiles/cnc_app.dir/src/ui/images/ui_img_plus_png.c.o
+.PHONY : src/ui/images/ui_img_plus_png.c.o
+
+src/ui/images/ui_img_plus_png.i: src/ui/images/ui_img_plus_png.c.i
+.PHONY : src/ui/images/ui_img_plus_png.i
+
+# target to preprocess a source file
+src/ui/images/ui_img_plus_png.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cnc_app.dir/build.make CMakeFiles/cnc_app.dir/src/ui/images/ui_img_plus_png.c.i
+.PHONY : src/ui/images/ui_img_plus_png.c.i
+
+src/ui/images/ui_img_plus_png.s: src/ui/images/ui_img_plus_png.c.s
+.PHONY : src/ui/images/ui_img_plus_png.s
+
+# target to generate assembly for a file
+src/ui/images/ui_img_plus_png.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cnc_app.dir/build.make CMakeFiles/cnc_app.dir/src/ui/images/ui_img_plus_png.c.s
+.PHONY : src/ui/images/ui_img_plus_png.c.s
+
+src/ui/lv_i18n.o: src/ui/lv_i18n.c.o
+.PHONY : src/ui/lv_i18n.o
+
+# target to build an object file
+src/ui/lv_i18n.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cnc_app.dir/build.make CMakeFiles/cnc_app.dir/src/ui/lv_i18n.c.o
+.PHONY : src/ui/lv_i18n.c.o
+
+src/ui/lv_i18n.i: src/ui/lv_i18n.c.i
+.PHONY : src/ui/lv_i18n.i
+
+# target to preprocess a source file
+src/ui/lv_i18n.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cnc_app.dir/build.make CMakeFiles/cnc_app.dir/src/ui/lv_i18n.c.i
+.PHONY : src/ui/lv_i18n.c.i
+
+src/ui/lv_i18n.s: src/ui/lv_i18n.c.s
+.PHONY : src/ui/lv_i18n.s
+
+# target to generate assembly for a file
+src/ui/lv_i18n.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cnc_app.dir/build.make CMakeFiles/cnc_app.dir/src/ui/lv_i18n.c.s
+.PHONY : src/ui/lv_i18n.c.s
+
+src/ui/screens/ui_main.o: src/ui/screens/ui_main.c.o
+.PHONY : src/ui/screens/ui_main.o
+
+# target to build an object file
+src/ui/screens/ui_main.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cnc_app.dir/build.make CMakeFiles/cnc_app.dir/src/ui/screens/ui_main.c.o
+.PHONY : src/ui/screens/ui_main.c.o
+
+src/ui/screens/ui_main.i: src/ui/screens/ui_main.c.i
+.PHONY : src/ui/screens/ui_main.i
+
+# target to preprocess a source file
+src/ui/screens/ui_main.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cnc_app.dir/build.make CMakeFiles/cnc_app.dir/src/ui/screens/ui_main.c.i
+.PHONY : src/ui/screens/ui_main.c.i
+
+src/ui/screens/ui_main.s: src/ui/screens/ui_main.c.s
+.PHONY : src/ui/screens/ui_main.s
+
+# target to generate assembly for a file
+src/ui/screens/ui_main.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cnc_app.dir/build.make CMakeFiles/cnc_app.dir/src/ui/screens/ui_main.c.s
+.PHONY : src/ui/screens/ui_main.c.s
+
+src/ui/screens/ui_seleccionarTarea.o: src/ui/screens/ui_seleccionarTarea.c.o
+.PHONY : src/ui/screens/ui_seleccionarTarea.o
+
+# target to build an object file
+src/ui/screens/ui_seleccionarTarea.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cnc_app.dir/build.make CMakeFiles/cnc_app.dir/src/ui/screens/ui_seleccionarTarea.c.o
+.PHONY : src/ui/screens/ui_seleccionarTarea.c.o
+
+src/ui/screens/ui_seleccionarTarea.i: src/ui/screens/ui_seleccionarTarea.c.i
+.PHONY : src/ui/screens/ui_seleccionarTarea.i
+
+# target to preprocess a source file
+src/ui/screens/ui_seleccionarTarea.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cnc_app.dir/build.make CMakeFiles/cnc_app.dir/src/ui/screens/ui_seleccionarTarea.c.i
+.PHONY : src/ui/screens/ui_seleccionarTarea.c.i
+
+src/ui/screens/ui_seleccionarTarea.s: src/ui/screens/ui_seleccionarTarea.c.s
+.PHONY : src/ui/screens/ui_seleccionarTarea.s
+
+# target to generate assembly for a file
+src/ui/screens/ui_seleccionarTarea.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cnc_app.dir/build.make CMakeFiles/cnc_app.dir/src/ui/screens/ui_seleccionarTarea.c.s
+.PHONY : src/ui/screens/ui_seleccionarTarea.c.s
+
+src/ui/ui.o: src/ui/ui.c.o
+.PHONY : src/ui/ui.o
+
+# target to build an object file
+src/ui/ui.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cnc_app.dir/build.make CMakeFiles/cnc_app.dir/src/ui/ui.c.o
+.PHONY : src/ui/ui.c.o
+
+src/ui/ui.i: src/ui/ui.c.i
+.PHONY : src/ui/ui.i
+
+# target to preprocess a source file
+src/ui/ui.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cnc_app.dir/build.make CMakeFiles/cnc_app.dir/src/ui/ui.c.i
+.PHONY : src/ui/ui.c.i
+
+src/ui/ui.s: src/ui/ui.c.s
+.PHONY : src/ui/ui.s
+
+# target to generate assembly for a file
+src/ui/ui.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cnc_app.dir/build.make CMakeFiles/cnc_app.dir/src/ui/ui.c.s
+.PHONY : src/ui/ui.c.s
+
+src/ui/ui_events.o: src/ui/ui_events.c.o
+.PHONY : src/ui/ui_events.o
+
+# target to build an object file
+src/ui/ui_events.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cnc_app.dir/build.make CMakeFiles/cnc_app.dir/src/ui/ui_events.c.o
+.PHONY : src/ui/ui_events.c.o
+
+src/ui/ui_events.i: src/ui/ui_events.c.i
+.PHONY : src/ui/ui_events.i
+
+# target to preprocess a source file
+src/ui/ui_events.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cnc_app.dir/build.make CMakeFiles/cnc_app.dir/src/ui/ui_events.c.i
+.PHONY : src/ui/ui_events.c.i
+
+src/ui/ui_events.s: src/ui/ui_events.c.s
+.PHONY : src/ui/ui_events.s
+
+# target to generate assembly for a file
+src/ui/ui_events.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cnc_app.dir/build.make CMakeFiles/cnc_app.dir/src/ui/ui_events.c.s
+.PHONY : src/ui/ui_events.c.s
+
+src/ui/ui_helpers.o: src/ui/ui_helpers.c.o
+.PHONY : src/ui/ui_helpers.o
+
+# target to build an object file
+src/ui/ui_helpers.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cnc_app.dir/build.make CMakeFiles/cnc_app.dir/src/ui/ui_helpers.c.o
+.PHONY : src/ui/ui_helpers.c.o
+
+src/ui/ui_helpers.i: src/ui/ui_helpers.c.i
+.PHONY : src/ui/ui_helpers.i
+
+# target to preprocess a source file
+src/ui/ui_helpers.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cnc_app.dir/build.make CMakeFiles/cnc_app.dir/src/ui/ui_helpers.c.i
+.PHONY : src/ui/ui_helpers.c.i
+
+src/ui/ui_helpers.s: src/ui/ui_helpers.c.s
+.PHONY : src/ui/ui_helpers.s
+
+# target to generate assembly for a file
+src/ui/ui_helpers.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cnc_app.dir/build.make CMakeFiles/cnc_app.dir/src/ui/ui_helpers.c.s
+.PHONY : src/ui/ui_helpers.c.s
+
+src/ui/ui_logic.o: src/ui/ui_logic.c.o
+.PHONY : src/ui/ui_logic.o
+
+# target to build an object file
+src/ui/ui_logic.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cnc_app.dir/build.make CMakeFiles/cnc_app.dir/src/ui/ui_logic.c.o
+.PHONY : src/ui/ui_logic.c.o
+
+src/ui/ui_logic.i: src/ui/ui_logic.c.i
+.PHONY : src/ui/ui_logic.i
+
+# target to preprocess a source file
+src/ui/ui_logic.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cnc_app.dir/build.make CMakeFiles/cnc_app.dir/src/ui/ui_logic.c.i
+.PHONY : src/ui/ui_logic.c.i
+
+src/ui/ui_logic.s: src/ui/ui_logic.c.s
+.PHONY : src/ui/ui_logic.s
+
+# target to generate assembly for a file
+src/ui/ui_logic.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cnc_app.dir/build.make CMakeFiles/cnc_app.dir/src/ui/ui_logic.c.s
+.PHONY : src/ui/ui_logic.c.s
 
 # Help Target
 help:
@@ -6021,9 +6333,48 @@ help:
 	@echo "... src/mqtt/mqtt_service.o"
 	@echo "... src/mqtt/mqtt_service.i"
 	@echo "... src/mqtt/mqtt_service.s"
-	@echo "... src/ui/ui_manager.o"
-	@echo "... src/ui/ui_manager.i"
-	@echo "... src/ui/ui_manager.s"
+	@echo "... src/ui/components/ui_comp_hook.o"
+	@echo "... src/ui/components/ui_comp_hook.i"
+	@echo "... src/ui/components/ui_comp_hook.s"
+	@echo "... src/ui/images/ui_img_324518500.o"
+	@echo "... src/ui/images/ui_img_324518500.i"
+	@echo "... src/ui/images/ui_img_324518500.s"
+	@echo "... src/ui/images/ui_img_680980976.o"
+	@echo "... src/ui/images/ui_img_680980976.i"
+	@echo "... src/ui/images/ui_img_680980976.s"
+	@echo "... src/ui/images/ui_img_745144479.o"
+	@echo "... src/ui/images/ui_img_745144479.i"
+	@echo "... src/ui/images/ui_img_745144479.s"
+	@echo "... src/ui/images/ui_img_hibernacion_png.o"
+	@echo "... src/ui/images/ui_img_hibernacion_png.i"
+	@echo "... src/ui/images/ui_img_hibernacion_png.s"
+	@echo "... src/ui/images/ui_img_home_24_png.o"
+	@echo "... src/ui/images/ui_img_home_24_png.i"
+	@echo "... src/ui/images/ui_img_home_24_png.s"
+	@echo "... src/ui/images/ui_img_plus_png.o"
+	@echo "... src/ui/images/ui_img_plus_png.i"
+	@echo "... src/ui/images/ui_img_plus_png.s"
+	@echo "... src/ui/lv_i18n.o"
+	@echo "... src/ui/lv_i18n.i"
+	@echo "... src/ui/lv_i18n.s"
+	@echo "... src/ui/screens/ui_main.o"
+	@echo "... src/ui/screens/ui_main.i"
+	@echo "... src/ui/screens/ui_main.s"
+	@echo "... src/ui/screens/ui_seleccionarTarea.o"
+	@echo "... src/ui/screens/ui_seleccionarTarea.i"
+	@echo "... src/ui/screens/ui_seleccionarTarea.s"
+	@echo "... src/ui/ui.o"
+	@echo "... src/ui/ui.i"
+	@echo "... src/ui/ui.s"
+	@echo "... src/ui/ui_events.o"
+	@echo "... src/ui/ui_events.i"
+	@echo "... src/ui/ui_events.s"
+	@echo "... src/ui/ui_helpers.o"
+	@echo "... src/ui/ui_helpers.i"
+	@echo "... src/ui/ui_helpers.s"
+	@echo "... src/ui/ui_logic.o"
+	@echo "... src/ui/ui_logic.i"
+	@echo "... src/ui/ui_logic.s"
 .PHONY : help
 
 
