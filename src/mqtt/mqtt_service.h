@@ -3,33 +3,27 @@
 
 #include <pthread.h>
 
-// LÍMITE MÁXIMO DE MÁQUINAS (Ajustar según necesidad)
-#define MAX_MAQUINAS 5
+#define MAX_MAQUINAS 10
 
-// Estructura que define UNA sola máquina
 typedef struct {
-    int id;             // Ej: 1, 2, 3
-    char estado[32];    // "IDLE", "WORKING", "ERROR"
+    int id;
+    char estado[32];
     float pos_x;
     float pos_y;
     float pos_z;
-    int activa;         // 1 si hemos recibido datos de ella, 0 si no
+    int activa;
 } MaquinaData;
 
-// Estructura de todo el sistema (Memoria Compartida)
 typedef struct {
-    // En lugar de variables sueltas, usamos un ARRAY
     MaquinaData maquinas[MAX_MAQUINAS];
-
-    int hay_actualizacion; // Bandera general
-    int ultima_maquina_actualizada_id; // Para saber cuál cambió (opcional)
+    int hay_actualizacion;
+    int ultima_maquina_actualizada_id;
 } SystemState;
 
-// Hilo principal del MQTT
-void* thread_mqtt_loop(void* arg);
+// Variable global de conexión
+extern int mqtt_conectado;
 
-// Función para enviar órdenes
+void* thread_mqtt_loop(void* arg);
 void mqtt_send_command(const char* maquina_id, const char* comando);
 
 #endif
-

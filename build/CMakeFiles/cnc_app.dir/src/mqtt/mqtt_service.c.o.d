@@ -75,4 +75,8 @@ CMakeFiles/cnc_app.dir/src/mqtt/mqtt_service.c.o: \
  /usr/local/include/MQTTExportDeclarations.h \
  /usr/local/include/MQTTProperties.h /usr/local/include/MQTTReasonCodes.h \
  /usr/local/include/MQTTSubscribeOpts.h \
- /usr/local/include/MQTTClientPersistence.h
+ /usr/local/include/MQTTClientPersistence.h \
+ /home/merry/proyecto_cnc_hmi/src/mqtt/../ui/ui_logic.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/12/include/stdint.h \
+ /usr/include/stdint.h /usr/include/arm-linux-gnueabihf/bits/wchar.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdint-uintn.h

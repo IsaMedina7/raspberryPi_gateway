@@ -5,22 +5,29 @@
 #include "../logger/logger.h"
 #include "ui_logic.h"
 #include <stdio.h>
-#include <stdlib.h> // Necesario para malloc/free
+#include <stdlib.h>
 #include <string.h>
 
 // Variables Globales
 int maquina_activa_id = 1;
-extern FileList mis_archivos;
+//extern FileList mis_archivos;
 
 // --- HELPER ---
 void enviar_orden_cnc(const char* comando) {
     char topico_id[32];
     sprintf(topico_id, "maquina_%d", maquina_activa_id);
+
+    // 1. Enviar por MQTT (Real)
     mqtt_send_command(topico_id, comando);
 
-    char log[64];
-    snprintf(log, 64, "M%d TX: %s", maquina_activa_id, comando);
-    ui_add_log(log);
+    // 2. MOSTRAR EN PANTALLA (TEXT AREA)
+    char log_visual[128];
+    // Formato: ">> JOG:X:10"
+    snprintf(log_visual, sizeof(log_visual), ">> %s", comando);
+    ui_add_log(log_visual);
+
+    // 3. Log interno del sistema
+    printf("[DEBUG TX] %s\n", log_visual);
 }
 
 // ========================================================

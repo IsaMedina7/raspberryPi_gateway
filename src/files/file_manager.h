@@ -26,5 +26,7 @@ typedef struct {
  */
 void fm_scan_directory(FileList *list);
 
+extern FileList mis_archivos;
+
 #endif // FILE_MANAGER_H
 

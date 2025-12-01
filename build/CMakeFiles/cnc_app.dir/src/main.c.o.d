@@ -313,4 +313,5 @@ CMakeFiles/cnc_app.dir/src/main.c.o: \
  /home/merry/proyecto_cnc_hmi/src/ui/ui.h \
  /home/merry/proyecto_cnc_hmi/src/ui/ui_events.h \
  /home/merry/proyecto_cnc_hmi/src/ui/screens/ui_main.h \
- /home/merry/proyecto_cnc_hmi/src/ui/screens/ui_seleccionarTarea.h
+ /home/merry/proyecto_cnc_hmi/src/ui/screens/ui_seleccionarTarea.h \
+ /home/merry/proyecto_cnc_hmi/src/ui/ui_logic.h
