@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE
 
-C_INCLUDES = -I/home/merry/proyecto_cnc_hmi/src -I/home/merry/proyecto_cnc_hmi/src/ui -I/home/merry/proyecto_cnc_hmi/src/files -I/home/merry/proyecto_cnc_hmi/src/logger -I/home/merry/proyecto_cnc_hmi/src/mqtt -I/home/merry/proyecto_cnc_hmi/lib -I/home/merry/proyecto_cnc_hmi/lib/lvgl -I/home/merry/proyecto_cnc_hmi/lib/lv_drivers -isystem /usr/include/SDL2
+C_INCLUDES = -I/home/merry/proyecto_cnc_hmi/src -I/home/merry/proyecto_cnc_hmi/src/files -I/home/merry/proyecto_cnc_hmi/src/logger -I/home/merry/proyecto_cnc_hmi/src/ui -I/home/merry/proyecto_cnc_hmi/src/mqtt -I/home/merry/proyecto_cnc_hmi/lib -I/home/merry/proyecto_cnc_hmi/lib/lvgl -I/home/merry/proyecto_cnc_hmi/lib/lv_drivers -isystem /usr/include/SDL2
 
 C_FLAGS = -std=gnu11
 

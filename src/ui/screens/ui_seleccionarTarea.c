@@ -14,6 +14,23 @@ lv_obj_t * ui_btnAtras = NULL;
 lv_obj_t * ui_Label7 = NULL;
 lv_obj_t * ui_Image5 = NULL;
 // event funtions
+void ui_event_asignarTarea(lv_event_t * e)
+{
+    lv_event_code_t event_code = lv_event_get_code(e);
+
+    if(event_code == LV_EVENT_CLICKED) {
+        asignar_tarea(e);
+    }
+}
+
+void ui_event_btnAtras(lv_event_t * e)
+{
+    lv_event_code_t event_code = lv_event_get_code(e);
+
+    if(event_code == LV_EVENT_CLICKED) {
+        retrocederMain(e);
+    }
+}
 
 // build funtions
 
@@ -78,6 +95,9 @@ void ui_seleccionarTarea_screen_init(void)
     lv_obj_set_align(ui_Image5, LV_ALIGN_LEFT_MID);
     lv_obj_add_flag(ui_Image5, LV_OBJ_FLAG_ADV_HITTEST);     /// Flags
     lv_obj_clear_flag(ui_Image5, LV_OBJ_FLAG_SCROLLABLE);      /// Flags
+
+    lv_obj_add_event_cb(ui_asignarTarea, ui_event_asignarTarea, LV_EVENT_ALL, NULL);
+    lv_obj_add_event_cb(ui_btnAtras, ui_event_btnAtras, LV_EVENT_ALL, NULL);
 
 }
 

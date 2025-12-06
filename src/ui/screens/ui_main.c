@@ -30,7 +30,7 @@ lv_obj_t * ui_imgState = NULL;
 lv_obj_t * ui_areaComands = NULL;
 lv_obj_t * ui_btnStop = NULL;
 lv_obj_t * ui_Image9 = NULL;
-lv_obj_t * ui_btnplay = NULL;
+lv_obj_t * ui_btnPlay = NULL;
 lv_obj_t * ui_Image10 = NULL;
 lv_obj_t * ui_controller = NULL;
 lv_obj_t * ui_btnXpos = NULL;
@@ -51,6 +51,122 @@ lv_obj_t * ui_Label12 = NULL;
 lv_obj_t * ui_btnHome = NULL;
 lv_obj_t * ui_Image4 = NULL;
 // event funtions
+void ui_event_allStop(lv_event_t * e)
+{
+    lv_event_code_t event_code = lv_event_get_code(e);
+
+    if(event_code == LV_EVENT_CLICKED) {
+        parado_total(e);
+    }
+}
+
+void ui_event_listMaquinas(lv_event_t * e)
+{
+    lv_event_code_t event_code = lv_event_get_code(e);
+
+    if(event_code == LV_EVENT_VALUE_CHANGED) {
+        listar_maquinas(e);
+    }
+}
+
+void ui_event_agregarTareas(lv_event_t * e)
+{
+    lv_event_code_t event_code = lv_event_get_code(e);
+
+    if(event_code == LV_EVENT_CLICKED) {
+        agregar_tarea(e);
+    }
+}
+
+void ui_event_btnStop(lv_event_t * e)
+{
+    lv_event_code_t event_code = lv_event_get_code(e);
+
+    if(event_code == LV_EVENT_CLICKED) {
+        pauseMachine(e);
+    }
+}
+
+void ui_event_btnPlay(lv_event_t * e)
+{
+    lv_event_code_t event_code = lv_event_get_code(e);
+
+    if(event_code == LV_EVENT_CLICKED) {
+        iniciarCorte(e);
+    }
+}
+
+void ui_event_btnXpos(lv_event_t * e)
+{
+    lv_event_code_t event_code = lv_event_get_code(e);
+
+    if(event_code == LV_EVENT_CLICKED) {
+        mover_x_pos(e);
+    }
+}
+
+void ui_event_btnXneg(lv_event_t * e)
+{
+    lv_event_code_t event_code = lv_event_get_code(e);
+
+    if(event_code == LV_EVENT_CLICKED) {
+        mover_x_neg(e);
+    }
+}
+
+void ui_event_btnYpos(lv_event_t * e)
+{
+    lv_event_code_t event_code = lv_event_get_code(e);
+
+    if(event_code == LV_EVENT_CLICKED) {
+        mover_y_pos(e);
+    }
+}
+
+void ui_event_btnYneg(lv_event_t * e)
+{
+    lv_event_code_t event_code = lv_event_get_code(e);
+
+    if(event_code == LV_EVENT_CLICKED) {
+        mover_y_neg(e);
+    }
+}
+
+void ui_event_btnZpos(lv_event_t * e)
+{
+    lv_event_code_t event_code = lv_event_get_code(e);
+
+    if(event_code == LV_EVENT_CLICKED) {
+        mover_z_pos(e);
+    }
+}
+
+void ui_event_btnZneg(lv_event_t * e)
+{
+    lv_event_code_t event_code = lv_event_get_code(e);
+
+    if(event_code == LV_EVENT_CLICKED) {
+        mover_z_neg(e);
+    }
+}
+
+void ui_event_stopMachine(lv_event_t * e)
+{
+    lv_event_code_t event_code = lv_event_get_code(e);
+
+    if(event_code == LV_EVENT_CLICKED) {
+        parado_de_emergencia(e);
+    }
+}
+
+void ui_event_btnHome(lv_event_t * e)
+{
+    lv_event_code_t event_code = lv_event_get_code(e);
+
+    if(event_code == LV_EVENT_CLICKED) {
+        home_positions(e);
+    }
+}
 
 // build funtions
 
@@ -136,7 +252,7 @@ void ui_main_screen_init(void)
     lv_obj_set_width(ui_Image1, LV_SIZE_CONTENT);   /// 1
     lv_obj_set_height(ui_Image1, LV_SIZE_CONTENT);    /// 1
     lv_obj_set_y(ui_Image1, 0);
-    lv_obj_set_x(ui_Image1, lv_pct(-7));
+    lv_obj_set_x(ui_Image1, lv_pct(-9));
     lv_obj_set_align(ui_Image1, LV_ALIGN_LEFT_MID);
     lv_obj_add_flag(ui_Image1, LV_OBJ_FLAG_ADV_HITTEST);     /// Flags
     lv_obj_clear_flag(ui_Image1, LV_OBJ_FLAG_SCROLLABLE);      /// Flags
@@ -276,15 +392,15 @@ void ui_main_screen_init(void)
     lv_obj_add_flag(ui_Image9, LV_OBJ_FLAG_ADV_HITTEST);     /// Flags
     lv_obj_clear_flag(ui_Image9, LV_OBJ_FLAG_SCROLLABLE);      /// Flags
 
-    ui_btnplay = lv_obj_create(ui_visualize);
-    lv_obj_set_width(ui_btnplay, 45);
-    lv_obj_set_height(ui_btnplay, 40);
-    lv_obj_set_x(ui_btnplay, 50);
-    lv_obj_set_y(ui_btnplay, -25);
-    lv_obj_set_align(ui_btnplay, LV_ALIGN_CENTER);
-    lv_obj_clear_flag(ui_btnplay, LV_OBJ_FLAG_SCROLLABLE);      /// Flags
+    ui_btnPlay = lv_obj_create(ui_visualize);
+    lv_obj_set_width(ui_btnPlay, 45);
+    lv_obj_set_height(ui_btnPlay, 40);
+    lv_obj_set_x(ui_btnPlay, 50);
+    lv_obj_set_y(ui_btnPlay, -25);
+    lv_obj_set_align(ui_btnPlay, LV_ALIGN_CENTER);
+    lv_obj_clear_flag(ui_btnPlay, LV_OBJ_FLAG_SCROLLABLE);      /// Flags
 
-    ui_Image10 = lv_img_create(ui_btnplay);
+    ui_Image10 = lv_img_create(ui_btnPlay);
     lv_img_set_src(ui_Image10, &ui_img_324518500);
     lv_obj_set_width(ui_Image10, LV_SIZE_CONTENT);   /// 1
     lv_obj_set_height(ui_Image10, LV_SIZE_CONTENT);    /// 1
@@ -476,6 +592,20 @@ void ui_main_screen_init(void)
     lv_obj_clear_flag(ui_Image4, LV_OBJ_FLAG_SCROLLABLE);      /// Flags
     lv_img_set_zoom(ui_Image4, 230);
 
+    lv_obj_add_event_cb(ui_allStop, ui_event_allStop, LV_EVENT_ALL, NULL);
+    lv_obj_add_event_cb(ui_listMaquinas, ui_event_listMaquinas, LV_EVENT_ALL, NULL);
+    lv_obj_add_event_cb(ui_agregarTareas, ui_event_agregarTareas, LV_EVENT_ALL, NULL);
+    lv_obj_add_event_cb(ui_btnStop, ui_event_btnStop, LV_EVENT_ALL, NULL);
+    lv_obj_add_event_cb(ui_btnPlay, ui_event_btnPlay, LV_EVENT_ALL, NULL);
+    lv_obj_add_event_cb(ui_btnXpos, ui_event_btnXpos, LV_EVENT_ALL, NULL);
+    lv_obj_add_event_cb(ui_btnXneg, ui_event_btnXneg, LV_EVENT_ALL, NULL);
+    lv_obj_add_event_cb(ui_btnYpos, ui_event_btnYpos, LV_EVENT_ALL, NULL);
+    lv_obj_add_event_cb(ui_btnYneg, ui_event_btnYneg, LV_EVENT_ALL, NULL);
+    lv_obj_add_event_cb(ui_btnZpos, ui_event_btnZpos, LV_EVENT_ALL, NULL);
+    lv_obj_add_event_cb(ui_btnZneg, ui_event_btnZneg, LV_EVENT_ALL, NULL);
+    lv_obj_add_event_cb(ui_stopMachine, ui_event_stopMachine, LV_EVENT_ALL, NULL);
+    lv_obj_add_event_cb(ui_btnHome, ui_event_btnHome, LV_EVENT_ALL, NULL);
+
 }
 
 void ui_main_screen_destroy(void)
@@ -508,7 +638,7 @@ void ui_main_screen_destroy(void)
     ui_areaComands = NULL;
     ui_btnStop = NULL;
     ui_Image9 = NULL;
-    ui_btnplay = NULL;
+    ui_btnPlay = NULL;
     ui_Image10 = NULL;
     ui_controller = NULL;
     ui_btnXpos = NULL;

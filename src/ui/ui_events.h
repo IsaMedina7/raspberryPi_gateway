@@ -12,23 +12,25 @@
 extern "C" {
 #endif
 
-// --- Funciones de Control ---
-void JogXPlus(lv_event_t * e);
-void JogXMinus(lv_event_t * e);
-void JogYPlus(lv_event_t * e);
-void JogYMinus(lv_event_t * e);
-void JogZPlus(lv_event_t * e);
-void JogZMinus(lv_event_t * e);
-void CmdHome(lv_event_t * e);
-void CmdStop(lv_event_t * e);
-void EmergenciaTotal(lv_event_t * e);
-void SelectorMaquina(lv_event_t * e);
-
-// --- Funciones de Archivos y Navegación ---
 void IrSeleccionarTarea(lv_event_t * e);
-void RefrescarListaArchivos(lv_event_t * e);
-void EnviarArchivoDesdeRoller(lv_event_t * e);
 void retrocederMain(lv_event_t * e);
+void EnviarArchivoDesdeRoller(lv_event_t * e);
+void agregar_tarea(lv_event_t * e);
+void asignar_tarea(lv_event_t * e);
+void listar_maquinas(lv_event_t * e);
+void parado_total(lv_event_t * e);
+
+void mover_x_pos(lv_event_t * e);
+void mover_x_neg(lv_event_t * e);
+void mover_y_pos(lv_event_t * e);
+void mover_y_neg(lv_event_t * e);
+void mover_z_pos(lv_event_t * e);
+void mover_z_neg(lv_event_t * e);
+
+void iniciarCorte(lv_event_t * e);
+void pauseMachine(lv_event_t * e);
+void home_positions(lv_event_t * e);
+void parado_de_emergencia(lv_event_t * e);
 
 #ifdef __cplusplus
 } /*extern "C"*/

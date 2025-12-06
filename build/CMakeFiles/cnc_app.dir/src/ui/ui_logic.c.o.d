@@ -256,7 +256,7 @@ CMakeFiles/cnc_app.dir/src/ui/ui_logic.c.o: \
  /home/merry/proyecto_cnc_hmi/src/ui/ui_events.h \
  /home/merry/proyecto_cnc_hmi/src/ui/screens/ui_main.h \
  /home/merry/proyecto_cnc_hmi/src/ui/screens/ui_seleccionarTarea.h \
- /usr/include/stdio.h \
+ /home/merry/proyecto_cnc_hmi/src/ui/ui_logic.h /usr/include/stdio.h \
  /usr/include/arm-linux-gnueabihf/bits/types/__fpos_t.h \
  /usr/include/arm-linux-gnueabihf/bits/types/__mbstate_t.h \
  /usr/include/arm-linux-gnueabihf/bits/types/__fpos64_t.h \
