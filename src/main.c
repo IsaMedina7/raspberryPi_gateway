@@ -19,6 +19,8 @@ SystemState global_state;
 pthread_mutex_t state_mutex;
 lv_obj_t * cursor_obj;
 extern int mqtt_conectado;
+extern int maquina_activa_id; // Viene de ui_events.c
+extern void ActualizarRollerMaquinas(void); // Nueva función
 
 // Externos UI
 extern lv_obj_t * ui_agregarTareas;
@@ -94,16 +96,32 @@ void* thread_ui_loop(void* arg) {
     int ultimo_conn = -1;
     while(1) {
         lv_timer_handler();
-        if (mqtt_conectado != ultimo_conn) {
-            ui_set_connection_status(1, mqtt_conectado);
-            ultimo_conn = mqtt_conectado;
-        }
+
         pthread_mutex_lock(&state_mutex);
+
+        // A. SI HAY MÁQUINAS NUEVAS -> ACTUALIZAR ROLLER
+        if (global_state.lista_cambio) {
+            ActualizarRollerMaquinas();
+            global_state.lista_cambio = 0;
+        }
+
+        // B. SI HAY DATOS NUEVOS
         if (global_state.hay_actualizacion) {
-            exportar_estado_json();
+            int id_actualizada = global_state.ultima_maquina_actualizada_id;
+
+            // Solo actualizamos la pantalla si es la máquina que estamos mirando
+            if (id_actualizada == maquina_activa_id) {
+                int idx = id_actualizada - 1;
+                ui_update_ip_display(global_state.maquinas[idx].ip);
+                ui_update_coords(global_state.maquinas[idx].pos_x,
+                                 global_state.maquinas[idx].pos_y,
+                                 global_state.maquinas[idx].pos_z);
+                ui_update_status(global_state.maquinas[idx].estado);
+            }
             global_state.hay_actualizacion = 0;
         }
         pthread_mutex_unlock(&state_mutex);
+
         usleep(5000);
     }
     return NULL;

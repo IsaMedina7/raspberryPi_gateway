@@ -17,6 +17,73 @@
 
 int maquina_activa_id = 1;
 extern FileList mis_archivos;
+extern SystemState global_state;
+
+// Variable global para que el WebSocket sepa a quién hablarle
+char ip_maquina_objetivo[32] = "";
+int id_maquina_objetivo = 0;
+
+// --- FUNCIÓN PARA LLENAR EL ROLLER ---
+void ActualizarRollerMaquinas(void) {
+    // CAMBIA 'ui_listMaquinas' POR EL NOMBRE REAL DE TU ROLLER DE MÁQUINAS (EN DASHBOARD)
+    lv_obj_t * roller = ui_listMaquinas;
+
+    if (!roller) return;
+
+    char opciones[1024] = "";
+    int count = 0;
+
+    for(int i=0; i<MAX_MAQUINAS; i++) {
+        if (global_state.maquinas[i].activa) {
+            char linea[64];
+            // Mostrar "M1 - 192.168.1.50"
+            if (strlen(global_state.maquinas[i].ip) > 0) {
+                snprintf(linea, 64, "M%d - %s", global_state.maquinas[i].id, global_state.maquinas[i].ip);
+            } else {
+                snprintf(linea, 64, "Maquina %d", global_state.maquinas[i].id);
+            }
+
+            if (count > 0) strcat(opciones, "\n");
+            strcat(opciones, linea);
+            count++;
+        }
+    }
+
+    if (count == 0) {
+        lv_roller_set_options(roller, "Esperando maquinas...", LV_ROLLER_MODE_NORMAL);
+    } else {
+        lv_roller_set_options(roller, opciones, LV_ROLLER_MODE_NORMAL);
+    }
+}
+
+// --- EVENTO AL SELECCIONAR EN EL ROLLER ---
+void ui_event_listMaquinas(lv_event_t * e) {
+    lv_obj_t * roller = lv_event_get_target(e);
+    int selected_idx = lv_roller_get_selected(roller);
+
+    // Buscar cuál máquina real corresponde al índice seleccionado
+    // (Esto es simplificado, asumiendo orden 1, 2, 3...)
+    // Lo ideal es volver a recorrer global_state para encontrar la "n-ésima" máquina activa
+
+    int count = 0;
+    for(int i=0; i<MAX_MAQUINAS; i++) {
+        if (global_state.maquinas[i].activa) {
+            if (count == selected_idx) {
+                // ¡Encontrada! Guardamos su IP para usarla en WebSockets
+                strncpy(ip_maquina_objetivo, global_state.maquinas[i].ip, 32);
+                id_maquina_objetivo = global_state.maquinas[i].id;
+
+                printf("[UI] Seleccionada M%d IP: %s\n", id_maquina_objetivo, ip_maquina_objetivo);
+
+                // Actualizar Label de IP en la barra superior
+                // (Si tienes la función ui_update_ip_display)
+                // ui_update_ip_display(ip_maquina_objetivo);
+                return;
+            }
+            count++;
+        }
+    }
+}
 
 // --- HELPER ---
 void enviar_orden_cnc(const char* comando) {

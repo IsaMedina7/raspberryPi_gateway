@@ -60,14 +60,14 @@ void ui_event_allStop(lv_event_t * e)
     }
 }
 
-void ui_event_listMaquinas(lv_event_t * e)
-{
-    lv_event_code_t event_code = lv_event_get_code(e);
+//void ui_event_listMaquinas(lv_event_t * e)
+//{
+ //   lv_event_code_t event_code = lv_event_get_code(e);
 
-    if(event_code == LV_EVENT_VALUE_CHANGED) {
-        listar_maquinas(e);
-    }
-}
+   // if(event_code == LV_EVENT_VALUE_CHANGED) {
+     //   listar_maquinas(e);
+//    }
+//}
 
 void ui_event_agregarTareas(lv_event_t * e)
 {

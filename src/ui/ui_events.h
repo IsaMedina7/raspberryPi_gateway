@@ -19,6 +19,7 @@ void agregar_tarea(lv_event_t * e);
 void asignar_tarea(lv_event_t * e);
 void listar_maquinas(lv_event_t * e);
 void parado_total(lv_event_t * e);
+void mqtt_send_command(const char *topic, const char *cmd);
 
 void mover_x_pos(lv_event_t * e);
 void mover_x_neg(lv_event_t * e);

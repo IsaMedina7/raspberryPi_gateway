@@ -344,3 +344,7 @@ void _ui_switch_theme(int val)
 }
 
 
+void ui_update_ip_display(const char *ip) {
+    // código que actualiza la UI
+}
+
