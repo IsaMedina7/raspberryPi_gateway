@@ -5673,6 +5673,54 @@ src/ui/ui_logic.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cnc_app.dir/build.make CMakeFiles/cnc_app.dir/src/ui/ui_logic.c.s
 .PHONY : src/ui/ui_logic.c.s
 
+src/websocket/fluidnc_formatter.o: src/websocket/fluidnc_formatter.c.o
+.PHONY : src/websocket/fluidnc_formatter.o
+
+# target to build an object file
+src/websocket/fluidnc_formatter.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cnc_app.dir/build.make CMakeFiles/cnc_app.dir/src/websocket/fluidnc_formatter.c.o
+.PHONY : src/websocket/fluidnc_formatter.c.o
+
+src/websocket/fluidnc_formatter.i: src/websocket/fluidnc_formatter.c.i
+.PHONY : src/websocket/fluidnc_formatter.i
+
+# target to preprocess a source file
+src/websocket/fluidnc_formatter.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cnc_app.dir/build.make CMakeFiles/cnc_app.dir/src/websocket/fluidnc_formatter.c.i
+.PHONY : src/websocket/fluidnc_formatter.c.i
+
+src/websocket/fluidnc_formatter.s: src/websocket/fluidnc_formatter.c.s
+.PHONY : src/websocket/fluidnc_formatter.s
+
+# target to generate assembly for a file
+src/websocket/fluidnc_formatter.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cnc_app.dir/build.make CMakeFiles/cnc_app.dir/src/websocket/fluidnc_formatter.c.s
+.PHONY : src/websocket/fluidnc_formatter.c.s
+
+src/websocket/websocket_cmd.o: src/websocket/websocket_cmd.c.o
+.PHONY : src/websocket/websocket_cmd.o
+
+# target to build an object file
+src/websocket/websocket_cmd.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cnc_app.dir/build.make CMakeFiles/cnc_app.dir/src/websocket/websocket_cmd.c.o
+.PHONY : src/websocket/websocket_cmd.c.o
+
+src/websocket/websocket_cmd.i: src/websocket/websocket_cmd.c.i
+.PHONY : src/websocket/websocket_cmd.i
+
+# target to preprocess a source file
+src/websocket/websocket_cmd.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cnc_app.dir/build.make CMakeFiles/cnc_app.dir/src/websocket/websocket_cmd.c.i
+.PHONY : src/websocket/websocket_cmd.c.i
+
+src/websocket/websocket_cmd.s: src/websocket/websocket_cmd.c.s
+.PHONY : src/websocket/websocket_cmd.s
+
+# target to generate assembly for a file
+src/websocket/websocket_cmd.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cnc_app.dir/build.make CMakeFiles/cnc_app.dir/src/websocket/websocket_cmd.c.s
+.PHONY : src/websocket/websocket_cmd.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -6375,6 +6423,12 @@ help:
 	@echo "... src/ui/ui_logic.o"
 	@echo "... src/ui/ui_logic.i"
 	@echo "... src/ui/ui_logic.s"
+	@echo "... src/websocket/fluidnc_formatter.o"
+	@echo "... src/websocket/fluidnc_formatter.i"
+	@echo "... src/websocket/fluidnc_formatter.s"
+	@echo "... src/websocket/websocket_cmd.o"
+	@echo "... src/websocket/websocket_cmd.i"
+	@echo "... src/websocket/websocket_cmd.s"
 .PHONY : help
 
 

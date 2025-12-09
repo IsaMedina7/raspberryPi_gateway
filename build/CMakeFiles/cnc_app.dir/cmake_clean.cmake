@@ -461,6 +461,10 @@ file(REMOVE_RECURSE
   "CMakeFiles/cnc_app.dir/src/ui/ui_helpers.c.o.d"
   "CMakeFiles/cnc_app.dir/src/ui/ui_logic.c.o"
   "CMakeFiles/cnc_app.dir/src/ui/ui_logic.c.o.d"
+  "CMakeFiles/cnc_app.dir/src/websocket/fluidnc_formatter.c.o"
+  "CMakeFiles/cnc_app.dir/src/websocket/fluidnc_formatter.c.o.d"
+  "CMakeFiles/cnc_app.dir/src/websocket/websocket_cmd.c.o"
+  "CMakeFiles/cnc_app.dir/src/websocket/websocket_cmd.c.o.d"
   "cnc_app"
   "cnc_app.pdb"
 )

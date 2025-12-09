@@ -8,6 +8,8 @@
 #include "../mqtt/mqtt_service.h"
 #include "../files/file_manager.h"
 #include "../logger/logger.h"
+#include "../websocket/fluidnc_formatter.h"
+#include "../websocket/websocket_cmd.h"
 #include "ui_logic.h"
 #include <stdio.h>
 #include <string.h>
@@ -20,11 +22,14 @@ extern FileList mis_archivos;
 void enviar_orden_cnc(const char* comando) {
     char topico_id[32];
     sprintf(topico_id, "maquina_%d", maquina_activa_id);
-    mqtt_send_command(topico_id, comando);
+    // mqtt_send_command(topico_id, comando);
 
     char log[64];
     snprintf(log, 64, "M%d: %s", maquina_activa_id, comando);
     ui_add_log(log);
+
+    const char *ip="192.168.211.243:81"; // IP fija por ahora
+    run_websocket_cmd(ip, comando);
 }
 
 // --- LÓGICA DE ARCHIVOS ---
@@ -96,16 +101,69 @@ void asignar_tarea(lv_event_t * e) {
 }
 
 // --- EVENTOS DE MOVIMIENTO (JOG) IGUALES QUE ANTES ---
-void mover_x_pos(lv_event_t * e) { enviar_orden_cnc("JOG:X:10"); }
-void mover_x_neg(lv_event_t * e) { enviar_orden_cnc("JOG:X:-10"); }
-void mover_y_pos(lv_event_t * e) { enviar_orden_cnc("JOG:Y:10"); }
-void mover_y_neg(lv_event_t * e) { enviar_orden_cnc("JOG:Y:-10"); }
-void mover_z_pos(lv_event_t * e) { enviar_orden_cnc("JOG:Z:5"); }
-void mover_z_neg(lv_event_t * e) { enviar_orden_cnc("JOG:Z:-5"); }
-void iniciarCorte(lv_event_t * e) { enviar_orden_cnc("START"); }
-void pauseMachine(lv_event_t * e) { enviar_orden_cnc("PAUSE"); }
-void home_positions(lv_event_t * e) { enviar_orden_cnc("HOME"); }
-void parado_de_emergencia(lv_event_t * e) { enviar_orden_cnc("STOP"); }
+void mover_x_pos(lv_event_t * e) { 
+    char output[FLUIDNC_CMD_MAX];
+    fluidnc_format_jog('X',10, 7000, output);
+    enviar_orden_cnc(output);
+
+}
+
+void mover_x_neg(lv_event_t * e) { 
+    char output[FLUIDNC_CMD_MAX];
+    fluidnc_format_jog('X',-10, 7000, output);
+    enviar_orden_cnc(output); 
+
+}
+
+void mover_y_pos(lv_event_t * e) { 
+    char output[FLUIDNC_CMD_MAX];
+    fluidnc_format_jog('Y',10, 7000, output);
+    enviar_orden_cnc(output); 
+
+}
+
+void mover_y_neg(lv_event_t * e) { 
+    char output[FLUIDNC_CMD_MAX];
+    fluidnc_format_jog('Y',-10, 7000, output);
+    enviar_orden_cnc(output); 
+
+}
+
+void mover_z_pos(lv_event_t * e) { 
+    char output[FLUIDNC_CMD_MAX];
+    fluidnc_format_jog('Z',10, 7000, output);
+    enviar_orden_cnc(output); 
+
+}
+
+void mover_z_neg(lv_event_t * e) { 
+    char output[FLUIDNC_CMD_MAX];
+    fluidnc_format_jog('Z',-10, 7000, output);
+    enviar_orden_cnc(output); 
+
+}
+
+void iniciarCorte(lv_event_t * e) { 
+    
+    // enviar_orden_cnc("'SD/Run=espiral.nc'"); 
+    enviar_orden_cnc("$LocalFS/Run=espiral.nc"); 
+}
+
+void pauseMachine(lv_event_t * e) { 
+    
+    enviar_orden_cnc("PAUSE"); 
+}
+
+void home_positions(lv_event_t * e) { 
+    
+    enviar_orden_cnc("HOME"); 
+}
+
+void parado_de_emergencia(lv_event_t * e) { 
+    
+    enviar_orden_cnc("STOP"); 
+}
+
 void parado_total(lv_event_t * e) { mqtt_send_command("todas", "EMERGENCIA"); ui_add_log("PARO TOTAL"); }
 void listar_maquinas(lv_event_t * e) {
     lv_obj_t * roller = lv_event_get_target(e);

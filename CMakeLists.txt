@@ -15,6 +15,7 @@ include_directories(
     src/logger
     src/ui
     src/mqtt
+    src/websocket
     # src/aws # Comenta esto si no usas AWS
     lib
     lib/lvgl
@@ -35,6 +36,8 @@ set(SOURCES
     src/mqtt/mqtt_service.c
     src/files/file_manager.c
     src/logger/logger.c
+    src/websocket/fluidnc_formatter.c
+    src/websocket/websocket_cmd.c
     # src/aws/aws_service.c # Comenta esto
     # NO pongas archivos de UI aquí manualmente
 )

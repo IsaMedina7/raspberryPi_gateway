@@ -284,6 +284,8 @@ CMakeFiles/cnc_app.dir/src/ui/ui_events.c.o: \
  /usr/include/arm-linux-gnueabihf/bits/pthread_stack_min.h \
  /home/merry/proyecto_cnc_hmi/src/ui/../files/file_manager.h \
  /home/merry/proyecto_cnc_hmi/src/ui/../logger/logger.h \
+ /home/merry/proyecto_cnc_hmi/src/ui/../websocket/fluidnc_formatter.h \
+ /home/merry/proyecto_cnc_hmi/src/ui/../websocket/websocket_cmd.h \
  /home/merry/proyecto_cnc_hmi/src/ui/ui_logic.h /usr/include/stdio.h \
  /usr/include/arm-linux-gnueabihf/bits/types/__fpos_t.h \
  /usr/include/arm-linux-gnueabihf/bits/types/__mbstate_t.h \

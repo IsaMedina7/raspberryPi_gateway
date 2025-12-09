@@ -125,10 +125,38 @@ CMakeFiles/cnc_app.dir/src/logger/logger.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cnc_app.dir/src/logger/logger.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/merry/proyecto_cnc_hmi/src/logger/logger.c -o CMakeFiles/cnc_app.dir/src/logger/logger.c.s
 
+CMakeFiles/cnc_app.dir/src/websocket/fluidnc_formatter.c.o: CMakeFiles/cnc_app.dir/flags.make
+CMakeFiles/cnc_app.dir/src/websocket/fluidnc_formatter.c.o: /home/merry/proyecto_cnc_hmi/src/websocket/fluidnc_formatter.c
+CMakeFiles/cnc_app.dir/src/websocket/fluidnc_formatter.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/cnc_app.dir/src/websocket/fluidnc_formatter.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/src/websocket/fluidnc_formatter.c.o -MF CMakeFiles/cnc_app.dir/src/websocket/fluidnc_formatter.c.o.d -o CMakeFiles/cnc_app.dir/src/websocket/fluidnc_formatter.c.o -c /home/merry/proyecto_cnc_hmi/src/websocket/fluidnc_formatter.c
+
+CMakeFiles/cnc_app.dir/src/websocket/fluidnc_formatter.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cnc_app.dir/src/websocket/fluidnc_formatter.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/merry/proyecto_cnc_hmi/src/websocket/fluidnc_formatter.c > CMakeFiles/cnc_app.dir/src/websocket/fluidnc_formatter.c.i
+
+CMakeFiles/cnc_app.dir/src/websocket/fluidnc_formatter.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cnc_app.dir/src/websocket/fluidnc_formatter.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/merry/proyecto_cnc_hmi/src/websocket/fluidnc_formatter.c -o CMakeFiles/cnc_app.dir/src/websocket/fluidnc_formatter.c.s
+
+CMakeFiles/cnc_app.dir/src/websocket/websocket_cmd.c.o: CMakeFiles/cnc_app.dir/flags.make
+CMakeFiles/cnc_app.dir/src/websocket/websocket_cmd.c.o: /home/merry/proyecto_cnc_hmi/src/websocket/websocket_cmd.c
+CMakeFiles/cnc_app.dir/src/websocket/websocket_cmd.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/cnc_app.dir/src/websocket/websocket_cmd.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/src/websocket/websocket_cmd.c.o -MF CMakeFiles/cnc_app.dir/src/websocket/websocket_cmd.c.o.d -o CMakeFiles/cnc_app.dir/src/websocket/websocket_cmd.c.o -c /home/merry/proyecto_cnc_hmi/src/websocket/websocket_cmd.c
+
+CMakeFiles/cnc_app.dir/src/websocket/websocket_cmd.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cnc_app.dir/src/websocket/websocket_cmd.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/merry/proyecto_cnc_hmi/src/websocket/websocket_cmd.c > CMakeFiles/cnc_app.dir/src/websocket/websocket_cmd.c.i
+
+CMakeFiles/cnc_app.dir/src/websocket/websocket_cmd.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cnc_app.dir/src/websocket/websocket_cmd.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/merry/proyecto_cnc_hmi/src/websocket/websocket_cmd.c -o CMakeFiles/cnc_app.dir/src/websocket/websocket_cmd.c.s
+
 CMakeFiles/cnc_app.dir/lib/lvgl/src/core/lv_disp.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lvgl/src/core/lv_disp.c.o: /home/merry/proyecto_cnc_hmi/lib/lvgl/src/core/lv_disp.c
 CMakeFiles/cnc_app.dir/lib/lvgl/src/core/lv_disp.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/core/lv_disp.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/core/lv_disp.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lvgl/src/core/lv_disp.c.o -MF CMakeFiles/cnc_app.dir/lib/lvgl/src/core/lv_disp.c.o.d -o CMakeFiles/cnc_app.dir/lib/lvgl/src/core/lv_disp.c.o -c /home/merry/proyecto_cnc_hmi/lib/lvgl/src/core/lv_disp.c
 
 CMakeFiles/cnc_app.dir/lib/lvgl/src/core/lv_disp.c.i: cmake_force
@@ -142,7 +170,7 @@ CMakeFiles/cnc_app.dir/lib/lvgl/src/core/lv_disp.c.s: cmake_force
 CMakeFiles/cnc_app.dir/lib/lvgl/src/core/lv_event.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lvgl/src/core/lv_event.c.o: /home/merry/proyecto_cnc_hmi/lib/lvgl/src/core/lv_event.c
 CMakeFiles/cnc_app.dir/lib/lvgl/src/core/lv_event.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/core/lv_event.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/core/lv_event.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lvgl/src/core/lv_event.c.o -MF CMakeFiles/cnc_app.dir/lib/lvgl/src/core/lv_event.c.o.d -o CMakeFiles/cnc_app.dir/lib/lvgl/src/core/lv_event.c.o -c /home/merry/proyecto_cnc_hmi/lib/lvgl/src/core/lv_event.c
 
 CMakeFiles/cnc_app.dir/lib/lvgl/src/core/lv_event.c.i: cmake_force
@@ -156,7 +184,7 @@ CMakeFiles/cnc_app.dir/lib/lvgl/src/core/lv_event.c.s: cmake_force
 CMakeFiles/cnc_app.dir/lib/lvgl/src/core/lv_group.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lvgl/src/core/lv_group.c.o: /home/merry/proyecto_cnc_hmi/lib/lvgl/src/core/lv_group.c
 CMakeFiles/cnc_app.dir/lib/lvgl/src/core/lv_group.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/core/lv_group.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/core/lv_group.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lvgl/src/core/lv_group.c.o -MF CMakeFiles/cnc_app.dir/lib/lvgl/src/core/lv_group.c.o.d -o CMakeFiles/cnc_app.dir/lib/lvgl/src/core/lv_group.c.o -c /home/merry/proyecto_cnc_hmi/lib/lvgl/src/core/lv_group.c
 
 CMakeFiles/cnc_app.dir/lib/lvgl/src/core/lv_group.c.i: cmake_force
@@ -170,7 +198,7 @@ CMakeFiles/cnc_app.dir/lib/lvgl/src/core/lv_group.c.s: cmake_force
 CMakeFiles/cnc_app.dir/lib/lvgl/src/core/lv_indev.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lvgl/src/core/lv_indev.c.o: /home/merry/proyecto_cnc_hmi/lib/lvgl/src/core/lv_indev.c
 CMakeFiles/cnc_app.dir/lib/lvgl/src/core/lv_indev.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/core/lv_indev.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/core/lv_indev.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lvgl/src/core/lv_indev.c.o -MF CMakeFiles/cnc_app.dir/lib/lvgl/src/core/lv_indev.c.o.d -o CMakeFiles/cnc_app.dir/lib/lvgl/src/core/lv_indev.c.o -c /home/merry/proyecto_cnc_hmi/lib/lvgl/src/core/lv_indev.c
 
 CMakeFiles/cnc_app.dir/lib/lvgl/src/core/lv_indev.c.i: cmake_force
@@ -184,7 +212,7 @@ CMakeFiles/cnc_app.dir/lib/lvgl/src/core/lv_indev.c.s: cmake_force
 CMakeFiles/cnc_app.dir/lib/lvgl/src/core/lv_indev_scroll.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lvgl/src/core/lv_indev_scroll.c.o: /home/merry/proyecto_cnc_hmi/lib/lvgl/src/core/lv_indev_scroll.c
 CMakeFiles/cnc_app.dir/lib/lvgl/src/core/lv_indev_scroll.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/core/lv_indev_scroll.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/core/lv_indev_scroll.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lvgl/src/core/lv_indev_scroll.c.o -MF CMakeFiles/cnc_app.dir/lib/lvgl/src/core/lv_indev_scroll.c.o.d -o CMakeFiles/cnc_app.dir/lib/lvgl/src/core/lv_indev_scroll.c.o -c /home/merry/proyecto_cnc_hmi/lib/lvgl/src/core/lv_indev_scroll.c
 
 CMakeFiles/cnc_app.dir/lib/lvgl/src/core/lv_indev_scroll.c.i: cmake_force
@@ -198,7 +226,7 @@ CMakeFiles/cnc_app.dir/lib/lvgl/src/core/lv_indev_scroll.c.s: cmake_force
 CMakeFiles/cnc_app.dir/lib/lvgl/src/core/lv_obj.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lvgl/src/core/lv_obj.c.o: /home/merry/proyecto_cnc_hmi/lib/lvgl/src/core/lv_obj.c
 CMakeFiles/cnc_app.dir/lib/lvgl/src/core/lv_obj.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/core/lv_obj.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/core/lv_obj.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lvgl/src/core/lv_obj.c.o -MF CMakeFiles/cnc_app.dir/lib/lvgl/src/core/lv_obj.c.o.d -o CMakeFiles/cnc_app.dir/lib/lvgl/src/core/lv_obj.c.o -c /home/merry/proyecto_cnc_hmi/lib/lvgl/src/core/lv_obj.c
 
 CMakeFiles/cnc_app.dir/lib/lvgl/src/core/lv_obj.c.i: cmake_force
@@ -212,7 +240,7 @@ CMakeFiles/cnc_app.dir/lib/lvgl/src/core/lv_obj.c.s: cmake_force
 CMakeFiles/cnc_app.dir/lib/lvgl/src/core/lv_obj_class.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lvgl/src/core/lv_obj_class.c.o: /home/merry/proyecto_cnc_hmi/lib/lvgl/src/core/lv_obj_class.c
 CMakeFiles/cnc_app.dir/lib/lvgl/src/core/lv_obj_class.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/core/lv_obj_class.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/core/lv_obj_class.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lvgl/src/core/lv_obj_class.c.o -MF CMakeFiles/cnc_app.dir/lib/lvgl/src/core/lv_obj_class.c.o.d -o CMakeFiles/cnc_app.dir/lib/lvgl/src/core/lv_obj_class.c.o -c /home/merry/proyecto_cnc_hmi/lib/lvgl/src/core/lv_obj_class.c
 
 CMakeFiles/cnc_app.dir/lib/lvgl/src/core/lv_obj_class.c.i: cmake_force
@@ -226,7 +254,7 @@ CMakeFiles/cnc_app.dir/lib/lvgl/src/core/lv_obj_class.c.s: cmake_force
 CMakeFiles/cnc_app.dir/lib/lvgl/src/core/lv_obj_draw.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lvgl/src/core/lv_obj_draw.c.o: /home/merry/proyecto_cnc_hmi/lib/lvgl/src/core/lv_obj_draw.c
 CMakeFiles/cnc_app.dir/lib/lvgl/src/core/lv_obj_draw.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/core/lv_obj_draw.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/core/lv_obj_draw.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lvgl/src/core/lv_obj_draw.c.o -MF CMakeFiles/cnc_app.dir/lib/lvgl/src/core/lv_obj_draw.c.o.d -o CMakeFiles/cnc_app.dir/lib/lvgl/src/core/lv_obj_draw.c.o -c /home/merry/proyecto_cnc_hmi/lib/lvgl/src/core/lv_obj_draw.c
 
 CMakeFiles/cnc_app.dir/lib/lvgl/src/core/lv_obj_draw.c.i: cmake_force
@@ -240,7 +268,7 @@ CMakeFiles/cnc_app.dir/lib/lvgl/src/core/lv_obj_draw.c.s: cmake_force
 CMakeFiles/cnc_app.dir/lib/lvgl/src/core/lv_obj_pos.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lvgl/src/core/lv_obj_pos.c.o: /home/merry/proyecto_cnc_hmi/lib/lvgl/src/core/lv_obj_pos.c
 CMakeFiles/cnc_app.dir/lib/lvgl/src/core/lv_obj_pos.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/core/lv_obj_pos.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/core/lv_obj_pos.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lvgl/src/core/lv_obj_pos.c.o -MF CMakeFiles/cnc_app.dir/lib/lvgl/src/core/lv_obj_pos.c.o.d -o CMakeFiles/cnc_app.dir/lib/lvgl/src/core/lv_obj_pos.c.o -c /home/merry/proyecto_cnc_hmi/lib/lvgl/src/core/lv_obj_pos.c
 
 CMakeFiles/cnc_app.dir/lib/lvgl/src/core/lv_obj_pos.c.i: cmake_force
@@ -254,7 +282,7 @@ CMakeFiles/cnc_app.dir/lib/lvgl/src/core/lv_obj_pos.c.s: cmake_force
 CMakeFiles/cnc_app.dir/lib/lvgl/src/core/lv_obj_scroll.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lvgl/src/core/lv_obj_scroll.c.o: /home/merry/proyecto_cnc_hmi/lib/lvgl/src/core/lv_obj_scroll.c
 CMakeFiles/cnc_app.dir/lib/lvgl/src/core/lv_obj_scroll.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/core/lv_obj_scroll.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/core/lv_obj_scroll.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lvgl/src/core/lv_obj_scroll.c.o -MF CMakeFiles/cnc_app.dir/lib/lvgl/src/core/lv_obj_scroll.c.o.d -o CMakeFiles/cnc_app.dir/lib/lvgl/src/core/lv_obj_scroll.c.o -c /home/merry/proyecto_cnc_hmi/lib/lvgl/src/core/lv_obj_scroll.c
 
 CMakeFiles/cnc_app.dir/lib/lvgl/src/core/lv_obj_scroll.c.i: cmake_force
@@ -268,7 +296,7 @@ CMakeFiles/cnc_app.dir/lib/lvgl/src/core/lv_obj_scroll.c.s: cmake_force
 CMakeFiles/cnc_app.dir/lib/lvgl/src/core/lv_obj_style.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lvgl/src/core/lv_obj_style.c.o: /home/merry/proyecto_cnc_hmi/lib/lvgl/src/core/lv_obj_style.c
 CMakeFiles/cnc_app.dir/lib/lvgl/src/core/lv_obj_style.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/core/lv_obj_style.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/core/lv_obj_style.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lvgl/src/core/lv_obj_style.c.o -MF CMakeFiles/cnc_app.dir/lib/lvgl/src/core/lv_obj_style.c.o.d -o CMakeFiles/cnc_app.dir/lib/lvgl/src/core/lv_obj_style.c.o -c /home/merry/proyecto_cnc_hmi/lib/lvgl/src/core/lv_obj_style.c
 
 CMakeFiles/cnc_app.dir/lib/lvgl/src/core/lv_obj_style.c.i: cmake_force
@@ -282,7 +310,7 @@ CMakeFiles/cnc_app.dir/lib/lvgl/src/core/lv_obj_style.c.s: cmake_force
 CMakeFiles/cnc_app.dir/lib/lvgl/src/core/lv_obj_style_gen.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lvgl/src/core/lv_obj_style_gen.c.o: /home/merry/proyecto_cnc_hmi/lib/lvgl/src/core/lv_obj_style_gen.c
 CMakeFiles/cnc_app.dir/lib/lvgl/src/core/lv_obj_style_gen.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/core/lv_obj_style_gen.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/core/lv_obj_style_gen.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lvgl/src/core/lv_obj_style_gen.c.o -MF CMakeFiles/cnc_app.dir/lib/lvgl/src/core/lv_obj_style_gen.c.o.d -o CMakeFiles/cnc_app.dir/lib/lvgl/src/core/lv_obj_style_gen.c.o -c /home/merry/proyecto_cnc_hmi/lib/lvgl/src/core/lv_obj_style_gen.c
 
 CMakeFiles/cnc_app.dir/lib/lvgl/src/core/lv_obj_style_gen.c.i: cmake_force
@@ -296,7 +324,7 @@ CMakeFiles/cnc_app.dir/lib/lvgl/src/core/lv_obj_style_gen.c.s: cmake_force
 CMakeFiles/cnc_app.dir/lib/lvgl/src/core/lv_obj_tree.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lvgl/src/core/lv_obj_tree.c.o: /home/merry/proyecto_cnc_hmi/lib/lvgl/src/core/lv_obj_tree.c
 CMakeFiles/cnc_app.dir/lib/lvgl/src/core/lv_obj_tree.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/core/lv_obj_tree.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/core/lv_obj_tree.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lvgl/src/core/lv_obj_tree.c.o -MF CMakeFiles/cnc_app.dir/lib/lvgl/src/core/lv_obj_tree.c.o.d -o CMakeFiles/cnc_app.dir/lib/lvgl/src/core/lv_obj_tree.c.o -c /home/merry/proyecto_cnc_hmi/lib/lvgl/src/core/lv_obj_tree.c
 
 CMakeFiles/cnc_app.dir/lib/lvgl/src/core/lv_obj_tree.c.i: cmake_force
@@ -310,7 +338,7 @@ CMakeFiles/cnc_app.dir/lib/lvgl/src/core/lv_obj_tree.c.s: cmake_force
 CMakeFiles/cnc_app.dir/lib/lvgl/src/core/lv_refr.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lvgl/src/core/lv_refr.c.o: /home/merry/proyecto_cnc_hmi/lib/lvgl/src/core/lv_refr.c
 CMakeFiles/cnc_app.dir/lib/lvgl/src/core/lv_refr.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/core/lv_refr.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/core/lv_refr.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lvgl/src/core/lv_refr.c.o -MF CMakeFiles/cnc_app.dir/lib/lvgl/src/core/lv_refr.c.o.d -o CMakeFiles/cnc_app.dir/lib/lvgl/src/core/lv_refr.c.o -c /home/merry/proyecto_cnc_hmi/lib/lvgl/src/core/lv_refr.c
 
 CMakeFiles/cnc_app.dir/lib/lvgl/src/core/lv_refr.c.i: cmake_force
@@ -324,7 +352,7 @@ CMakeFiles/cnc_app.dir/lib/lvgl/src/core/lv_refr.c.s: cmake_force
 CMakeFiles/cnc_app.dir/lib/lvgl/src/core/lv_theme.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lvgl/src/core/lv_theme.c.o: /home/merry/proyecto_cnc_hmi/lib/lvgl/src/core/lv_theme.c
 CMakeFiles/cnc_app.dir/lib/lvgl/src/core/lv_theme.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/core/lv_theme.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/core/lv_theme.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lvgl/src/core/lv_theme.c.o -MF CMakeFiles/cnc_app.dir/lib/lvgl/src/core/lv_theme.c.o.d -o CMakeFiles/cnc_app.dir/lib/lvgl/src/core/lv_theme.c.o -c /home/merry/proyecto_cnc_hmi/lib/lvgl/src/core/lv_theme.c
 
 CMakeFiles/cnc_app.dir/lib/lvgl/src/core/lv_theme.c.i: cmake_force
@@ -338,7 +366,7 @@ CMakeFiles/cnc_app.dir/lib/lvgl/src/core/lv_theme.c.s: cmake_force
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/arm2d/lv_gpu_arm2d.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/arm2d/lv_gpu_arm2d.c.o: /home/merry/proyecto_cnc_hmi/lib/lvgl/src/draw/arm2d/lv_gpu_arm2d.c
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/arm2d/lv_gpu_arm2d.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/arm2d/lv_gpu_arm2d.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/arm2d/lv_gpu_arm2d.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/arm2d/lv_gpu_arm2d.c.o -MF CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/arm2d/lv_gpu_arm2d.c.o.d -o CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/arm2d/lv_gpu_arm2d.c.o -c /home/merry/proyecto_cnc_hmi/lib/lvgl/src/draw/arm2d/lv_gpu_arm2d.c
 
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/arm2d/lv_gpu_arm2d.c.i: cmake_force
@@ -352,7 +380,7 @@ CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/arm2d/lv_gpu_arm2d.c.s: cmake_force
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/lv_draw.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/lv_draw.c.o: /home/merry/proyecto_cnc_hmi/lib/lvgl/src/draw/lv_draw.c
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/lv_draw.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/lv_draw.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/lv_draw.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/lv_draw.c.o -MF CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/lv_draw.c.o.d -o CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/lv_draw.c.o -c /home/merry/proyecto_cnc_hmi/lib/lvgl/src/draw/lv_draw.c
 
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/lv_draw.c.i: cmake_force
@@ -366,7 +394,7 @@ CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/lv_draw.c.s: cmake_force
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/lv_draw_arc.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/lv_draw_arc.c.o: /home/merry/proyecto_cnc_hmi/lib/lvgl/src/draw/lv_draw_arc.c
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/lv_draw_arc.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/lv_draw_arc.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/lv_draw_arc.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/lv_draw_arc.c.o -MF CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/lv_draw_arc.c.o.d -o CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/lv_draw_arc.c.o -c /home/merry/proyecto_cnc_hmi/lib/lvgl/src/draw/lv_draw_arc.c
 
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/lv_draw_arc.c.i: cmake_force
@@ -380,7 +408,7 @@ CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/lv_draw_arc.c.s: cmake_force
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/lv_draw_img.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/lv_draw_img.c.o: /home/merry/proyecto_cnc_hmi/lib/lvgl/src/draw/lv_draw_img.c
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/lv_draw_img.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/lv_draw_img.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/lv_draw_img.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/lv_draw_img.c.o -MF CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/lv_draw_img.c.o.d -o CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/lv_draw_img.c.o -c /home/merry/proyecto_cnc_hmi/lib/lvgl/src/draw/lv_draw_img.c
 
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/lv_draw_img.c.i: cmake_force
@@ -394,7 +422,7 @@ CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/lv_draw_img.c.s: cmake_force
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/lv_draw_label.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/lv_draw_label.c.o: /home/merry/proyecto_cnc_hmi/lib/lvgl/src/draw/lv_draw_label.c
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/lv_draw_label.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/lv_draw_label.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/lv_draw_label.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/lv_draw_label.c.o -MF CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/lv_draw_label.c.o.d -o CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/lv_draw_label.c.o -c /home/merry/proyecto_cnc_hmi/lib/lvgl/src/draw/lv_draw_label.c
 
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/lv_draw_label.c.i: cmake_force
@@ -408,7 +436,7 @@ CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/lv_draw_label.c.s: cmake_force
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/lv_draw_layer.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/lv_draw_layer.c.o: /home/merry/proyecto_cnc_hmi/lib/lvgl/src/draw/lv_draw_layer.c
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/lv_draw_layer.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/lv_draw_layer.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/lv_draw_layer.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/lv_draw_layer.c.o -MF CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/lv_draw_layer.c.o.d -o CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/lv_draw_layer.c.o -c /home/merry/proyecto_cnc_hmi/lib/lvgl/src/draw/lv_draw_layer.c
 
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/lv_draw_layer.c.i: cmake_force
@@ -422,7 +450,7 @@ CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/lv_draw_layer.c.s: cmake_force
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/lv_draw_line.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/lv_draw_line.c.o: /home/merry/proyecto_cnc_hmi/lib/lvgl/src/draw/lv_draw_line.c
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/lv_draw_line.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/lv_draw_line.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/lv_draw_line.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/lv_draw_line.c.o -MF CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/lv_draw_line.c.o.d -o CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/lv_draw_line.c.o -c /home/merry/proyecto_cnc_hmi/lib/lvgl/src/draw/lv_draw_line.c
 
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/lv_draw_line.c.i: cmake_force
@@ -436,7 +464,7 @@ CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/lv_draw_line.c.s: cmake_force
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/lv_draw_mask.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/lv_draw_mask.c.o: /home/merry/proyecto_cnc_hmi/lib/lvgl/src/draw/lv_draw_mask.c
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/lv_draw_mask.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/lv_draw_mask.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/lv_draw_mask.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/lv_draw_mask.c.o -MF CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/lv_draw_mask.c.o.d -o CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/lv_draw_mask.c.o -c /home/merry/proyecto_cnc_hmi/lib/lvgl/src/draw/lv_draw_mask.c
 
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/lv_draw_mask.c.i: cmake_force
@@ -450,7 +478,7 @@ CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/lv_draw_mask.c.s: cmake_force
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/lv_draw_rect.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/lv_draw_rect.c.o: /home/merry/proyecto_cnc_hmi/lib/lvgl/src/draw/lv_draw_rect.c
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/lv_draw_rect.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/lv_draw_rect.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/lv_draw_rect.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/lv_draw_rect.c.o -MF CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/lv_draw_rect.c.o.d -o CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/lv_draw_rect.c.o -c /home/merry/proyecto_cnc_hmi/lib/lvgl/src/draw/lv_draw_rect.c
 
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/lv_draw_rect.c.i: cmake_force
@@ -464,7 +492,7 @@ CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/lv_draw_rect.c.s: cmake_force
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/lv_draw_transform.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/lv_draw_transform.c.o: /home/merry/proyecto_cnc_hmi/lib/lvgl/src/draw/lv_draw_transform.c
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/lv_draw_transform.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/lv_draw_transform.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/lv_draw_transform.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/lv_draw_transform.c.o -MF CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/lv_draw_transform.c.o.d -o CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/lv_draw_transform.c.o -c /home/merry/proyecto_cnc_hmi/lib/lvgl/src/draw/lv_draw_transform.c
 
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/lv_draw_transform.c.i: cmake_force
@@ -478,7 +506,7 @@ CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/lv_draw_transform.c.s: cmake_force
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/lv_draw_triangle.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/lv_draw_triangle.c.o: /home/merry/proyecto_cnc_hmi/lib/lvgl/src/draw/lv_draw_triangle.c
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/lv_draw_triangle.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/lv_draw_triangle.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/lv_draw_triangle.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/lv_draw_triangle.c.o -MF CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/lv_draw_triangle.c.o.d -o CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/lv_draw_triangle.c.o -c /home/merry/proyecto_cnc_hmi/lib/lvgl/src/draw/lv_draw_triangle.c
 
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/lv_draw_triangle.c.i: cmake_force
@@ -492,7 +520,7 @@ CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/lv_draw_triangle.c.s: cmake_force
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/lv_img_buf.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/lv_img_buf.c.o: /home/merry/proyecto_cnc_hmi/lib/lvgl/src/draw/lv_img_buf.c
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/lv_img_buf.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/lv_img_buf.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/lv_img_buf.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/lv_img_buf.c.o -MF CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/lv_img_buf.c.o.d -o CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/lv_img_buf.c.o -c /home/merry/proyecto_cnc_hmi/lib/lvgl/src/draw/lv_img_buf.c
 
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/lv_img_buf.c.i: cmake_force
@@ -506,7 +534,7 @@ CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/lv_img_buf.c.s: cmake_force
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/lv_img_cache.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/lv_img_cache.c.o: /home/merry/proyecto_cnc_hmi/lib/lvgl/src/draw/lv_img_cache.c
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/lv_img_cache.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/lv_img_cache.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/lv_img_cache.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/lv_img_cache.c.o -MF CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/lv_img_cache.c.o.d -o CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/lv_img_cache.c.o -c /home/merry/proyecto_cnc_hmi/lib/lvgl/src/draw/lv_img_cache.c
 
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/lv_img_cache.c.i: cmake_force
@@ -520,7 +548,7 @@ CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/lv_img_cache.c.s: cmake_force
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/lv_img_decoder.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/lv_img_decoder.c.o: /home/merry/proyecto_cnc_hmi/lib/lvgl/src/draw/lv_img_decoder.c
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/lv_img_decoder.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/lv_img_decoder.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/lv_img_decoder.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/lv_img_decoder.c.o -MF CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/lv_img_decoder.c.o.d -o CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/lv_img_decoder.c.o -c /home/merry/proyecto_cnc_hmi/lib/lvgl/src/draw/lv_img_decoder.c
 
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/lv_img_decoder.c.i: cmake_force
@@ -534,7 +562,7 @@ CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/lv_img_decoder.c.s: cmake_force
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/nxp/pxp/lv_draw_pxp.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/nxp/pxp/lv_draw_pxp.c.o: /home/merry/proyecto_cnc_hmi/lib/lvgl/src/draw/nxp/pxp/lv_draw_pxp.c
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/nxp/pxp/lv_draw_pxp.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/nxp/pxp/lv_draw_pxp.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/nxp/pxp/lv_draw_pxp.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/nxp/pxp/lv_draw_pxp.c.o -MF CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/nxp/pxp/lv_draw_pxp.c.o.d -o CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/nxp/pxp/lv_draw_pxp.c.o -c /home/merry/proyecto_cnc_hmi/lib/lvgl/src/draw/nxp/pxp/lv_draw_pxp.c
 
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/nxp/pxp/lv_draw_pxp.c.i: cmake_force
@@ -548,7 +576,7 @@ CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/nxp/pxp/lv_draw_pxp.c.s: cmake_force
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/nxp/pxp/lv_draw_pxp_blend.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/nxp/pxp/lv_draw_pxp_blend.c.o: /home/merry/proyecto_cnc_hmi/lib/lvgl/src/draw/nxp/pxp/lv_draw_pxp_blend.c
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/nxp/pxp/lv_draw_pxp_blend.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/nxp/pxp/lv_draw_pxp_blend.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/nxp/pxp/lv_draw_pxp_blend.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/nxp/pxp/lv_draw_pxp_blend.c.o -MF CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/nxp/pxp/lv_draw_pxp_blend.c.o.d -o CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/nxp/pxp/lv_draw_pxp_blend.c.o -c /home/merry/proyecto_cnc_hmi/lib/lvgl/src/draw/nxp/pxp/lv_draw_pxp_blend.c
 
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/nxp/pxp/lv_draw_pxp_blend.c.i: cmake_force
@@ -562,7 +590,7 @@ CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/nxp/pxp/lv_draw_pxp_blend.c.s: cmake_fo
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/nxp/pxp/lv_gpu_nxp_pxp.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/nxp/pxp/lv_gpu_nxp_pxp.c.o: /home/merry/proyecto_cnc_hmi/lib/lvgl/src/draw/nxp/pxp/lv_gpu_nxp_pxp.c
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/nxp/pxp/lv_gpu_nxp_pxp.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/nxp/pxp/lv_gpu_nxp_pxp.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/nxp/pxp/lv_gpu_nxp_pxp.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/nxp/pxp/lv_gpu_nxp_pxp.c.o -MF CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/nxp/pxp/lv_gpu_nxp_pxp.c.o.d -o CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/nxp/pxp/lv_gpu_nxp_pxp.c.o -c /home/merry/proyecto_cnc_hmi/lib/lvgl/src/draw/nxp/pxp/lv_gpu_nxp_pxp.c
 
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/nxp/pxp/lv_gpu_nxp_pxp.c.i: cmake_force
@@ -576,7 +604,7 @@ CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/nxp/pxp/lv_gpu_nxp_pxp.c.s: cmake_force
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/nxp/pxp/lv_gpu_nxp_pxp_osa.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/nxp/pxp/lv_gpu_nxp_pxp_osa.c.o: /home/merry/proyecto_cnc_hmi/lib/lvgl/src/draw/nxp/pxp/lv_gpu_nxp_pxp_osa.c
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/nxp/pxp/lv_gpu_nxp_pxp_osa.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/nxp/pxp/lv_gpu_nxp_pxp_osa.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/nxp/pxp/lv_gpu_nxp_pxp_osa.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/nxp/pxp/lv_gpu_nxp_pxp_osa.c.o -MF CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/nxp/pxp/lv_gpu_nxp_pxp_osa.c.o.d -o CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/nxp/pxp/lv_gpu_nxp_pxp_osa.c.o -c /home/merry/proyecto_cnc_hmi/lib/lvgl/src/draw/nxp/pxp/lv_gpu_nxp_pxp_osa.c
 
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/nxp/pxp/lv_gpu_nxp_pxp_osa.c.i: cmake_force
@@ -590,7 +618,7 @@ CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/nxp/pxp/lv_gpu_nxp_pxp_osa.c.s: cmake_f
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/nxp/vglite/lv_draw_vglite.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/nxp/vglite/lv_draw_vglite.c.o: /home/merry/proyecto_cnc_hmi/lib/lvgl/src/draw/nxp/vglite/lv_draw_vglite.c
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/nxp/vglite/lv_draw_vglite.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/nxp/vglite/lv_draw_vglite.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/nxp/vglite/lv_draw_vglite.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/nxp/vglite/lv_draw_vglite.c.o -MF CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/nxp/vglite/lv_draw_vglite.c.o.d -o CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/nxp/vglite/lv_draw_vglite.c.o -c /home/merry/proyecto_cnc_hmi/lib/lvgl/src/draw/nxp/vglite/lv_draw_vglite.c
 
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/nxp/vglite/lv_draw_vglite.c.i: cmake_force
@@ -604,7 +632,7 @@ CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/nxp/vglite/lv_draw_vglite.c.s: cmake_fo
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/nxp/vglite/lv_draw_vglite_arc.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/nxp/vglite/lv_draw_vglite_arc.c.o: /home/merry/proyecto_cnc_hmi/lib/lvgl/src/draw/nxp/vglite/lv_draw_vglite_arc.c
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/nxp/vglite/lv_draw_vglite_arc.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/nxp/vglite/lv_draw_vglite_arc.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/nxp/vglite/lv_draw_vglite_arc.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/nxp/vglite/lv_draw_vglite_arc.c.o -MF CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/nxp/vglite/lv_draw_vglite_arc.c.o.d -o CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/nxp/vglite/lv_draw_vglite_arc.c.o -c /home/merry/proyecto_cnc_hmi/lib/lvgl/src/draw/nxp/vglite/lv_draw_vglite_arc.c
 
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/nxp/vglite/lv_draw_vglite_arc.c.i: cmake_force
@@ -618,7 +646,7 @@ CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/nxp/vglite/lv_draw_vglite_arc.c.s: cmak
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/nxp/vglite/lv_draw_vglite_blend.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/nxp/vglite/lv_draw_vglite_blend.c.o: /home/merry/proyecto_cnc_hmi/lib/lvgl/src/draw/nxp/vglite/lv_draw_vglite_blend.c
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/nxp/vglite/lv_draw_vglite_blend.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/nxp/vglite/lv_draw_vglite_blend.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/nxp/vglite/lv_draw_vglite_blend.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/nxp/vglite/lv_draw_vglite_blend.c.o -MF CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/nxp/vglite/lv_draw_vglite_blend.c.o.d -o CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/nxp/vglite/lv_draw_vglite_blend.c.o -c /home/merry/proyecto_cnc_hmi/lib/lvgl/src/draw/nxp/vglite/lv_draw_vglite_blend.c
 
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/nxp/vglite/lv_draw_vglite_blend.c.i: cmake_force
@@ -632,7 +660,7 @@ CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/nxp/vglite/lv_draw_vglite_blend.c.s: cm
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/nxp/vglite/lv_draw_vglite_line.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/nxp/vglite/lv_draw_vglite_line.c.o: /home/merry/proyecto_cnc_hmi/lib/lvgl/src/draw/nxp/vglite/lv_draw_vglite_line.c
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/nxp/vglite/lv_draw_vglite_line.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/nxp/vglite/lv_draw_vglite_line.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/nxp/vglite/lv_draw_vglite_line.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/nxp/vglite/lv_draw_vglite_line.c.o -MF CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/nxp/vglite/lv_draw_vglite_line.c.o.d -o CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/nxp/vglite/lv_draw_vglite_line.c.o -c /home/merry/proyecto_cnc_hmi/lib/lvgl/src/draw/nxp/vglite/lv_draw_vglite_line.c
 
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/nxp/vglite/lv_draw_vglite_line.c.i: cmake_force
@@ -646,7 +674,7 @@ CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/nxp/vglite/lv_draw_vglite_line.c.s: cma
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/nxp/vglite/lv_draw_vglite_rect.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/nxp/vglite/lv_draw_vglite_rect.c.o: /home/merry/proyecto_cnc_hmi/lib/lvgl/src/draw/nxp/vglite/lv_draw_vglite_rect.c
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/nxp/vglite/lv_draw_vglite_rect.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/nxp/vglite/lv_draw_vglite_rect.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/nxp/vglite/lv_draw_vglite_rect.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/nxp/vglite/lv_draw_vglite_rect.c.o -MF CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/nxp/vglite/lv_draw_vglite_rect.c.o.d -o CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/nxp/vglite/lv_draw_vglite_rect.c.o -c /home/merry/proyecto_cnc_hmi/lib/lvgl/src/draw/nxp/vglite/lv_draw_vglite_rect.c
 
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/nxp/vglite/lv_draw_vglite_rect.c.i: cmake_force
@@ -660,7 +688,7 @@ CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/nxp/vglite/lv_draw_vglite_rect.c.s: cma
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/nxp/vglite/lv_vglite_buf.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/nxp/vglite/lv_vglite_buf.c.o: /home/merry/proyecto_cnc_hmi/lib/lvgl/src/draw/nxp/vglite/lv_vglite_buf.c
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/nxp/vglite/lv_vglite_buf.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/nxp/vglite/lv_vglite_buf.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/nxp/vglite/lv_vglite_buf.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/nxp/vglite/lv_vglite_buf.c.o -MF CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/nxp/vglite/lv_vglite_buf.c.o.d -o CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/nxp/vglite/lv_vglite_buf.c.o -c /home/merry/proyecto_cnc_hmi/lib/lvgl/src/draw/nxp/vglite/lv_vglite_buf.c
 
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/nxp/vglite/lv_vglite_buf.c.i: cmake_force
@@ -674,7 +702,7 @@ CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/nxp/vglite/lv_vglite_buf.c.s: cmake_for
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/nxp/vglite/lv_vglite_utils.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/nxp/vglite/lv_vglite_utils.c.o: /home/merry/proyecto_cnc_hmi/lib/lvgl/src/draw/nxp/vglite/lv_vglite_utils.c
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/nxp/vglite/lv_vglite_utils.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/nxp/vglite/lv_vglite_utils.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/nxp/vglite/lv_vglite_utils.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/nxp/vglite/lv_vglite_utils.c.o -MF CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/nxp/vglite/lv_vglite_utils.c.o.d -o CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/nxp/vglite/lv_vglite_utils.c.o -c /home/merry/proyecto_cnc_hmi/lib/lvgl/src/draw/nxp/vglite/lv_vglite_utils.c
 
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/nxp/vglite/lv_vglite_utils.c.i: cmake_force
@@ -688,7 +716,7 @@ CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/nxp/vglite/lv_vglite_utils.c.s: cmake_f
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/renesas/lv_gpu_d2_draw_label.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/renesas/lv_gpu_d2_draw_label.c.o: /home/merry/proyecto_cnc_hmi/lib/lvgl/src/draw/renesas/lv_gpu_d2_draw_label.c
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/renesas/lv_gpu_d2_draw_label.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/renesas/lv_gpu_d2_draw_label.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/renesas/lv_gpu_d2_draw_label.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/renesas/lv_gpu_d2_draw_label.c.o -MF CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/renesas/lv_gpu_d2_draw_label.c.o.d -o CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/renesas/lv_gpu_d2_draw_label.c.o -c /home/merry/proyecto_cnc_hmi/lib/lvgl/src/draw/renesas/lv_gpu_d2_draw_label.c
 
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/renesas/lv_gpu_d2_draw_label.c.i: cmake_force
@@ -702,7 +730,7 @@ CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/renesas/lv_gpu_d2_draw_label.c.s: cmake
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/renesas/lv_gpu_d2_ra6m3.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/renesas/lv_gpu_d2_ra6m3.c.o: /home/merry/proyecto_cnc_hmi/lib/lvgl/src/draw/renesas/lv_gpu_d2_ra6m3.c
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/renesas/lv_gpu_d2_ra6m3.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/renesas/lv_gpu_d2_ra6m3.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/renesas/lv_gpu_d2_ra6m3.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/renesas/lv_gpu_d2_ra6m3.c.o -MF CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/renesas/lv_gpu_d2_ra6m3.c.o.d -o CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/renesas/lv_gpu_d2_ra6m3.c.o -c /home/merry/proyecto_cnc_hmi/lib/lvgl/src/draw/renesas/lv_gpu_d2_ra6m3.c
 
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/renesas/lv_gpu_d2_ra6m3.c.i: cmake_force
@@ -716,7 +744,7 @@ CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/renesas/lv_gpu_d2_ra6m3.c.s: cmake_forc
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sdl/lv_draw_sdl.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sdl/lv_draw_sdl.c.o: /home/merry/proyecto_cnc_hmi/lib/lvgl/src/draw/sdl/lv_draw_sdl.c
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sdl/lv_draw_sdl.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sdl/lv_draw_sdl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sdl/lv_draw_sdl.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sdl/lv_draw_sdl.c.o -MF CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sdl/lv_draw_sdl.c.o.d -o CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sdl/lv_draw_sdl.c.o -c /home/merry/proyecto_cnc_hmi/lib/lvgl/src/draw/sdl/lv_draw_sdl.c
 
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sdl/lv_draw_sdl.c.i: cmake_force
@@ -730,7 +758,7 @@ CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sdl/lv_draw_sdl.c.s: cmake_force
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sdl/lv_draw_sdl_arc.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sdl/lv_draw_sdl_arc.c.o: /home/merry/proyecto_cnc_hmi/lib/lvgl/src/draw/sdl/lv_draw_sdl_arc.c
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sdl/lv_draw_sdl_arc.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sdl/lv_draw_sdl_arc.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sdl/lv_draw_sdl_arc.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sdl/lv_draw_sdl_arc.c.o -MF CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sdl/lv_draw_sdl_arc.c.o.d -o CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sdl/lv_draw_sdl_arc.c.o -c /home/merry/proyecto_cnc_hmi/lib/lvgl/src/draw/sdl/lv_draw_sdl_arc.c
 
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sdl/lv_draw_sdl_arc.c.i: cmake_force
@@ -744,7 +772,7 @@ CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sdl/lv_draw_sdl_arc.c.s: cmake_force
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sdl/lv_draw_sdl_bg.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sdl/lv_draw_sdl_bg.c.o: /home/merry/proyecto_cnc_hmi/lib/lvgl/src/draw/sdl/lv_draw_sdl_bg.c
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sdl/lv_draw_sdl_bg.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sdl/lv_draw_sdl_bg.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sdl/lv_draw_sdl_bg.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sdl/lv_draw_sdl_bg.c.o -MF CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sdl/lv_draw_sdl_bg.c.o.d -o CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sdl/lv_draw_sdl_bg.c.o -c /home/merry/proyecto_cnc_hmi/lib/lvgl/src/draw/sdl/lv_draw_sdl_bg.c
 
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sdl/lv_draw_sdl_bg.c.i: cmake_force
@@ -758,7 +786,7 @@ CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sdl/lv_draw_sdl_bg.c.s: cmake_force
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sdl/lv_draw_sdl_composite.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sdl/lv_draw_sdl_composite.c.o: /home/merry/proyecto_cnc_hmi/lib/lvgl/src/draw/sdl/lv_draw_sdl_composite.c
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sdl/lv_draw_sdl_composite.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sdl/lv_draw_sdl_composite.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sdl/lv_draw_sdl_composite.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sdl/lv_draw_sdl_composite.c.o -MF CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sdl/lv_draw_sdl_composite.c.o.d -o CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sdl/lv_draw_sdl_composite.c.o -c /home/merry/proyecto_cnc_hmi/lib/lvgl/src/draw/sdl/lv_draw_sdl_composite.c
 
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sdl/lv_draw_sdl_composite.c.i: cmake_force
@@ -772,7 +800,7 @@ CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sdl/lv_draw_sdl_composite.c.s: cmake_fo
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sdl/lv_draw_sdl_img.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sdl/lv_draw_sdl_img.c.o: /home/merry/proyecto_cnc_hmi/lib/lvgl/src/draw/sdl/lv_draw_sdl_img.c
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sdl/lv_draw_sdl_img.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sdl/lv_draw_sdl_img.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sdl/lv_draw_sdl_img.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sdl/lv_draw_sdl_img.c.o -MF CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sdl/lv_draw_sdl_img.c.o.d -o CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sdl/lv_draw_sdl_img.c.o -c /home/merry/proyecto_cnc_hmi/lib/lvgl/src/draw/sdl/lv_draw_sdl_img.c
 
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sdl/lv_draw_sdl_img.c.i: cmake_force
@@ -786,7 +814,7 @@ CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sdl/lv_draw_sdl_img.c.s: cmake_force
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sdl/lv_draw_sdl_label.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sdl/lv_draw_sdl_label.c.o: /home/merry/proyecto_cnc_hmi/lib/lvgl/src/draw/sdl/lv_draw_sdl_label.c
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sdl/lv_draw_sdl_label.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sdl/lv_draw_sdl_label.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sdl/lv_draw_sdl_label.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sdl/lv_draw_sdl_label.c.o -MF CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sdl/lv_draw_sdl_label.c.o.d -o CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sdl/lv_draw_sdl_label.c.o -c /home/merry/proyecto_cnc_hmi/lib/lvgl/src/draw/sdl/lv_draw_sdl_label.c
 
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sdl/lv_draw_sdl_label.c.i: cmake_force
@@ -800,7 +828,7 @@ CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sdl/lv_draw_sdl_label.c.s: cmake_force
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sdl/lv_draw_sdl_layer.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sdl/lv_draw_sdl_layer.c.o: /home/merry/proyecto_cnc_hmi/lib/lvgl/src/draw/sdl/lv_draw_sdl_layer.c
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sdl/lv_draw_sdl_layer.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sdl/lv_draw_sdl_layer.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sdl/lv_draw_sdl_layer.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sdl/lv_draw_sdl_layer.c.o -MF CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sdl/lv_draw_sdl_layer.c.o.d -o CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sdl/lv_draw_sdl_layer.c.o -c /home/merry/proyecto_cnc_hmi/lib/lvgl/src/draw/sdl/lv_draw_sdl_layer.c
 
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sdl/lv_draw_sdl_layer.c.i: cmake_force
@@ -814,7 +842,7 @@ CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sdl/lv_draw_sdl_layer.c.s: cmake_force
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sdl/lv_draw_sdl_line.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sdl/lv_draw_sdl_line.c.o: /home/merry/proyecto_cnc_hmi/lib/lvgl/src/draw/sdl/lv_draw_sdl_line.c
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sdl/lv_draw_sdl_line.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sdl/lv_draw_sdl_line.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sdl/lv_draw_sdl_line.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sdl/lv_draw_sdl_line.c.o -MF CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sdl/lv_draw_sdl_line.c.o.d -o CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sdl/lv_draw_sdl_line.c.o -c /home/merry/proyecto_cnc_hmi/lib/lvgl/src/draw/sdl/lv_draw_sdl_line.c
 
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sdl/lv_draw_sdl_line.c.i: cmake_force
@@ -828,7 +856,7 @@ CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sdl/lv_draw_sdl_line.c.s: cmake_force
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sdl/lv_draw_sdl_mask.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sdl/lv_draw_sdl_mask.c.o: /home/merry/proyecto_cnc_hmi/lib/lvgl/src/draw/sdl/lv_draw_sdl_mask.c
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sdl/lv_draw_sdl_mask.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sdl/lv_draw_sdl_mask.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sdl/lv_draw_sdl_mask.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sdl/lv_draw_sdl_mask.c.o -MF CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sdl/lv_draw_sdl_mask.c.o.d -o CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sdl/lv_draw_sdl_mask.c.o -c /home/merry/proyecto_cnc_hmi/lib/lvgl/src/draw/sdl/lv_draw_sdl_mask.c
 
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sdl/lv_draw_sdl_mask.c.i: cmake_force
@@ -842,7 +870,7 @@ CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sdl/lv_draw_sdl_mask.c.s: cmake_force
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sdl/lv_draw_sdl_polygon.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sdl/lv_draw_sdl_polygon.c.o: /home/merry/proyecto_cnc_hmi/lib/lvgl/src/draw/sdl/lv_draw_sdl_polygon.c
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sdl/lv_draw_sdl_polygon.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sdl/lv_draw_sdl_polygon.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sdl/lv_draw_sdl_polygon.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sdl/lv_draw_sdl_polygon.c.o -MF CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sdl/lv_draw_sdl_polygon.c.o.d -o CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sdl/lv_draw_sdl_polygon.c.o -c /home/merry/proyecto_cnc_hmi/lib/lvgl/src/draw/sdl/lv_draw_sdl_polygon.c
 
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sdl/lv_draw_sdl_polygon.c.i: cmake_force
@@ -856,7 +884,7 @@ CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sdl/lv_draw_sdl_polygon.c.s: cmake_forc
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sdl/lv_draw_sdl_rect.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sdl/lv_draw_sdl_rect.c.o: /home/merry/proyecto_cnc_hmi/lib/lvgl/src/draw/sdl/lv_draw_sdl_rect.c
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sdl/lv_draw_sdl_rect.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sdl/lv_draw_sdl_rect.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sdl/lv_draw_sdl_rect.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sdl/lv_draw_sdl_rect.c.o -MF CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sdl/lv_draw_sdl_rect.c.o.d -o CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sdl/lv_draw_sdl_rect.c.o -c /home/merry/proyecto_cnc_hmi/lib/lvgl/src/draw/sdl/lv_draw_sdl_rect.c
 
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sdl/lv_draw_sdl_rect.c.i: cmake_force
@@ -870,7 +898,7 @@ CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sdl/lv_draw_sdl_rect.c.s: cmake_force
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sdl/lv_draw_sdl_stack_blur.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sdl/lv_draw_sdl_stack_blur.c.o: /home/merry/proyecto_cnc_hmi/lib/lvgl/src/draw/sdl/lv_draw_sdl_stack_blur.c
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sdl/lv_draw_sdl_stack_blur.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sdl/lv_draw_sdl_stack_blur.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sdl/lv_draw_sdl_stack_blur.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sdl/lv_draw_sdl_stack_blur.c.o -MF CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sdl/lv_draw_sdl_stack_blur.c.o.d -o CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sdl/lv_draw_sdl_stack_blur.c.o -c /home/merry/proyecto_cnc_hmi/lib/lvgl/src/draw/sdl/lv_draw_sdl_stack_blur.c
 
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sdl/lv_draw_sdl_stack_blur.c.i: cmake_force
@@ -884,7 +912,7 @@ CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sdl/lv_draw_sdl_stack_blur.c.s: cmake_f
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sdl/lv_draw_sdl_texture_cache.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sdl/lv_draw_sdl_texture_cache.c.o: /home/merry/proyecto_cnc_hmi/lib/lvgl/src/draw/sdl/lv_draw_sdl_texture_cache.c
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sdl/lv_draw_sdl_texture_cache.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sdl/lv_draw_sdl_texture_cache.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sdl/lv_draw_sdl_texture_cache.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sdl/lv_draw_sdl_texture_cache.c.o -MF CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sdl/lv_draw_sdl_texture_cache.c.o.d -o CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sdl/lv_draw_sdl_texture_cache.c.o -c /home/merry/proyecto_cnc_hmi/lib/lvgl/src/draw/sdl/lv_draw_sdl_texture_cache.c
 
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sdl/lv_draw_sdl_texture_cache.c.i: cmake_force
@@ -898,7 +926,7 @@ CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sdl/lv_draw_sdl_texture_cache.c.s: cmak
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sdl/lv_draw_sdl_utils.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sdl/lv_draw_sdl_utils.c.o: /home/merry/proyecto_cnc_hmi/lib/lvgl/src/draw/sdl/lv_draw_sdl_utils.c
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sdl/lv_draw_sdl_utils.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sdl/lv_draw_sdl_utils.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sdl/lv_draw_sdl_utils.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sdl/lv_draw_sdl_utils.c.o -MF CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sdl/lv_draw_sdl_utils.c.o.d -o CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sdl/lv_draw_sdl_utils.c.o -c /home/merry/proyecto_cnc_hmi/lib/lvgl/src/draw/sdl/lv_draw_sdl_utils.c
 
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sdl/lv_draw_sdl_utils.c.i: cmake_force
@@ -912,7 +940,7 @@ CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sdl/lv_draw_sdl_utils.c.s: cmake_force
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/stm32_dma2d/lv_gpu_stm32_dma2d.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/stm32_dma2d/lv_gpu_stm32_dma2d.c.o: /home/merry/proyecto_cnc_hmi/lib/lvgl/src/draw/stm32_dma2d/lv_gpu_stm32_dma2d.c
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/stm32_dma2d/lv_gpu_stm32_dma2d.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/stm32_dma2d/lv_gpu_stm32_dma2d.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/stm32_dma2d/lv_gpu_stm32_dma2d.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/stm32_dma2d/lv_gpu_stm32_dma2d.c.o -MF CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/stm32_dma2d/lv_gpu_stm32_dma2d.c.o.d -o CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/stm32_dma2d/lv_gpu_stm32_dma2d.c.o -c /home/merry/proyecto_cnc_hmi/lib/lvgl/src/draw/stm32_dma2d/lv_gpu_stm32_dma2d.c
 
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/stm32_dma2d/lv_gpu_stm32_dma2d.c.i: cmake_force
@@ -926,7 +954,7 @@ CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/stm32_dma2d/lv_gpu_stm32_dma2d.c.s: cma
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sw/lv_draw_sw.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sw/lv_draw_sw.c.o: /home/merry/proyecto_cnc_hmi/lib/lvgl/src/draw/sw/lv_draw_sw.c
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sw/lv_draw_sw.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sw/lv_draw_sw.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sw/lv_draw_sw.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sw/lv_draw_sw.c.o -MF CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sw/lv_draw_sw.c.o.d -o CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sw/lv_draw_sw.c.o -c /home/merry/proyecto_cnc_hmi/lib/lvgl/src/draw/sw/lv_draw_sw.c
 
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sw/lv_draw_sw.c.i: cmake_force
@@ -940,7 +968,7 @@ CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sw/lv_draw_sw.c.s: cmake_force
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sw/lv_draw_sw_arc.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sw/lv_draw_sw_arc.c.o: /home/merry/proyecto_cnc_hmi/lib/lvgl/src/draw/sw/lv_draw_sw_arc.c
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sw/lv_draw_sw_arc.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sw/lv_draw_sw_arc.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sw/lv_draw_sw_arc.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sw/lv_draw_sw_arc.c.o -MF CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sw/lv_draw_sw_arc.c.o.d -o CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sw/lv_draw_sw_arc.c.o -c /home/merry/proyecto_cnc_hmi/lib/lvgl/src/draw/sw/lv_draw_sw_arc.c
 
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sw/lv_draw_sw_arc.c.i: cmake_force
@@ -954,7 +982,7 @@ CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sw/lv_draw_sw_arc.c.s: cmake_force
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sw/lv_draw_sw_blend.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sw/lv_draw_sw_blend.c.o: /home/merry/proyecto_cnc_hmi/lib/lvgl/src/draw/sw/lv_draw_sw_blend.c
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sw/lv_draw_sw_blend.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sw/lv_draw_sw_blend.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sw/lv_draw_sw_blend.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sw/lv_draw_sw_blend.c.o -MF CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sw/lv_draw_sw_blend.c.o.d -o CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sw/lv_draw_sw_blend.c.o -c /home/merry/proyecto_cnc_hmi/lib/lvgl/src/draw/sw/lv_draw_sw_blend.c
 
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sw/lv_draw_sw_blend.c.i: cmake_force
@@ -968,7 +996,7 @@ CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sw/lv_draw_sw_blend.c.s: cmake_force
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sw/lv_draw_sw_dither.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sw/lv_draw_sw_dither.c.o: /home/merry/proyecto_cnc_hmi/lib/lvgl/src/draw/sw/lv_draw_sw_dither.c
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sw/lv_draw_sw_dither.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sw/lv_draw_sw_dither.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sw/lv_draw_sw_dither.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sw/lv_draw_sw_dither.c.o -MF CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sw/lv_draw_sw_dither.c.o.d -o CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sw/lv_draw_sw_dither.c.o -c /home/merry/proyecto_cnc_hmi/lib/lvgl/src/draw/sw/lv_draw_sw_dither.c
 
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sw/lv_draw_sw_dither.c.i: cmake_force
@@ -982,7 +1010,7 @@ CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sw/lv_draw_sw_dither.c.s: cmake_force
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sw/lv_draw_sw_gradient.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sw/lv_draw_sw_gradient.c.o: /home/merry/proyecto_cnc_hmi/lib/lvgl/src/draw/sw/lv_draw_sw_gradient.c
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sw/lv_draw_sw_gradient.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sw/lv_draw_sw_gradient.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sw/lv_draw_sw_gradient.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sw/lv_draw_sw_gradient.c.o -MF CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sw/lv_draw_sw_gradient.c.o.d -o CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sw/lv_draw_sw_gradient.c.o -c /home/merry/proyecto_cnc_hmi/lib/lvgl/src/draw/sw/lv_draw_sw_gradient.c
 
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sw/lv_draw_sw_gradient.c.i: cmake_force
@@ -996,7 +1024,7 @@ CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sw/lv_draw_sw_gradient.c.s: cmake_force
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sw/lv_draw_sw_img.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sw/lv_draw_sw_img.c.o: /home/merry/proyecto_cnc_hmi/lib/lvgl/src/draw/sw/lv_draw_sw_img.c
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sw/lv_draw_sw_img.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sw/lv_draw_sw_img.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sw/lv_draw_sw_img.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sw/lv_draw_sw_img.c.o -MF CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sw/lv_draw_sw_img.c.o.d -o CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sw/lv_draw_sw_img.c.o -c /home/merry/proyecto_cnc_hmi/lib/lvgl/src/draw/sw/lv_draw_sw_img.c
 
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sw/lv_draw_sw_img.c.i: cmake_force
@@ -1010,7 +1038,7 @@ CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sw/lv_draw_sw_img.c.s: cmake_force
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sw/lv_draw_sw_layer.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sw/lv_draw_sw_layer.c.o: /home/merry/proyecto_cnc_hmi/lib/lvgl/src/draw/sw/lv_draw_sw_layer.c
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sw/lv_draw_sw_layer.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sw/lv_draw_sw_layer.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sw/lv_draw_sw_layer.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sw/lv_draw_sw_layer.c.o -MF CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sw/lv_draw_sw_layer.c.o.d -o CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sw/lv_draw_sw_layer.c.o -c /home/merry/proyecto_cnc_hmi/lib/lvgl/src/draw/sw/lv_draw_sw_layer.c
 
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sw/lv_draw_sw_layer.c.i: cmake_force
@@ -1024,7 +1052,7 @@ CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sw/lv_draw_sw_layer.c.s: cmake_force
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sw/lv_draw_sw_letter.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sw/lv_draw_sw_letter.c.o: /home/merry/proyecto_cnc_hmi/lib/lvgl/src/draw/sw/lv_draw_sw_letter.c
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sw/lv_draw_sw_letter.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sw/lv_draw_sw_letter.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sw/lv_draw_sw_letter.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sw/lv_draw_sw_letter.c.o -MF CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sw/lv_draw_sw_letter.c.o.d -o CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sw/lv_draw_sw_letter.c.o -c /home/merry/proyecto_cnc_hmi/lib/lvgl/src/draw/sw/lv_draw_sw_letter.c
 
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sw/lv_draw_sw_letter.c.i: cmake_force
@@ -1038,7 +1066,7 @@ CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sw/lv_draw_sw_letter.c.s: cmake_force
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sw/lv_draw_sw_line.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sw/lv_draw_sw_line.c.o: /home/merry/proyecto_cnc_hmi/lib/lvgl/src/draw/sw/lv_draw_sw_line.c
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sw/lv_draw_sw_line.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sw/lv_draw_sw_line.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sw/lv_draw_sw_line.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sw/lv_draw_sw_line.c.o -MF CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sw/lv_draw_sw_line.c.o.d -o CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sw/lv_draw_sw_line.c.o -c /home/merry/proyecto_cnc_hmi/lib/lvgl/src/draw/sw/lv_draw_sw_line.c
 
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sw/lv_draw_sw_line.c.i: cmake_force
@@ -1052,7 +1080,7 @@ CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sw/lv_draw_sw_line.c.s: cmake_force
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sw/lv_draw_sw_polygon.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sw/lv_draw_sw_polygon.c.o: /home/merry/proyecto_cnc_hmi/lib/lvgl/src/draw/sw/lv_draw_sw_polygon.c
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sw/lv_draw_sw_polygon.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sw/lv_draw_sw_polygon.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sw/lv_draw_sw_polygon.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sw/lv_draw_sw_polygon.c.o -MF CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sw/lv_draw_sw_polygon.c.o.d -o CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sw/lv_draw_sw_polygon.c.o -c /home/merry/proyecto_cnc_hmi/lib/lvgl/src/draw/sw/lv_draw_sw_polygon.c
 
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sw/lv_draw_sw_polygon.c.i: cmake_force
@@ -1066,7 +1094,7 @@ CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sw/lv_draw_sw_polygon.c.s: cmake_force
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sw/lv_draw_sw_rect.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sw/lv_draw_sw_rect.c.o: /home/merry/proyecto_cnc_hmi/lib/lvgl/src/draw/sw/lv_draw_sw_rect.c
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sw/lv_draw_sw_rect.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sw/lv_draw_sw_rect.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sw/lv_draw_sw_rect.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sw/lv_draw_sw_rect.c.o -MF CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sw/lv_draw_sw_rect.c.o.d -o CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sw/lv_draw_sw_rect.c.o -c /home/merry/proyecto_cnc_hmi/lib/lvgl/src/draw/sw/lv_draw_sw_rect.c
 
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sw/lv_draw_sw_rect.c.i: cmake_force
@@ -1080,7 +1108,7 @@ CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sw/lv_draw_sw_rect.c.s: cmake_force
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sw/lv_draw_sw_transform.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sw/lv_draw_sw_transform.c.o: /home/merry/proyecto_cnc_hmi/lib/lvgl/src/draw/sw/lv_draw_sw_transform.c
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sw/lv_draw_sw_transform.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sw/lv_draw_sw_transform.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sw/lv_draw_sw_transform.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sw/lv_draw_sw_transform.c.o -MF CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sw/lv_draw_sw_transform.c.o.d -o CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sw/lv_draw_sw_transform.c.o -c /home/merry/proyecto_cnc_hmi/lib/lvgl/src/draw/sw/lv_draw_sw_transform.c
 
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sw/lv_draw_sw_transform.c.i: cmake_force
@@ -1094,7 +1122,7 @@ CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/sw/lv_draw_sw_transform.c.s: cmake_forc
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/swm341_dma2d/lv_gpu_swm341_dma2d.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/swm341_dma2d/lv_gpu_swm341_dma2d.c.o: /home/merry/proyecto_cnc_hmi/lib/lvgl/src/draw/swm341_dma2d/lv_gpu_swm341_dma2d.c
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/swm341_dma2d/lv_gpu_swm341_dma2d.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/swm341_dma2d/lv_gpu_swm341_dma2d.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/swm341_dma2d/lv_gpu_swm341_dma2d.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/swm341_dma2d/lv_gpu_swm341_dma2d.c.o -MF CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/swm341_dma2d/lv_gpu_swm341_dma2d.c.o.d -o CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/swm341_dma2d/lv_gpu_swm341_dma2d.c.o -c /home/merry/proyecto_cnc_hmi/lib/lvgl/src/draw/swm341_dma2d/lv_gpu_swm341_dma2d.c
 
 CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/swm341_dma2d/lv_gpu_swm341_dma2d.c.i: cmake_force
@@ -1108,7 +1136,7 @@ CMakeFiles/cnc_app.dir/lib/lvgl/src/draw/swm341_dma2d/lv_gpu_swm341_dma2d.c.s: c
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/layouts/flex/lv_flex.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/layouts/flex/lv_flex.c.o: /home/merry/proyecto_cnc_hmi/lib/lvgl/src/extra/layouts/flex/lv_flex.c
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/layouts/flex/lv_flex.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/layouts/flex/lv_flex.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/layouts/flex/lv_flex.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/layouts/flex/lv_flex.c.o -MF CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/layouts/flex/lv_flex.c.o.d -o CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/layouts/flex/lv_flex.c.o -c /home/merry/proyecto_cnc_hmi/lib/lvgl/src/extra/layouts/flex/lv_flex.c
 
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/layouts/flex/lv_flex.c.i: cmake_force
@@ -1122,7 +1150,7 @@ CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/layouts/flex/lv_flex.c.s: cmake_force
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/layouts/grid/lv_grid.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/layouts/grid/lv_grid.c.o: /home/merry/proyecto_cnc_hmi/lib/lvgl/src/extra/layouts/grid/lv_grid.c
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/layouts/grid/lv_grid.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/layouts/grid/lv_grid.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/layouts/grid/lv_grid.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/layouts/grid/lv_grid.c.o -MF CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/layouts/grid/lv_grid.c.o.d -o CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/layouts/grid/lv_grid.c.o -c /home/merry/proyecto_cnc_hmi/lib/lvgl/src/extra/layouts/grid/lv_grid.c
 
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/layouts/grid/lv_grid.c.i: cmake_force
@@ -1136,7 +1164,7 @@ CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/layouts/grid/lv_grid.c.s: cmake_force
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/libs/bmp/lv_bmp.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/libs/bmp/lv_bmp.c.o: /home/merry/proyecto_cnc_hmi/lib/lvgl/src/extra/libs/bmp/lv_bmp.c
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/libs/bmp/lv_bmp.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/libs/bmp/lv_bmp.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/libs/bmp/lv_bmp.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/libs/bmp/lv_bmp.c.o -MF CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/libs/bmp/lv_bmp.c.o.d -o CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/libs/bmp/lv_bmp.c.o -c /home/merry/proyecto_cnc_hmi/lib/lvgl/src/extra/libs/bmp/lv_bmp.c
 
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/libs/bmp/lv_bmp.c.i: cmake_force
@@ -1150,7 +1178,7 @@ CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/libs/bmp/lv_bmp.c.s: cmake_force
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/libs/ffmpeg/lv_ffmpeg.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/libs/ffmpeg/lv_ffmpeg.c.o: /home/merry/proyecto_cnc_hmi/lib/lvgl/src/extra/libs/ffmpeg/lv_ffmpeg.c
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/libs/ffmpeg/lv_ffmpeg.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/libs/ffmpeg/lv_ffmpeg.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/libs/ffmpeg/lv_ffmpeg.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/libs/ffmpeg/lv_ffmpeg.c.o -MF CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/libs/ffmpeg/lv_ffmpeg.c.o.d -o CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/libs/ffmpeg/lv_ffmpeg.c.o -c /home/merry/proyecto_cnc_hmi/lib/lvgl/src/extra/libs/ffmpeg/lv_ffmpeg.c
 
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/libs/ffmpeg/lv_ffmpeg.c.i: cmake_force
@@ -1164,7 +1192,7 @@ CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/libs/ffmpeg/lv_ffmpeg.c.s: cmake_force
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/libs/freetype/lv_freetype.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/libs/freetype/lv_freetype.c.o: /home/merry/proyecto_cnc_hmi/lib/lvgl/src/extra/libs/freetype/lv_freetype.c
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/libs/freetype/lv_freetype.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/libs/freetype/lv_freetype.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/libs/freetype/lv_freetype.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/libs/freetype/lv_freetype.c.o -MF CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/libs/freetype/lv_freetype.c.o.d -o CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/libs/freetype/lv_freetype.c.o -c /home/merry/proyecto_cnc_hmi/lib/lvgl/src/extra/libs/freetype/lv_freetype.c
 
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/libs/freetype/lv_freetype.c.i: cmake_force
@@ -1178,7 +1206,7 @@ CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/libs/freetype/lv_freetype.c.s: cmake_f
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/libs/fsdrv/lv_fs_fatfs.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/libs/fsdrv/lv_fs_fatfs.c.o: /home/merry/proyecto_cnc_hmi/lib/lvgl/src/extra/libs/fsdrv/lv_fs_fatfs.c
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/libs/fsdrv/lv_fs_fatfs.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/libs/fsdrv/lv_fs_fatfs.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/libs/fsdrv/lv_fs_fatfs.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/libs/fsdrv/lv_fs_fatfs.c.o -MF CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/libs/fsdrv/lv_fs_fatfs.c.o.d -o CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/libs/fsdrv/lv_fs_fatfs.c.o -c /home/merry/proyecto_cnc_hmi/lib/lvgl/src/extra/libs/fsdrv/lv_fs_fatfs.c
 
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/libs/fsdrv/lv_fs_fatfs.c.i: cmake_force
@@ -1192,7 +1220,7 @@ CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/libs/fsdrv/lv_fs_fatfs.c.s: cmake_forc
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/libs/fsdrv/lv_fs_littlefs.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/libs/fsdrv/lv_fs_littlefs.c.o: /home/merry/proyecto_cnc_hmi/lib/lvgl/src/extra/libs/fsdrv/lv_fs_littlefs.c
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/libs/fsdrv/lv_fs_littlefs.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/libs/fsdrv/lv_fs_littlefs.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/libs/fsdrv/lv_fs_littlefs.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/libs/fsdrv/lv_fs_littlefs.c.o -MF CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/libs/fsdrv/lv_fs_littlefs.c.o.d -o CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/libs/fsdrv/lv_fs_littlefs.c.o -c /home/merry/proyecto_cnc_hmi/lib/lvgl/src/extra/libs/fsdrv/lv_fs_littlefs.c
 
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/libs/fsdrv/lv_fs_littlefs.c.i: cmake_force
@@ -1206,7 +1234,7 @@ CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/libs/fsdrv/lv_fs_littlefs.c.s: cmake_f
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/libs/fsdrv/lv_fs_posix.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/libs/fsdrv/lv_fs_posix.c.o: /home/merry/proyecto_cnc_hmi/lib/lvgl/src/extra/libs/fsdrv/lv_fs_posix.c
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/libs/fsdrv/lv_fs_posix.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/libs/fsdrv/lv_fs_posix.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/libs/fsdrv/lv_fs_posix.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/libs/fsdrv/lv_fs_posix.c.o -MF CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/libs/fsdrv/lv_fs_posix.c.o.d -o CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/libs/fsdrv/lv_fs_posix.c.o -c /home/merry/proyecto_cnc_hmi/lib/lvgl/src/extra/libs/fsdrv/lv_fs_posix.c
 
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/libs/fsdrv/lv_fs_posix.c.i: cmake_force
@@ -1220,7 +1248,7 @@ CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/libs/fsdrv/lv_fs_posix.c.s: cmake_forc
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/libs/fsdrv/lv_fs_stdio.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/libs/fsdrv/lv_fs_stdio.c.o: /home/merry/proyecto_cnc_hmi/lib/lvgl/src/extra/libs/fsdrv/lv_fs_stdio.c
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/libs/fsdrv/lv_fs_stdio.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/libs/fsdrv/lv_fs_stdio.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/libs/fsdrv/lv_fs_stdio.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/libs/fsdrv/lv_fs_stdio.c.o -MF CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/libs/fsdrv/lv_fs_stdio.c.o.d -o CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/libs/fsdrv/lv_fs_stdio.c.o -c /home/merry/proyecto_cnc_hmi/lib/lvgl/src/extra/libs/fsdrv/lv_fs_stdio.c
 
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/libs/fsdrv/lv_fs_stdio.c.i: cmake_force
@@ -1234,7 +1262,7 @@ CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/libs/fsdrv/lv_fs_stdio.c.s: cmake_forc
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/libs/fsdrv/lv_fs_win32.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/libs/fsdrv/lv_fs_win32.c.o: /home/merry/proyecto_cnc_hmi/lib/lvgl/src/extra/libs/fsdrv/lv_fs_win32.c
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/libs/fsdrv/lv_fs_win32.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/libs/fsdrv/lv_fs_win32.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/libs/fsdrv/lv_fs_win32.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/libs/fsdrv/lv_fs_win32.c.o -MF CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/libs/fsdrv/lv_fs_win32.c.o.d -o CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/libs/fsdrv/lv_fs_win32.c.o -c /home/merry/proyecto_cnc_hmi/lib/lvgl/src/extra/libs/fsdrv/lv_fs_win32.c
 
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/libs/fsdrv/lv_fs_win32.c.i: cmake_force
@@ -1248,7 +1276,7 @@ CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/libs/fsdrv/lv_fs_win32.c.s: cmake_forc
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/libs/gif/gifdec.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/libs/gif/gifdec.c.o: /home/merry/proyecto_cnc_hmi/lib/lvgl/src/extra/libs/gif/gifdec.c
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/libs/gif/gifdec.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/libs/gif/gifdec.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/libs/gif/gifdec.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/libs/gif/gifdec.c.o -MF CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/libs/gif/gifdec.c.o.d -o CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/libs/gif/gifdec.c.o -c /home/merry/proyecto_cnc_hmi/lib/lvgl/src/extra/libs/gif/gifdec.c
 
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/libs/gif/gifdec.c.i: cmake_force
@@ -1262,7 +1290,7 @@ CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/libs/gif/gifdec.c.s: cmake_force
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/libs/gif/lv_gif.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/libs/gif/lv_gif.c.o: /home/merry/proyecto_cnc_hmi/lib/lvgl/src/extra/libs/gif/lv_gif.c
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/libs/gif/lv_gif.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/libs/gif/lv_gif.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/libs/gif/lv_gif.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/libs/gif/lv_gif.c.o -MF CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/libs/gif/lv_gif.c.o.d -o CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/libs/gif/lv_gif.c.o -c /home/merry/proyecto_cnc_hmi/lib/lvgl/src/extra/libs/gif/lv_gif.c
 
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/libs/gif/lv_gif.c.i: cmake_force
@@ -1276,7 +1304,7 @@ CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/libs/gif/lv_gif.c.s: cmake_force
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/libs/png/lodepng.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/libs/png/lodepng.c.o: /home/merry/proyecto_cnc_hmi/lib/lvgl/src/extra/libs/png/lodepng.c
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/libs/png/lodepng.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/libs/png/lodepng.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/libs/png/lodepng.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/libs/png/lodepng.c.o -MF CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/libs/png/lodepng.c.o.d -o CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/libs/png/lodepng.c.o -c /home/merry/proyecto_cnc_hmi/lib/lvgl/src/extra/libs/png/lodepng.c
 
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/libs/png/lodepng.c.i: cmake_force
@@ -1290,7 +1318,7 @@ CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/libs/png/lodepng.c.s: cmake_force
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/libs/png/lv_png.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/libs/png/lv_png.c.o: /home/merry/proyecto_cnc_hmi/lib/lvgl/src/extra/libs/png/lv_png.c
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/libs/png/lv_png.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/libs/png/lv_png.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/libs/png/lv_png.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/libs/png/lv_png.c.o -MF CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/libs/png/lv_png.c.o.d -o CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/libs/png/lv_png.c.o -c /home/merry/proyecto_cnc_hmi/lib/lvgl/src/extra/libs/png/lv_png.c
 
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/libs/png/lv_png.c.i: cmake_force
@@ -1304,7 +1332,7 @@ CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/libs/png/lv_png.c.s: cmake_force
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/libs/qrcode/lv_qrcode.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/libs/qrcode/lv_qrcode.c.o: /home/merry/proyecto_cnc_hmi/lib/lvgl/src/extra/libs/qrcode/lv_qrcode.c
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/libs/qrcode/lv_qrcode.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/libs/qrcode/lv_qrcode.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/libs/qrcode/lv_qrcode.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/libs/qrcode/lv_qrcode.c.o -MF CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/libs/qrcode/lv_qrcode.c.o.d -o CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/libs/qrcode/lv_qrcode.c.o -c /home/merry/proyecto_cnc_hmi/lib/lvgl/src/extra/libs/qrcode/lv_qrcode.c
 
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/libs/qrcode/lv_qrcode.c.i: cmake_force
@@ -1318,7 +1346,7 @@ CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/libs/qrcode/lv_qrcode.c.s: cmake_force
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/libs/qrcode/qrcodegen.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/libs/qrcode/qrcodegen.c.o: /home/merry/proyecto_cnc_hmi/lib/lvgl/src/extra/libs/qrcode/qrcodegen.c
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/libs/qrcode/qrcodegen.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/libs/qrcode/qrcodegen.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/libs/qrcode/qrcodegen.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/libs/qrcode/qrcodegen.c.o -MF CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/libs/qrcode/qrcodegen.c.o.d -o CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/libs/qrcode/qrcodegen.c.o -c /home/merry/proyecto_cnc_hmi/lib/lvgl/src/extra/libs/qrcode/qrcodegen.c
 
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/libs/qrcode/qrcodegen.c.i: cmake_force
@@ -1332,7 +1360,7 @@ CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/libs/qrcode/qrcodegen.c.s: cmake_force
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/libs/rlottie/lv_rlottie.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/libs/rlottie/lv_rlottie.c.o: /home/merry/proyecto_cnc_hmi/lib/lvgl/src/extra/libs/rlottie/lv_rlottie.c
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/libs/rlottie/lv_rlottie.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/libs/rlottie/lv_rlottie.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/libs/rlottie/lv_rlottie.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/libs/rlottie/lv_rlottie.c.o -MF CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/libs/rlottie/lv_rlottie.c.o.d -o CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/libs/rlottie/lv_rlottie.c.o -c /home/merry/proyecto_cnc_hmi/lib/lvgl/src/extra/libs/rlottie/lv_rlottie.c
 
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/libs/rlottie/lv_rlottie.c.i: cmake_force
@@ -1346,7 +1374,7 @@ CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/libs/rlottie/lv_rlottie.c.s: cmake_for
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/libs/sjpg/lv_sjpg.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/libs/sjpg/lv_sjpg.c.o: /home/merry/proyecto_cnc_hmi/lib/lvgl/src/extra/libs/sjpg/lv_sjpg.c
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/libs/sjpg/lv_sjpg.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/libs/sjpg/lv_sjpg.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/libs/sjpg/lv_sjpg.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/libs/sjpg/lv_sjpg.c.o -MF CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/libs/sjpg/lv_sjpg.c.o.d -o CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/libs/sjpg/lv_sjpg.c.o -c /home/merry/proyecto_cnc_hmi/lib/lvgl/src/extra/libs/sjpg/lv_sjpg.c
 
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/libs/sjpg/lv_sjpg.c.i: cmake_force
@@ -1360,7 +1388,7 @@ CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/libs/sjpg/lv_sjpg.c.s: cmake_force
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/libs/sjpg/tjpgd.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/libs/sjpg/tjpgd.c.o: /home/merry/proyecto_cnc_hmi/lib/lvgl/src/extra/libs/sjpg/tjpgd.c
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/libs/sjpg/tjpgd.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/libs/sjpg/tjpgd.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/libs/sjpg/tjpgd.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/libs/sjpg/tjpgd.c.o -MF CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/libs/sjpg/tjpgd.c.o.d -o CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/libs/sjpg/tjpgd.c.o -c /home/merry/proyecto_cnc_hmi/lib/lvgl/src/extra/libs/sjpg/tjpgd.c
 
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/libs/sjpg/tjpgd.c.i: cmake_force
@@ -1374,7 +1402,7 @@ CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/libs/sjpg/tjpgd.c.s: cmake_force
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/libs/tiny_ttf/lv_tiny_ttf.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/libs/tiny_ttf/lv_tiny_ttf.c.o: /home/merry/proyecto_cnc_hmi/lib/lvgl/src/extra/libs/tiny_ttf/lv_tiny_ttf.c
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/libs/tiny_ttf/lv_tiny_ttf.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/libs/tiny_ttf/lv_tiny_ttf.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/libs/tiny_ttf/lv_tiny_ttf.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/libs/tiny_ttf/lv_tiny_ttf.c.o -MF CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/libs/tiny_ttf/lv_tiny_ttf.c.o.d -o CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/libs/tiny_ttf/lv_tiny_ttf.c.o -c /home/merry/proyecto_cnc_hmi/lib/lvgl/src/extra/libs/tiny_ttf/lv_tiny_ttf.c
 
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/libs/tiny_ttf/lv_tiny_ttf.c.i: cmake_force
@@ -1388,7 +1416,7 @@ CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/libs/tiny_ttf/lv_tiny_ttf.c.s: cmake_f
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/lv_extra.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/lv_extra.c.o: /home/merry/proyecto_cnc_hmi/lib/lvgl/src/extra/lv_extra.c
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/lv_extra.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/lv_extra.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/lv_extra.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/lv_extra.c.o -MF CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/lv_extra.c.o.d -o CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/lv_extra.c.o -c /home/merry/proyecto_cnc_hmi/lib/lvgl/src/extra/lv_extra.c
 
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/lv_extra.c.i: cmake_force
@@ -1402,7 +1430,7 @@ CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/lv_extra.c.s: cmake_force
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/others/fragment/lv_fragment.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/others/fragment/lv_fragment.c.o: /home/merry/proyecto_cnc_hmi/lib/lvgl/src/extra/others/fragment/lv_fragment.c
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/others/fragment/lv_fragment.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/others/fragment/lv_fragment.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/others/fragment/lv_fragment.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/others/fragment/lv_fragment.c.o -MF CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/others/fragment/lv_fragment.c.o.d -o CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/others/fragment/lv_fragment.c.o -c /home/merry/proyecto_cnc_hmi/lib/lvgl/src/extra/others/fragment/lv_fragment.c
 
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/others/fragment/lv_fragment.c.i: cmake_force
@@ -1416,7 +1444,7 @@ CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/others/fragment/lv_fragment.c.s: cmake
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/others/fragment/lv_fragment_manager.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/others/fragment/lv_fragment_manager.c.o: /home/merry/proyecto_cnc_hmi/lib/lvgl/src/extra/others/fragment/lv_fragment_manager.c
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/others/fragment/lv_fragment_manager.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/others/fragment/lv_fragment_manager.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/others/fragment/lv_fragment_manager.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/others/fragment/lv_fragment_manager.c.o -MF CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/others/fragment/lv_fragment_manager.c.o.d -o CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/others/fragment/lv_fragment_manager.c.o -c /home/merry/proyecto_cnc_hmi/lib/lvgl/src/extra/others/fragment/lv_fragment_manager.c
 
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/others/fragment/lv_fragment_manager.c.i: cmake_force
@@ -1430,7 +1458,7 @@ CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/others/fragment/lv_fragment_manager.c.
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/others/gridnav/lv_gridnav.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/others/gridnav/lv_gridnav.c.o: /home/merry/proyecto_cnc_hmi/lib/lvgl/src/extra/others/gridnav/lv_gridnav.c
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/others/gridnav/lv_gridnav.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/others/gridnav/lv_gridnav.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/others/gridnav/lv_gridnav.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/others/gridnav/lv_gridnav.c.o -MF CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/others/gridnav/lv_gridnav.c.o.d -o CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/others/gridnav/lv_gridnav.c.o -c /home/merry/proyecto_cnc_hmi/lib/lvgl/src/extra/others/gridnav/lv_gridnav.c
 
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/others/gridnav/lv_gridnav.c.i: cmake_force
@@ -1444,7 +1472,7 @@ CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/others/gridnav/lv_gridnav.c.s: cmake_f
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/others/ime/lv_ime_pinyin.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/others/ime/lv_ime_pinyin.c.o: /home/merry/proyecto_cnc_hmi/lib/lvgl/src/extra/others/ime/lv_ime_pinyin.c
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/others/ime/lv_ime_pinyin.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/others/ime/lv_ime_pinyin.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/others/ime/lv_ime_pinyin.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/others/ime/lv_ime_pinyin.c.o -MF CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/others/ime/lv_ime_pinyin.c.o.d -o CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/others/ime/lv_ime_pinyin.c.o -c /home/merry/proyecto_cnc_hmi/lib/lvgl/src/extra/others/ime/lv_ime_pinyin.c
 
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/others/ime/lv_ime_pinyin.c.i: cmake_force
@@ -1458,7 +1486,7 @@ CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/others/ime/lv_ime_pinyin.c.s: cmake_fo
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/others/imgfont/lv_imgfont.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/others/imgfont/lv_imgfont.c.o: /home/merry/proyecto_cnc_hmi/lib/lvgl/src/extra/others/imgfont/lv_imgfont.c
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/others/imgfont/lv_imgfont.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/others/imgfont/lv_imgfont.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/others/imgfont/lv_imgfont.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/others/imgfont/lv_imgfont.c.o -MF CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/others/imgfont/lv_imgfont.c.o.d -o CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/others/imgfont/lv_imgfont.c.o -c /home/merry/proyecto_cnc_hmi/lib/lvgl/src/extra/others/imgfont/lv_imgfont.c
 
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/others/imgfont/lv_imgfont.c.i: cmake_force
@@ -1472,7 +1500,7 @@ CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/others/imgfont/lv_imgfont.c.s: cmake_f
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/others/monkey/lv_monkey.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/others/monkey/lv_monkey.c.o: /home/merry/proyecto_cnc_hmi/lib/lvgl/src/extra/others/monkey/lv_monkey.c
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/others/monkey/lv_monkey.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/others/monkey/lv_monkey.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/others/monkey/lv_monkey.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/others/monkey/lv_monkey.c.o -MF CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/others/monkey/lv_monkey.c.o.d -o CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/others/monkey/lv_monkey.c.o -c /home/merry/proyecto_cnc_hmi/lib/lvgl/src/extra/others/monkey/lv_monkey.c
 
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/others/monkey/lv_monkey.c.i: cmake_force
@@ -1486,7 +1514,7 @@ CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/others/monkey/lv_monkey.c.s: cmake_for
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/others/msg/lv_msg.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/others/msg/lv_msg.c.o: /home/merry/proyecto_cnc_hmi/lib/lvgl/src/extra/others/msg/lv_msg.c
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/others/msg/lv_msg.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/others/msg/lv_msg.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/others/msg/lv_msg.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/others/msg/lv_msg.c.o -MF CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/others/msg/lv_msg.c.o.d -o CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/others/msg/lv_msg.c.o -c /home/merry/proyecto_cnc_hmi/lib/lvgl/src/extra/others/msg/lv_msg.c
 
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/others/msg/lv_msg.c.i: cmake_force
@@ -1500,7 +1528,7 @@ CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/others/msg/lv_msg.c.s: cmake_force
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/others/snapshot/lv_snapshot.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/others/snapshot/lv_snapshot.c.o: /home/merry/proyecto_cnc_hmi/lib/lvgl/src/extra/others/snapshot/lv_snapshot.c
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/others/snapshot/lv_snapshot.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/others/snapshot/lv_snapshot.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/others/snapshot/lv_snapshot.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/others/snapshot/lv_snapshot.c.o -MF CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/others/snapshot/lv_snapshot.c.o.d -o CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/others/snapshot/lv_snapshot.c.o -c /home/merry/proyecto_cnc_hmi/lib/lvgl/src/extra/others/snapshot/lv_snapshot.c
 
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/others/snapshot/lv_snapshot.c.i: cmake_force
@@ -1514,7 +1542,7 @@ CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/others/snapshot/lv_snapshot.c.s: cmake
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/themes/basic/lv_theme_basic.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/themes/basic/lv_theme_basic.c.o: /home/merry/proyecto_cnc_hmi/lib/lvgl/src/extra/themes/basic/lv_theme_basic.c
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/themes/basic/lv_theme_basic.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/themes/basic/lv_theme_basic.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/themes/basic/lv_theme_basic.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/themes/basic/lv_theme_basic.c.o -MF CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/themes/basic/lv_theme_basic.c.o.d -o CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/themes/basic/lv_theme_basic.c.o -c /home/merry/proyecto_cnc_hmi/lib/lvgl/src/extra/themes/basic/lv_theme_basic.c
 
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/themes/basic/lv_theme_basic.c.i: cmake_force
@@ -1528,7 +1556,7 @@ CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/themes/basic/lv_theme_basic.c.s: cmake
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/themes/default/lv_theme_default.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/themes/default/lv_theme_default.c.o: /home/merry/proyecto_cnc_hmi/lib/lvgl/src/extra/themes/default/lv_theme_default.c
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/themes/default/lv_theme_default.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/themes/default/lv_theme_default.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_107) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/themes/default/lv_theme_default.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/themes/default/lv_theme_default.c.o -MF CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/themes/default/lv_theme_default.c.o.d -o CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/themes/default/lv_theme_default.c.o -c /home/merry/proyecto_cnc_hmi/lib/lvgl/src/extra/themes/default/lv_theme_default.c
 
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/themes/default/lv_theme_default.c.i: cmake_force
@@ -1542,7 +1570,7 @@ CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/themes/default/lv_theme_default.c.s: c
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/themes/mono/lv_theme_mono.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/themes/mono/lv_theme_mono.c.o: /home/merry/proyecto_cnc_hmi/lib/lvgl/src/extra/themes/mono/lv_theme_mono.c
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/themes/mono/lv_theme_mono.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/themes/mono/lv_theme_mono.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_108) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/themes/mono/lv_theme_mono.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/themes/mono/lv_theme_mono.c.o -MF CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/themes/mono/lv_theme_mono.c.o.d -o CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/themes/mono/lv_theme_mono.c.o -c /home/merry/proyecto_cnc_hmi/lib/lvgl/src/extra/themes/mono/lv_theme_mono.c
 
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/themes/mono/lv_theme_mono.c.i: cmake_force
@@ -1556,7 +1584,7 @@ CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/themes/mono/lv_theme_mono.c.s: cmake_f
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/widgets/animimg/lv_animimg.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/widgets/animimg/lv_animimg.c.o: /home/merry/proyecto_cnc_hmi/lib/lvgl/src/extra/widgets/animimg/lv_animimg.c
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/widgets/animimg/lv_animimg.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_107) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/widgets/animimg/lv_animimg.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_109) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/widgets/animimg/lv_animimg.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/widgets/animimg/lv_animimg.c.o -MF CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/widgets/animimg/lv_animimg.c.o.d -o CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/widgets/animimg/lv_animimg.c.o -c /home/merry/proyecto_cnc_hmi/lib/lvgl/src/extra/widgets/animimg/lv_animimg.c
 
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/widgets/animimg/lv_animimg.c.i: cmake_force
@@ -1570,7 +1598,7 @@ CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/widgets/animimg/lv_animimg.c.s: cmake_
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/widgets/calendar/lv_calendar.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/widgets/calendar/lv_calendar.c.o: /home/merry/proyecto_cnc_hmi/lib/lvgl/src/extra/widgets/calendar/lv_calendar.c
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/widgets/calendar/lv_calendar.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_108) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/widgets/calendar/lv_calendar.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_110) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/widgets/calendar/lv_calendar.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/widgets/calendar/lv_calendar.c.o -MF CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/widgets/calendar/lv_calendar.c.o.d -o CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/widgets/calendar/lv_calendar.c.o -c /home/merry/proyecto_cnc_hmi/lib/lvgl/src/extra/widgets/calendar/lv_calendar.c
 
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/widgets/calendar/lv_calendar.c.i: cmake_force
@@ -1584,7 +1612,7 @@ CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/widgets/calendar/lv_calendar.c.s: cmak
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/widgets/calendar/lv_calendar_header_arrow.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/widgets/calendar/lv_calendar_header_arrow.c.o: /home/merry/proyecto_cnc_hmi/lib/lvgl/src/extra/widgets/calendar/lv_calendar_header_arrow.c
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/widgets/calendar/lv_calendar_header_arrow.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_109) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/widgets/calendar/lv_calendar_header_arrow.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_111) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/widgets/calendar/lv_calendar_header_arrow.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/widgets/calendar/lv_calendar_header_arrow.c.o -MF CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/widgets/calendar/lv_calendar_header_arrow.c.o.d -o CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/widgets/calendar/lv_calendar_header_arrow.c.o -c /home/merry/proyecto_cnc_hmi/lib/lvgl/src/extra/widgets/calendar/lv_calendar_header_arrow.c
 
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/widgets/calendar/lv_calendar_header_arrow.c.i: cmake_force
@@ -1598,7 +1626,7 @@ CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/widgets/calendar/lv_calendar_header_ar
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/widgets/calendar/lv_calendar_header_dropdown.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/widgets/calendar/lv_calendar_header_dropdown.c.o: /home/merry/proyecto_cnc_hmi/lib/lvgl/src/extra/widgets/calendar/lv_calendar_header_dropdown.c
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/widgets/calendar/lv_calendar_header_dropdown.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_110) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/widgets/calendar/lv_calendar_header_dropdown.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_112) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/widgets/calendar/lv_calendar_header_dropdown.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/widgets/calendar/lv_calendar_header_dropdown.c.o -MF CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/widgets/calendar/lv_calendar_header_dropdown.c.o.d -o CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/widgets/calendar/lv_calendar_header_dropdown.c.o -c /home/merry/proyecto_cnc_hmi/lib/lvgl/src/extra/widgets/calendar/lv_calendar_header_dropdown.c
 
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/widgets/calendar/lv_calendar_header_dropdown.c.i: cmake_force
@@ -1612,7 +1640,7 @@ CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/widgets/calendar/lv_calendar_header_dr
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/widgets/chart/lv_chart.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/widgets/chart/lv_chart.c.o: /home/merry/proyecto_cnc_hmi/lib/lvgl/src/extra/widgets/chart/lv_chart.c
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/widgets/chart/lv_chart.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_111) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/widgets/chart/lv_chart.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_113) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/widgets/chart/lv_chart.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/widgets/chart/lv_chart.c.o -MF CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/widgets/chart/lv_chart.c.o.d -o CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/widgets/chart/lv_chart.c.o -c /home/merry/proyecto_cnc_hmi/lib/lvgl/src/extra/widgets/chart/lv_chart.c
 
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/widgets/chart/lv_chart.c.i: cmake_force
@@ -1626,7 +1654,7 @@ CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/widgets/chart/lv_chart.c.s: cmake_forc
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/widgets/colorwheel/lv_colorwheel.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/widgets/colorwheel/lv_colorwheel.c.o: /home/merry/proyecto_cnc_hmi/lib/lvgl/src/extra/widgets/colorwheel/lv_colorwheel.c
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/widgets/colorwheel/lv_colorwheel.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_112) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/widgets/colorwheel/lv_colorwheel.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_114) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/widgets/colorwheel/lv_colorwheel.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/widgets/colorwheel/lv_colorwheel.c.o -MF CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/widgets/colorwheel/lv_colorwheel.c.o.d -o CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/widgets/colorwheel/lv_colorwheel.c.o -c /home/merry/proyecto_cnc_hmi/lib/lvgl/src/extra/widgets/colorwheel/lv_colorwheel.c
 
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/widgets/colorwheel/lv_colorwheel.c.i: cmake_force
@@ -1640,7 +1668,7 @@ CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/widgets/colorwheel/lv_colorwheel.c.s: 
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/widgets/imgbtn/lv_imgbtn.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/widgets/imgbtn/lv_imgbtn.c.o: /home/merry/proyecto_cnc_hmi/lib/lvgl/src/extra/widgets/imgbtn/lv_imgbtn.c
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/widgets/imgbtn/lv_imgbtn.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_113) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/widgets/imgbtn/lv_imgbtn.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_115) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/widgets/imgbtn/lv_imgbtn.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/widgets/imgbtn/lv_imgbtn.c.o -MF CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/widgets/imgbtn/lv_imgbtn.c.o.d -o CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/widgets/imgbtn/lv_imgbtn.c.o -c /home/merry/proyecto_cnc_hmi/lib/lvgl/src/extra/widgets/imgbtn/lv_imgbtn.c
 
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/widgets/imgbtn/lv_imgbtn.c.i: cmake_force
@@ -1654,7 +1682,7 @@ CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/widgets/imgbtn/lv_imgbtn.c.s: cmake_fo
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/widgets/keyboard/lv_keyboard.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/widgets/keyboard/lv_keyboard.c.o: /home/merry/proyecto_cnc_hmi/lib/lvgl/src/extra/widgets/keyboard/lv_keyboard.c
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/widgets/keyboard/lv_keyboard.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_114) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/widgets/keyboard/lv_keyboard.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_116) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/widgets/keyboard/lv_keyboard.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/widgets/keyboard/lv_keyboard.c.o -MF CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/widgets/keyboard/lv_keyboard.c.o.d -o CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/widgets/keyboard/lv_keyboard.c.o -c /home/merry/proyecto_cnc_hmi/lib/lvgl/src/extra/widgets/keyboard/lv_keyboard.c
 
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/widgets/keyboard/lv_keyboard.c.i: cmake_force
@@ -1668,7 +1696,7 @@ CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/widgets/keyboard/lv_keyboard.c.s: cmak
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/widgets/led/lv_led.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/widgets/led/lv_led.c.o: /home/merry/proyecto_cnc_hmi/lib/lvgl/src/extra/widgets/led/lv_led.c
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/widgets/led/lv_led.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_115) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/widgets/led/lv_led.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_117) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/widgets/led/lv_led.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/widgets/led/lv_led.c.o -MF CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/widgets/led/lv_led.c.o.d -o CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/widgets/led/lv_led.c.o -c /home/merry/proyecto_cnc_hmi/lib/lvgl/src/extra/widgets/led/lv_led.c
 
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/widgets/led/lv_led.c.i: cmake_force
@@ -1682,7 +1710,7 @@ CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/widgets/led/lv_led.c.s: cmake_force
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/widgets/list/lv_list.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/widgets/list/lv_list.c.o: /home/merry/proyecto_cnc_hmi/lib/lvgl/src/extra/widgets/list/lv_list.c
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/widgets/list/lv_list.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_116) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/widgets/list/lv_list.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_118) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/widgets/list/lv_list.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/widgets/list/lv_list.c.o -MF CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/widgets/list/lv_list.c.o.d -o CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/widgets/list/lv_list.c.o -c /home/merry/proyecto_cnc_hmi/lib/lvgl/src/extra/widgets/list/lv_list.c
 
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/widgets/list/lv_list.c.i: cmake_force
@@ -1696,7 +1724,7 @@ CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/widgets/list/lv_list.c.s: cmake_force
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/widgets/menu/lv_menu.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/widgets/menu/lv_menu.c.o: /home/merry/proyecto_cnc_hmi/lib/lvgl/src/extra/widgets/menu/lv_menu.c
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/widgets/menu/lv_menu.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_117) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/widgets/menu/lv_menu.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_119) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/widgets/menu/lv_menu.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/widgets/menu/lv_menu.c.o -MF CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/widgets/menu/lv_menu.c.o.d -o CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/widgets/menu/lv_menu.c.o -c /home/merry/proyecto_cnc_hmi/lib/lvgl/src/extra/widgets/menu/lv_menu.c
 
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/widgets/menu/lv_menu.c.i: cmake_force
@@ -1710,7 +1738,7 @@ CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/widgets/menu/lv_menu.c.s: cmake_force
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/widgets/meter/lv_meter.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/widgets/meter/lv_meter.c.o: /home/merry/proyecto_cnc_hmi/lib/lvgl/src/extra/widgets/meter/lv_meter.c
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/widgets/meter/lv_meter.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_118) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/widgets/meter/lv_meter.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_120) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/widgets/meter/lv_meter.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/widgets/meter/lv_meter.c.o -MF CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/widgets/meter/lv_meter.c.o.d -o CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/widgets/meter/lv_meter.c.o -c /home/merry/proyecto_cnc_hmi/lib/lvgl/src/extra/widgets/meter/lv_meter.c
 
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/widgets/meter/lv_meter.c.i: cmake_force
@@ -1724,7 +1752,7 @@ CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/widgets/meter/lv_meter.c.s: cmake_forc
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/widgets/msgbox/lv_msgbox.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/widgets/msgbox/lv_msgbox.c.o: /home/merry/proyecto_cnc_hmi/lib/lvgl/src/extra/widgets/msgbox/lv_msgbox.c
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/widgets/msgbox/lv_msgbox.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_119) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/widgets/msgbox/lv_msgbox.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_121) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/widgets/msgbox/lv_msgbox.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/widgets/msgbox/lv_msgbox.c.o -MF CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/widgets/msgbox/lv_msgbox.c.o.d -o CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/widgets/msgbox/lv_msgbox.c.o -c /home/merry/proyecto_cnc_hmi/lib/lvgl/src/extra/widgets/msgbox/lv_msgbox.c
 
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/widgets/msgbox/lv_msgbox.c.i: cmake_force
@@ -1738,7 +1766,7 @@ CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/widgets/msgbox/lv_msgbox.c.s: cmake_fo
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/widgets/span/lv_span.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/widgets/span/lv_span.c.o: /home/merry/proyecto_cnc_hmi/lib/lvgl/src/extra/widgets/span/lv_span.c
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/widgets/span/lv_span.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_120) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/widgets/span/lv_span.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_122) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/widgets/span/lv_span.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/widgets/span/lv_span.c.o -MF CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/widgets/span/lv_span.c.o.d -o CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/widgets/span/lv_span.c.o -c /home/merry/proyecto_cnc_hmi/lib/lvgl/src/extra/widgets/span/lv_span.c
 
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/widgets/span/lv_span.c.i: cmake_force
@@ -1752,7 +1780,7 @@ CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/widgets/span/lv_span.c.s: cmake_force
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/widgets/spinbox/lv_spinbox.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/widgets/spinbox/lv_spinbox.c.o: /home/merry/proyecto_cnc_hmi/lib/lvgl/src/extra/widgets/spinbox/lv_spinbox.c
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/widgets/spinbox/lv_spinbox.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_121) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/widgets/spinbox/lv_spinbox.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_123) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/widgets/spinbox/lv_spinbox.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/widgets/spinbox/lv_spinbox.c.o -MF CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/widgets/spinbox/lv_spinbox.c.o.d -o CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/widgets/spinbox/lv_spinbox.c.o -c /home/merry/proyecto_cnc_hmi/lib/lvgl/src/extra/widgets/spinbox/lv_spinbox.c
 
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/widgets/spinbox/lv_spinbox.c.i: cmake_force
@@ -1766,7 +1794,7 @@ CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/widgets/spinbox/lv_spinbox.c.s: cmake_
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/widgets/spinner/lv_spinner.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/widgets/spinner/lv_spinner.c.o: /home/merry/proyecto_cnc_hmi/lib/lvgl/src/extra/widgets/spinner/lv_spinner.c
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/widgets/spinner/lv_spinner.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_122) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/widgets/spinner/lv_spinner.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_124) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/widgets/spinner/lv_spinner.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/widgets/spinner/lv_spinner.c.o -MF CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/widgets/spinner/lv_spinner.c.o.d -o CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/widgets/spinner/lv_spinner.c.o -c /home/merry/proyecto_cnc_hmi/lib/lvgl/src/extra/widgets/spinner/lv_spinner.c
 
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/widgets/spinner/lv_spinner.c.i: cmake_force
@@ -1780,7 +1808,7 @@ CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/widgets/spinner/lv_spinner.c.s: cmake_
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/widgets/tabview/lv_tabview.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/widgets/tabview/lv_tabview.c.o: /home/merry/proyecto_cnc_hmi/lib/lvgl/src/extra/widgets/tabview/lv_tabview.c
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/widgets/tabview/lv_tabview.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_123) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/widgets/tabview/lv_tabview.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_125) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/widgets/tabview/lv_tabview.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/widgets/tabview/lv_tabview.c.o -MF CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/widgets/tabview/lv_tabview.c.o.d -o CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/widgets/tabview/lv_tabview.c.o -c /home/merry/proyecto_cnc_hmi/lib/lvgl/src/extra/widgets/tabview/lv_tabview.c
 
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/widgets/tabview/lv_tabview.c.i: cmake_force
@@ -1794,7 +1822,7 @@ CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/widgets/tabview/lv_tabview.c.s: cmake_
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/widgets/tileview/lv_tileview.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/widgets/tileview/lv_tileview.c.o: /home/merry/proyecto_cnc_hmi/lib/lvgl/src/extra/widgets/tileview/lv_tileview.c
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/widgets/tileview/lv_tileview.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_124) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/widgets/tileview/lv_tileview.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_126) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/widgets/tileview/lv_tileview.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/widgets/tileview/lv_tileview.c.o -MF CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/widgets/tileview/lv_tileview.c.o.d -o CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/widgets/tileview/lv_tileview.c.o -c /home/merry/proyecto_cnc_hmi/lib/lvgl/src/extra/widgets/tileview/lv_tileview.c
 
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/widgets/tileview/lv_tileview.c.i: cmake_force
@@ -1808,7 +1836,7 @@ CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/widgets/tileview/lv_tileview.c.s: cmak
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/widgets/win/lv_win.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/widgets/win/lv_win.c.o: /home/merry/proyecto_cnc_hmi/lib/lvgl/src/extra/widgets/win/lv_win.c
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/widgets/win/lv_win.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_125) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/widgets/win/lv_win.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_127) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/widgets/win/lv_win.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/widgets/win/lv_win.c.o -MF CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/widgets/win/lv_win.c.o.d -o CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/widgets/win/lv_win.c.o -c /home/merry/proyecto_cnc_hmi/lib/lvgl/src/extra/widgets/win/lv_win.c
 
 CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/widgets/win/lv_win.c.i: cmake_force
@@ -1822,7 +1850,7 @@ CMakeFiles/cnc_app.dir/lib/lvgl/src/extra/widgets/win/lv_win.c.s: cmake_force
 CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font.c.o: /home/merry/proyecto_cnc_hmi/lib/lvgl/src/font/lv_font.c
 CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_126) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_128) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font.c.o -MF CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font.c.o.d -o CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font.c.o -c /home/merry/proyecto_cnc_hmi/lib/lvgl/src/font/lv_font.c
 
 CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font.c.i: cmake_force
@@ -1836,7 +1864,7 @@ CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font.c.s: cmake_force
 CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_dejavu_16_persian_hebrew.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_dejavu_16_persian_hebrew.c.o: /home/merry/proyecto_cnc_hmi/lib/lvgl/src/font/lv_font_dejavu_16_persian_hebrew.c
 CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_dejavu_16_persian_hebrew.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_127) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_dejavu_16_persian_hebrew.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_129) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_dejavu_16_persian_hebrew.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_dejavu_16_persian_hebrew.c.o -MF CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_dejavu_16_persian_hebrew.c.o.d -o CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_dejavu_16_persian_hebrew.c.o -c /home/merry/proyecto_cnc_hmi/lib/lvgl/src/font/lv_font_dejavu_16_persian_hebrew.c
 
 CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_dejavu_16_persian_hebrew.c.i: cmake_force
@@ -1850,7 +1878,7 @@ CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_dejavu_16_persian_hebrew.c.s: c
 CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_fmt_txt.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_fmt_txt.c.o: /home/merry/proyecto_cnc_hmi/lib/lvgl/src/font/lv_font_fmt_txt.c
 CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_fmt_txt.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_128) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_fmt_txt.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_130) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_fmt_txt.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_fmt_txt.c.o -MF CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_fmt_txt.c.o.d -o CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_fmt_txt.c.o -c /home/merry/proyecto_cnc_hmi/lib/lvgl/src/font/lv_font_fmt_txt.c
 
 CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_fmt_txt.c.i: cmake_force
@@ -1864,7 +1892,7 @@ CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_fmt_txt.c.s: cmake_force
 CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_loader.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_loader.c.o: /home/merry/proyecto_cnc_hmi/lib/lvgl/src/font/lv_font_loader.c
 CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_loader.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_129) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_loader.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_131) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_loader.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_loader.c.o -MF CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_loader.c.o.d -o CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_loader.c.o -c /home/merry/proyecto_cnc_hmi/lib/lvgl/src/font/lv_font_loader.c
 
 CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_loader.c.i: cmake_force
@@ -1878,7 +1906,7 @@ CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_loader.c.s: cmake_force
 CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_10.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_10.c.o: /home/merry/proyecto_cnc_hmi/lib/lvgl/src/font/lv_font_montserrat_10.c
 CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_10.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_130) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_10.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_132) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_10.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_10.c.o -MF CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_10.c.o.d -o CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_10.c.o -c /home/merry/proyecto_cnc_hmi/lib/lvgl/src/font/lv_font_montserrat_10.c
 
 CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_10.c.i: cmake_force
@@ -1892,7 +1920,7 @@ CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_10.c.s: cmake_force
 CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_12.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_12.c.o: /home/merry/proyecto_cnc_hmi/lib/lvgl/src/font/lv_font_montserrat_12.c
 CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_12.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_131) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_12.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_133) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_12.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_12.c.o -MF CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_12.c.o.d -o CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_12.c.o -c /home/merry/proyecto_cnc_hmi/lib/lvgl/src/font/lv_font_montserrat_12.c
 
 CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_12.c.i: cmake_force
@@ -1906,7 +1934,7 @@ CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_12.c.s: cmake_force
 CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_12_subpx.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_12_subpx.c.o: /home/merry/proyecto_cnc_hmi/lib/lvgl/src/font/lv_font_montserrat_12_subpx.c
 CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_12_subpx.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_132) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_12_subpx.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_134) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_12_subpx.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_12_subpx.c.o -MF CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_12_subpx.c.o.d -o CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_12_subpx.c.o -c /home/merry/proyecto_cnc_hmi/lib/lvgl/src/font/lv_font_montserrat_12_subpx.c
 
 CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_12_subpx.c.i: cmake_force
@@ -1920,7 +1948,7 @@ CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_12_subpx.c.s: cmake_
 CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_14.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_14.c.o: /home/merry/proyecto_cnc_hmi/lib/lvgl/src/font/lv_font_montserrat_14.c
 CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_14.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_133) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_14.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_135) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_14.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_14.c.o -MF CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_14.c.o.d -o CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_14.c.o -c /home/merry/proyecto_cnc_hmi/lib/lvgl/src/font/lv_font_montserrat_14.c
 
 CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_14.c.i: cmake_force
@@ -1934,7 +1962,7 @@ CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_14.c.s: cmake_force
 CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_16.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_16.c.o: /home/merry/proyecto_cnc_hmi/lib/lvgl/src/font/lv_font_montserrat_16.c
 CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_16.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_134) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_16.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_136) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_16.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_16.c.o -MF CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_16.c.o.d -o CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_16.c.o -c /home/merry/proyecto_cnc_hmi/lib/lvgl/src/font/lv_font_montserrat_16.c
 
 CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_16.c.i: cmake_force
@@ -1948,7 +1976,7 @@ CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_16.c.s: cmake_force
 CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_18.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_18.c.o: /home/merry/proyecto_cnc_hmi/lib/lvgl/src/font/lv_font_montserrat_18.c
 CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_18.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_135) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_18.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_137) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_18.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_18.c.o -MF CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_18.c.o.d -o CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_18.c.o -c /home/merry/proyecto_cnc_hmi/lib/lvgl/src/font/lv_font_montserrat_18.c
 
 CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_18.c.i: cmake_force
@@ -1962,7 +1990,7 @@ CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_18.c.s: cmake_force
 CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_20.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_20.c.o: /home/merry/proyecto_cnc_hmi/lib/lvgl/src/font/lv_font_montserrat_20.c
 CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_20.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_136) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_20.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_138) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_20.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_20.c.o -MF CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_20.c.o.d -o CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_20.c.o -c /home/merry/proyecto_cnc_hmi/lib/lvgl/src/font/lv_font_montserrat_20.c
 
 CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_20.c.i: cmake_force
@@ -1976,7 +2004,7 @@ CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_20.c.s: cmake_force
 CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_22.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_22.c.o: /home/merry/proyecto_cnc_hmi/lib/lvgl/src/font/lv_font_montserrat_22.c
 CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_22.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_137) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_22.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_139) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_22.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_22.c.o -MF CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_22.c.o.d -o CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_22.c.o -c /home/merry/proyecto_cnc_hmi/lib/lvgl/src/font/lv_font_montserrat_22.c
 
 CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_22.c.i: cmake_force
@@ -1990,7 +2018,7 @@ CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_22.c.s: cmake_force
 CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_24.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_24.c.o: /home/merry/proyecto_cnc_hmi/lib/lvgl/src/font/lv_font_montserrat_24.c
 CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_24.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_138) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_24.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_140) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_24.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_24.c.o -MF CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_24.c.o.d -o CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_24.c.o -c /home/merry/proyecto_cnc_hmi/lib/lvgl/src/font/lv_font_montserrat_24.c
 
 CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_24.c.i: cmake_force
@@ -2004,7 +2032,7 @@ CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_24.c.s: cmake_force
 CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_26.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_26.c.o: /home/merry/proyecto_cnc_hmi/lib/lvgl/src/font/lv_font_montserrat_26.c
 CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_26.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_139) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_26.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_141) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_26.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_26.c.o -MF CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_26.c.o.d -o CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_26.c.o -c /home/merry/proyecto_cnc_hmi/lib/lvgl/src/font/lv_font_montserrat_26.c
 
 CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_26.c.i: cmake_force
@@ -2018,7 +2046,7 @@ CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_26.c.s: cmake_force
 CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_28.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_28.c.o: /home/merry/proyecto_cnc_hmi/lib/lvgl/src/font/lv_font_montserrat_28.c
 CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_28.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_140) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_28.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_142) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_28.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_28.c.o -MF CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_28.c.o.d -o CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_28.c.o -c /home/merry/proyecto_cnc_hmi/lib/lvgl/src/font/lv_font_montserrat_28.c
 
 CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_28.c.i: cmake_force
@@ -2032,7 +2060,7 @@ CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_28.c.s: cmake_force
 CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_28_compressed.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_28_compressed.c.o: /home/merry/proyecto_cnc_hmi/lib/lvgl/src/font/lv_font_montserrat_28_compressed.c
 CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_28_compressed.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_141) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_28_compressed.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_143) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_28_compressed.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_28_compressed.c.o -MF CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_28_compressed.c.o.d -o CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_28_compressed.c.o -c /home/merry/proyecto_cnc_hmi/lib/lvgl/src/font/lv_font_montserrat_28_compressed.c
 
 CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_28_compressed.c.i: cmake_force
@@ -2046,7 +2074,7 @@ CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_28_compressed.c.s: c
 CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_30.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_30.c.o: /home/merry/proyecto_cnc_hmi/lib/lvgl/src/font/lv_font_montserrat_30.c
 CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_30.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_142) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_30.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_144) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_30.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_30.c.o -MF CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_30.c.o.d -o CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_30.c.o -c /home/merry/proyecto_cnc_hmi/lib/lvgl/src/font/lv_font_montserrat_30.c
 
 CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_30.c.i: cmake_force
@@ -2060,7 +2088,7 @@ CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_30.c.s: cmake_force
 CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_32.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_32.c.o: /home/merry/proyecto_cnc_hmi/lib/lvgl/src/font/lv_font_montserrat_32.c
 CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_32.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_143) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_32.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_145) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_32.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_32.c.o -MF CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_32.c.o.d -o CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_32.c.o -c /home/merry/proyecto_cnc_hmi/lib/lvgl/src/font/lv_font_montserrat_32.c
 
 CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_32.c.i: cmake_force
@@ -2074,7 +2102,7 @@ CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_32.c.s: cmake_force
 CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_34.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_34.c.o: /home/merry/proyecto_cnc_hmi/lib/lvgl/src/font/lv_font_montserrat_34.c
 CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_34.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_144) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_34.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_146) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_34.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_34.c.o -MF CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_34.c.o.d -o CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_34.c.o -c /home/merry/proyecto_cnc_hmi/lib/lvgl/src/font/lv_font_montserrat_34.c
 
 CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_34.c.i: cmake_force
@@ -2088,7 +2116,7 @@ CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_34.c.s: cmake_force
 CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_36.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_36.c.o: /home/merry/proyecto_cnc_hmi/lib/lvgl/src/font/lv_font_montserrat_36.c
 CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_36.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_145) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_36.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_147) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_36.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_36.c.o -MF CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_36.c.o.d -o CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_36.c.o -c /home/merry/proyecto_cnc_hmi/lib/lvgl/src/font/lv_font_montserrat_36.c
 
 CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_36.c.i: cmake_force
@@ -2102,7 +2130,7 @@ CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_36.c.s: cmake_force
 CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_38.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_38.c.o: /home/merry/proyecto_cnc_hmi/lib/lvgl/src/font/lv_font_montserrat_38.c
 CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_38.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_146) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_38.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_148) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_38.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_38.c.o -MF CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_38.c.o.d -o CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_38.c.o -c /home/merry/proyecto_cnc_hmi/lib/lvgl/src/font/lv_font_montserrat_38.c
 
 CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_38.c.i: cmake_force
@@ -2116,7 +2144,7 @@ CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_38.c.s: cmake_force
 CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_40.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_40.c.o: /home/merry/proyecto_cnc_hmi/lib/lvgl/src/font/lv_font_montserrat_40.c
 CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_40.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_147) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_40.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_149) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_40.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_40.c.o -MF CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_40.c.o.d -o CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_40.c.o -c /home/merry/proyecto_cnc_hmi/lib/lvgl/src/font/lv_font_montserrat_40.c
 
 CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_40.c.i: cmake_force
@@ -2130,7 +2158,7 @@ CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_40.c.s: cmake_force
 CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_42.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_42.c.o: /home/merry/proyecto_cnc_hmi/lib/lvgl/src/font/lv_font_montserrat_42.c
 CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_42.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_148) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_42.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_150) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_42.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_42.c.o -MF CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_42.c.o.d -o CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_42.c.o -c /home/merry/proyecto_cnc_hmi/lib/lvgl/src/font/lv_font_montserrat_42.c
 
 CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_42.c.i: cmake_force
@@ -2144,7 +2172,7 @@ CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_42.c.s: cmake_force
 CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_44.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_44.c.o: /home/merry/proyecto_cnc_hmi/lib/lvgl/src/font/lv_font_montserrat_44.c
 CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_44.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_149) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_44.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_151) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_44.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_44.c.o -MF CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_44.c.o.d -o CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_44.c.o -c /home/merry/proyecto_cnc_hmi/lib/lvgl/src/font/lv_font_montserrat_44.c
 
 CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_44.c.i: cmake_force
@@ -2158,7 +2186,7 @@ CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_44.c.s: cmake_force
 CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_46.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_46.c.o: /home/merry/proyecto_cnc_hmi/lib/lvgl/src/font/lv_font_montserrat_46.c
 CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_46.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_150) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_46.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_152) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_46.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_46.c.o -MF CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_46.c.o.d -o CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_46.c.o -c /home/merry/proyecto_cnc_hmi/lib/lvgl/src/font/lv_font_montserrat_46.c
 
 CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_46.c.i: cmake_force
@@ -2172,7 +2200,7 @@ CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_46.c.s: cmake_force
 CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_48.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_48.c.o: /home/merry/proyecto_cnc_hmi/lib/lvgl/src/font/lv_font_montserrat_48.c
 CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_48.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_151) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_48.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_153) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_48.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_48.c.o -MF CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_48.c.o.d -o CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_48.c.o -c /home/merry/proyecto_cnc_hmi/lib/lvgl/src/font/lv_font_montserrat_48.c
 
 CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_48.c.i: cmake_force
@@ -2186,7 +2214,7 @@ CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_48.c.s: cmake_force
 CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_8.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_8.c.o: /home/merry/proyecto_cnc_hmi/lib/lvgl/src/font/lv_font_montserrat_8.c
 CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_8.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_152) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_8.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_154) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_8.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_8.c.o -MF CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_8.c.o.d -o CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_8.c.o -c /home/merry/proyecto_cnc_hmi/lib/lvgl/src/font/lv_font_montserrat_8.c
 
 CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_8.c.i: cmake_force
@@ -2200,7 +2228,7 @@ CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_montserrat_8.c.s: cmake_force
 CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_simsun_16_cjk.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_simsun_16_cjk.c.o: /home/merry/proyecto_cnc_hmi/lib/lvgl/src/font/lv_font_simsun_16_cjk.c
 CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_simsun_16_cjk.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_153) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_simsun_16_cjk.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_155) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_simsun_16_cjk.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_simsun_16_cjk.c.o -MF CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_simsun_16_cjk.c.o.d -o CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_simsun_16_cjk.c.o -c /home/merry/proyecto_cnc_hmi/lib/lvgl/src/font/lv_font_simsun_16_cjk.c
 
 CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_simsun_16_cjk.c.i: cmake_force
@@ -2214,7 +2242,7 @@ CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_simsun_16_cjk.c.s: cmake_force
 CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_unscii_16.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_unscii_16.c.o: /home/merry/proyecto_cnc_hmi/lib/lvgl/src/font/lv_font_unscii_16.c
 CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_unscii_16.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_154) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_unscii_16.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_156) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_unscii_16.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_unscii_16.c.o -MF CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_unscii_16.c.o.d -o CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_unscii_16.c.o -c /home/merry/proyecto_cnc_hmi/lib/lvgl/src/font/lv_font_unscii_16.c
 
 CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_unscii_16.c.i: cmake_force
@@ -2228,7 +2256,7 @@ CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_unscii_16.c.s: cmake_force
 CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_unscii_8.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_unscii_8.c.o: /home/merry/proyecto_cnc_hmi/lib/lvgl/src/font/lv_font_unscii_8.c
 CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_unscii_8.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_155) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_unscii_8.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_157) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_unscii_8.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_unscii_8.c.o -MF CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_unscii_8.c.o.d -o CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_unscii_8.c.o -c /home/merry/proyecto_cnc_hmi/lib/lvgl/src/font/lv_font_unscii_8.c
 
 CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_unscii_8.c.i: cmake_force
@@ -2242,7 +2270,7 @@ CMakeFiles/cnc_app.dir/lib/lvgl/src/font/lv_font_unscii_8.c.s: cmake_force
 CMakeFiles/cnc_app.dir/lib/lvgl/src/hal/lv_hal_disp.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lvgl/src/hal/lv_hal_disp.c.o: /home/merry/proyecto_cnc_hmi/lib/lvgl/src/hal/lv_hal_disp.c
 CMakeFiles/cnc_app.dir/lib/lvgl/src/hal/lv_hal_disp.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_156) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/hal/lv_hal_disp.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_158) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/hal/lv_hal_disp.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lvgl/src/hal/lv_hal_disp.c.o -MF CMakeFiles/cnc_app.dir/lib/lvgl/src/hal/lv_hal_disp.c.o.d -o CMakeFiles/cnc_app.dir/lib/lvgl/src/hal/lv_hal_disp.c.o -c /home/merry/proyecto_cnc_hmi/lib/lvgl/src/hal/lv_hal_disp.c
 
 CMakeFiles/cnc_app.dir/lib/lvgl/src/hal/lv_hal_disp.c.i: cmake_force
@@ -2256,7 +2284,7 @@ CMakeFiles/cnc_app.dir/lib/lvgl/src/hal/lv_hal_disp.c.s: cmake_force
 CMakeFiles/cnc_app.dir/lib/lvgl/src/hal/lv_hal_indev.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lvgl/src/hal/lv_hal_indev.c.o: /home/merry/proyecto_cnc_hmi/lib/lvgl/src/hal/lv_hal_indev.c
 CMakeFiles/cnc_app.dir/lib/lvgl/src/hal/lv_hal_indev.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_157) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/hal/lv_hal_indev.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_159) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/hal/lv_hal_indev.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lvgl/src/hal/lv_hal_indev.c.o -MF CMakeFiles/cnc_app.dir/lib/lvgl/src/hal/lv_hal_indev.c.o.d -o CMakeFiles/cnc_app.dir/lib/lvgl/src/hal/lv_hal_indev.c.o -c /home/merry/proyecto_cnc_hmi/lib/lvgl/src/hal/lv_hal_indev.c
 
 CMakeFiles/cnc_app.dir/lib/lvgl/src/hal/lv_hal_indev.c.i: cmake_force
@@ -2270,7 +2298,7 @@ CMakeFiles/cnc_app.dir/lib/lvgl/src/hal/lv_hal_indev.c.s: cmake_force
 CMakeFiles/cnc_app.dir/lib/lvgl/src/hal/lv_hal_tick.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lvgl/src/hal/lv_hal_tick.c.o: /home/merry/proyecto_cnc_hmi/lib/lvgl/src/hal/lv_hal_tick.c
 CMakeFiles/cnc_app.dir/lib/lvgl/src/hal/lv_hal_tick.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_158) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/hal/lv_hal_tick.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_160) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/hal/lv_hal_tick.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lvgl/src/hal/lv_hal_tick.c.o -MF CMakeFiles/cnc_app.dir/lib/lvgl/src/hal/lv_hal_tick.c.o.d -o CMakeFiles/cnc_app.dir/lib/lvgl/src/hal/lv_hal_tick.c.o -c /home/merry/proyecto_cnc_hmi/lib/lvgl/src/hal/lv_hal_tick.c
 
 CMakeFiles/cnc_app.dir/lib/lvgl/src/hal/lv_hal_tick.c.i: cmake_force
@@ -2284,7 +2312,7 @@ CMakeFiles/cnc_app.dir/lib/lvgl/src/hal/lv_hal_tick.c.s: cmake_force
 CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_anim.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_anim.c.o: /home/merry/proyecto_cnc_hmi/lib/lvgl/src/misc/lv_anim.c
 CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_anim.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_159) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_anim.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_161) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_anim.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_anim.c.o -MF CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_anim.c.o.d -o CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_anim.c.o -c /home/merry/proyecto_cnc_hmi/lib/lvgl/src/misc/lv_anim.c
 
 CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_anim.c.i: cmake_force
@@ -2298,7 +2326,7 @@ CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_anim.c.s: cmake_force
 CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_anim_timeline.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_anim_timeline.c.o: /home/merry/proyecto_cnc_hmi/lib/lvgl/src/misc/lv_anim_timeline.c
 CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_anim_timeline.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_160) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_anim_timeline.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_162) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_anim_timeline.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_anim_timeline.c.o -MF CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_anim_timeline.c.o.d -o CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_anim_timeline.c.o -c /home/merry/proyecto_cnc_hmi/lib/lvgl/src/misc/lv_anim_timeline.c
 
 CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_anim_timeline.c.i: cmake_force
@@ -2312,7 +2340,7 @@ CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_anim_timeline.c.s: cmake_force
 CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_area.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_area.c.o: /home/merry/proyecto_cnc_hmi/lib/lvgl/src/misc/lv_area.c
 CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_area.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_161) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_area.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_163) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_area.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_area.c.o -MF CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_area.c.o.d -o CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_area.c.o -c /home/merry/proyecto_cnc_hmi/lib/lvgl/src/misc/lv_area.c
 
 CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_area.c.i: cmake_force
@@ -2326,7 +2354,7 @@ CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_area.c.s: cmake_force
 CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_async.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_async.c.o: /home/merry/proyecto_cnc_hmi/lib/lvgl/src/misc/lv_async.c
 CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_async.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_162) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_async.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_164) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_async.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_async.c.o -MF CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_async.c.o.d -o CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_async.c.o -c /home/merry/proyecto_cnc_hmi/lib/lvgl/src/misc/lv_async.c
 
 CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_async.c.i: cmake_force
@@ -2340,7 +2368,7 @@ CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_async.c.s: cmake_force
 CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_bidi.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_bidi.c.o: /home/merry/proyecto_cnc_hmi/lib/lvgl/src/misc/lv_bidi.c
 CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_bidi.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_163) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_bidi.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_165) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_bidi.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_bidi.c.o -MF CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_bidi.c.o.d -o CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_bidi.c.o -c /home/merry/proyecto_cnc_hmi/lib/lvgl/src/misc/lv_bidi.c
 
 CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_bidi.c.i: cmake_force
@@ -2354,7 +2382,7 @@ CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_bidi.c.s: cmake_force
 CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_color.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_color.c.o: /home/merry/proyecto_cnc_hmi/lib/lvgl/src/misc/lv_color.c
 CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_color.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_164) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_color.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_166) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_color.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_color.c.o -MF CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_color.c.o.d -o CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_color.c.o -c /home/merry/proyecto_cnc_hmi/lib/lvgl/src/misc/lv_color.c
 
 CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_color.c.i: cmake_force
@@ -2368,7 +2396,7 @@ CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_color.c.s: cmake_force
 CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_fs.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_fs.c.o: /home/merry/proyecto_cnc_hmi/lib/lvgl/src/misc/lv_fs.c
 CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_fs.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_165) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_fs.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_167) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_fs.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_fs.c.o -MF CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_fs.c.o.d -o CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_fs.c.o -c /home/merry/proyecto_cnc_hmi/lib/lvgl/src/misc/lv_fs.c
 
 CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_fs.c.i: cmake_force
@@ -2382,7 +2410,7 @@ CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_fs.c.s: cmake_force
 CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_gc.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_gc.c.o: /home/merry/proyecto_cnc_hmi/lib/lvgl/src/misc/lv_gc.c
 CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_gc.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_166) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_gc.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_168) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_gc.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_gc.c.o -MF CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_gc.c.o.d -o CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_gc.c.o -c /home/merry/proyecto_cnc_hmi/lib/lvgl/src/misc/lv_gc.c
 
 CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_gc.c.i: cmake_force
@@ -2396,7 +2424,7 @@ CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_gc.c.s: cmake_force
 CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_ll.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_ll.c.o: /home/merry/proyecto_cnc_hmi/lib/lvgl/src/misc/lv_ll.c
 CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_ll.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_167) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_ll.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_169) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_ll.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_ll.c.o -MF CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_ll.c.o.d -o CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_ll.c.o -c /home/merry/proyecto_cnc_hmi/lib/lvgl/src/misc/lv_ll.c
 
 CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_ll.c.i: cmake_force
@@ -2410,7 +2438,7 @@ CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_ll.c.s: cmake_force
 CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_log.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_log.c.o: /home/merry/proyecto_cnc_hmi/lib/lvgl/src/misc/lv_log.c
 CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_log.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_168) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_log.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_170) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_log.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_log.c.o -MF CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_log.c.o.d -o CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_log.c.o -c /home/merry/proyecto_cnc_hmi/lib/lvgl/src/misc/lv_log.c
 
 CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_log.c.i: cmake_force
@@ -2424,7 +2452,7 @@ CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_log.c.s: cmake_force
 CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_lru.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_lru.c.o: /home/merry/proyecto_cnc_hmi/lib/lvgl/src/misc/lv_lru.c
 CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_lru.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_169) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_lru.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_171) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_lru.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_lru.c.o -MF CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_lru.c.o.d -o CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_lru.c.o -c /home/merry/proyecto_cnc_hmi/lib/lvgl/src/misc/lv_lru.c
 
 CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_lru.c.i: cmake_force
@@ -2438,7 +2466,7 @@ CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_lru.c.s: cmake_force
 CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_math.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_math.c.o: /home/merry/proyecto_cnc_hmi/lib/lvgl/src/misc/lv_math.c
 CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_math.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_170) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_math.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_172) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_math.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_math.c.o -MF CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_math.c.o.d -o CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_math.c.o -c /home/merry/proyecto_cnc_hmi/lib/lvgl/src/misc/lv_math.c
 
 CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_math.c.i: cmake_force
@@ -2452,7 +2480,7 @@ CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_math.c.s: cmake_force
 CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_mem.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_mem.c.o: /home/merry/proyecto_cnc_hmi/lib/lvgl/src/misc/lv_mem.c
 CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_mem.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_171) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_mem.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_173) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_mem.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_mem.c.o -MF CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_mem.c.o.d -o CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_mem.c.o -c /home/merry/proyecto_cnc_hmi/lib/lvgl/src/misc/lv_mem.c
 
 CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_mem.c.i: cmake_force
@@ -2466,7 +2494,7 @@ CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_mem.c.s: cmake_force
 CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_printf.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_printf.c.o: /home/merry/proyecto_cnc_hmi/lib/lvgl/src/misc/lv_printf.c
 CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_printf.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_172) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_printf.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_174) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_printf.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_printf.c.o -MF CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_printf.c.o.d -o CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_printf.c.o -c /home/merry/proyecto_cnc_hmi/lib/lvgl/src/misc/lv_printf.c
 
 CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_printf.c.i: cmake_force
@@ -2480,7 +2508,7 @@ CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_printf.c.s: cmake_force
 CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_style.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_style.c.o: /home/merry/proyecto_cnc_hmi/lib/lvgl/src/misc/lv_style.c
 CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_style.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_173) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_style.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_175) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_style.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_style.c.o -MF CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_style.c.o.d -o CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_style.c.o -c /home/merry/proyecto_cnc_hmi/lib/lvgl/src/misc/lv_style.c
 
 CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_style.c.i: cmake_force
@@ -2494,7 +2522,7 @@ CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_style.c.s: cmake_force
 CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_style_gen.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_style_gen.c.o: /home/merry/proyecto_cnc_hmi/lib/lvgl/src/misc/lv_style_gen.c
 CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_style_gen.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_174) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_style_gen.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_176) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_style_gen.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_style_gen.c.o -MF CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_style_gen.c.o.d -o CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_style_gen.c.o -c /home/merry/proyecto_cnc_hmi/lib/lvgl/src/misc/lv_style_gen.c
 
 CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_style_gen.c.i: cmake_force
@@ -2508,7 +2536,7 @@ CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_style_gen.c.s: cmake_force
 CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_templ.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_templ.c.o: /home/merry/proyecto_cnc_hmi/lib/lvgl/src/misc/lv_templ.c
 CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_templ.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_175) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_templ.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_177) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_templ.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_templ.c.o -MF CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_templ.c.o.d -o CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_templ.c.o -c /home/merry/proyecto_cnc_hmi/lib/lvgl/src/misc/lv_templ.c
 
 CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_templ.c.i: cmake_force
@@ -2522,7 +2550,7 @@ CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_templ.c.s: cmake_force
 CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_timer.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_timer.c.o: /home/merry/proyecto_cnc_hmi/lib/lvgl/src/misc/lv_timer.c
 CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_timer.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_176) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_timer.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_178) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_timer.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_timer.c.o -MF CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_timer.c.o.d -o CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_timer.c.o -c /home/merry/proyecto_cnc_hmi/lib/lvgl/src/misc/lv_timer.c
 
 CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_timer.c.i: cmake_force
@@ -2536,7 +2564,7 @@ CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_timer.c.s: cmake_force
 CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_tlsf.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_tlsf.c.o: /home/merry/proyecto_cnc_hmi/lib/lvgl/src/misc/lv_tlsf.c
 CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_tlsf.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_177) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_tlsf.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_179) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_tlsf.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_tlsf.c.o -MF CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_tlsf.c.o.d -o CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_tlsf.c.o -c /home/merry/proyecto_cnc_hmi/lib/lvgl/src/misc/lv_tlsf.c
 
 CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_tlsf.c.i: cmake_force
@@ -2550,7 +2578,7 @@ CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_tlsf.c.s: cmake_force
 CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_txt.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_txt.c.o: /home/merry/proyecto_cnc_hmi/lib/lvgl/src/misc/lv_txt.c
 CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_txt.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_178) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_txt.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_180) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_txt.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_txt.c.o -MF CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_txt.c.o.d -o CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_txt.c.o -c /home/merry/proyecto_cnc_hmi/lib/lvgl/src/misc/lv_txt.c
 
 CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_txt.c.i: cmake_force
@@ -2564,7 +2592,7 @@ CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_txt.c.s: cmake_force
 CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_txt_ap.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_txt_ap.c.o: /home/merry/proyecto_cnc_hmi/lib/lvgl/src/misc/lv_txt_ap.c
 CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_txt_ap.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_179) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_txt_ap.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_181) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_txt_ap.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_txt_ap.c.o -MF CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_txt_ap.c.o.d -o CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_txt_ap.c.o -c /home/merry/proyecto_cnc_hmi/lib/lvgl/src/misc/lv_txt_ap.c
 
 CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_txt_ap.c.i: cmake_force
@@ -2578,7 +2606,7 @@ CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_txt_ap.c.s: cmake_force
 CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_utils.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_utils.c.o: /home/merry/proyecto_cnc_hmi/lib/lvgl/src/misc/lv_utils.c
 CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_utils.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_180) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_utils.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_182) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_utils.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_utils.c.o -MF CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_utils.c.o.d -o CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_utils.c.o -c /home/merry/proyecto_cnc_hmi/lib/lvgl/src/misc/lv_utils.c
 
 CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_utils.c.i: cmake_force
@@ -2592,7 +2620,7 @@ CMakeFiles/cnc_app.dir/lib/lvgl/src/misc/lv_utils.c.s: cmake_force
 CMakeFiles/cnc_app.dir/lib/lvgl/src/widgets/lv_arc.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lvgl/src/widgets/lv_arc.c.o: /home/merry/proyecto_cnc_hmi/lib/lvgl/src/widgets/lv_arc.c
 CMakeFiles/cnc_app.dir/lib/lvgl/src/widgets/lv_arc.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_181) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/widgets/lv_arc.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_183) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/widgets/lv_arc.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lvgl/src/widgets/lv_arc.c.o -MF CMakeFiles/cnc_app.dir/lib/lvgl/src/widgets/lv_arc.c.o.d -o CMakeFiles/cnc_app.dir/lib/lvgl/src/widgets/lv_arc.c.o -c /home/merry/proyecto_cnc_hmi/lib/lvgl/src/widgets/lv_arc.c
 
 CMakeFiles/cnc_app.dir/lib/lvgl/src/widgets/lv_arc.c.i: cmake_force
@@ -2606,7 +2634,7 @@ CMakeFiles/cnc_app.dir/lib/lvgl/src/widgets/lv_arc.c.s: cmake_force
 CMakeFiles/cnc_app.dir/lib/lvgl/src/widgets/lv_bar.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lvgl/src/widgets/lv_bar.c.o: /home/merry/proyecto_cnc_hmi/lib/lvgl/src/widgets/lv_bar.c
 CMakeFiles/cnc_app.dir/lib/lvgl/src/widgets/lv_bar.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_182) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/widgets/lv_bar.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_184) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/widgets/lv_bar.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lvgl/src/widgets/lv_bar.c.o -MF CMakeFiles/cnc_app.dir/lib/lvgl/src/widgets/lv_bar.c.o.d -o CMakeFiles/cnc_app.dir/lib/lvgl/src/widgets/lv_bar.c.o -c /home/merry/proyecto_cnc_hmi/lib/lvgl/src/widgets/lv_bar.c
 
 CMakeFiles/cnc_app.dir/lib/lvgl/src/widgets/lv_bar.c.i: cmake_force
@@ -2620,7 +2648,7 @@ CMakeFiles/cnc_app.dir/lib/lvgl/src/widgets/lv_bar.c.s: cmake_force
 CMakeFiles/cnc_app.dir/lib/lvgl/src/widgets/lv_btn.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lvgl/src/widgets/lv_btn.c.o: /home/merry/proyecto_cnc_hmi/lib/lvgl/src/widgets/lv_btn.c
 CMakeFiles/cnc_app.dir/lib/lvgl/src/widgets/lv_btn.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_183) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/widgets/lv_btn.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_185) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/widgets/lv_btn.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lvgl/src/widgets/lv_btn.c.o -MF CMakeFiles/cnc_app.dir/lib/lvgl/src/widgets/lv_btn.c.o.d -o CMakeFiles/cnc_app.dir/lib/lvgl/src/widgets/lv_btn.c.o -c /home/merry/proyecto_cnc_hmi/lib/lvgl/src/widgets/lv_btn.c
 
 CMakeFiles/cnc_app.dir/lib/lvgl/src/widgets/lv_btn.c.i: cmake_force
@@ -2634,7 +2662,7 @@ CMakeFiles/cnc_app.dir/lib/lvgl/src/widgets/lv_btn.c.s: cmake_force
 CMakeFiles/cnc_app.dir/lib/lvgl/src/widgets/lv_btnmatrix.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lvgl/src/widgets/lv_btnmatrix.c.o: /home/merry/proyecto_cnc_hmi/lib/lvgl/src/widgets/lv_btnmatrix.c
 CMakeFiles/cnc_app.dir/lib/lvgl/src/widgets/lv_btnmatrix.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_184) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/widgets/lv_btnmatrix.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_186) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/widgets/lv_btnmatrix.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lvgl/src/widgets/lv_btnmatrix.c.o -MF CMakeFiles/cnc_app.dir/lib/lvgl/src/widgets/lv_btnmatrix.c.o.d -o CMakeFiles/cnc_app.dir/lib/lvgl/src/widgets/lv_btnmatrix.c.o -c /home/merry/proyecto_cnc_hmi/lib/lvgl/src/widgets/lv_btnmatrix.c
 
 CMakeFiles/cnc_app.dir/lib/lvgl/src/widgets/lv_btnmatrix.c.i: cmake_force
@@ -2648,7 +2676,7 @@ CMakeFiles/cnc_app.dir/lib/lvgl/src/widgets/lv_btnmatrix.c.s: cmake_force
 CMakeFiles/cnc_app.dir/lib/lvgl/src/widgets/lv_canvas.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lvgl/src/widgets/lv_canvas.c.o: /home/merry/proyecto_cnc_hmi/lib/lvgl/src/widgets/lv_canvas.c
 CMakeFiles/cnc_app.dir/lib/lvgl/src/widgets/lv_canvas.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_185) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/widgets/lv_canvas.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_187) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/widgets/lv_canvas.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lvgl/src/widgets/lv_canvas.c.o -MF CMakeFiles/cnc_app.dir/lib/lvgl/src/widgets/lv_canvas.c.o.d -o CMakeFiles/cnc_app.dir/lib/lvgl/src/widgets/lv_canvas.c.o -c /home/merry/proyecto_cnc_hmi/lib/lvgl/src/widgets/lv_canvas.c
 
 CMakeFiles/cnc_app.dir/lib/lvgl/src/widgets/lv_canvas.c.i: cmake_force
@@ -2662,7 +2690,7 @@ CMakeFiles/cnc_app.dir/lib/lvgl/src/widgets/lv_canvas.c.s: cmake_force
 CMakeFiles/cnc_app.dir/lib/lvgl/src/widgets/lv_checkbox.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lvgl/src/widgets/lv_checkbox.c.o: /home/merry/proyecto_cnc_hmi/lib/lvgl/src/widgets/lv_checkbox.c
 CMakeFiles/cnc_app.dir/lib/lvgl/src/widgets/lv_checkbox.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_186) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/widgets/lv_checkbox.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_188) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/widgets/lv_checkbox.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lvgl/src/widgets/lv_checkbox.c.o -MF CMakeFiles/cnc_app.dir/lib/lvgl/src/widgets/lv_checkbox.c.o.d -o CMakeFiles/cnc_app.dir/lib/lvgl/src/widgets/lv_checkbox.c.o -c /home/merry/proyecto_cnc_hmi/lib/lvgl/src/widgets/lv_checkbox.c
 
 CMakeFiles/cnc_app.dir/lib/lvgl/src/widgets/lv_checkbox.c.i: cmake_force
@@ -2676,7 +2704,7 @@ CMakeFiles/cnc_app.dir/lib/lvgl/src/widgets/lv_checkbox.c.s: cmake_force
 CMakeFiles/cnc_app.dir/lib/lvgl/src/widgets/lv_dropdown.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lvgl/src/widgets/lv_dropdown.c.o: /home/merry/proyecto_cnc_hmi/lib/lvgl/src/widgets/lv_dropdown.c
 CMakeFiles/cnc_app.dir/lib/lvgl/src/widgets/lv_dropdown.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_187) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/widgets/lv_dropdown.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_189) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/widgets/lv_dropdown.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lvgl/src/widgets/lv_dropdown.c.o -MF CMakeFiles/cnc_app.dir/lib/lvgl/src/widgets/lv_dropdown.c.o.d -o CMakeFiles/cnc_app.dir/lib/lvgl/src/widgets/lv_dropdown.c.o -c /home/merry/proyecto_cnc_hmi/lib/lvgl/src/widgets/lv_dropdown.c
 
 CMakeFiles/cnc_app.dir/lib/lvgl/src/widgets/lv_dropdown.c.i: cmake_force
@@ -2690,7 +2718,7 @@ CMakeFiles/cnc_app.dir/lib/lvgl/src/widgets/lv_dropdown.c.s: cmake_force
 CMakeFiles/cnc_app.dir/lib/lvgl/src/widgets/lv_img.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lvgl/src/widgets/lv_img.c.o: /home/merry/proyecto_cnc_hmi/lib/lvgl/src/widgets/lv_img.c
 CMakeFiles/cnc_app.dir/lib/lvgl/src/widgets/lv_img.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_188) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/widgets/lv_img.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_190) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/widgets/lv_img.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lvgl/src/widgets/lv_img.c.o -MF CMakeFiles/cnc_app.dir/lib/lvgl/src/widgets/lv_img.c.o.d -o CMakeFiles/cnc_app.dir/lib/lvgl/src/widgets/lv_img.c.o -c /home/merry/proyecto_cnc_hmi/lib/lvgl/src/widgets/lv_img.c
 
 CMakeFiles/cnc_app.dir/lib/lvgl/src/widgets/lv_img.c.i: cmake_force
@@ -2704,7 +2732,7 @@ CMakeFiles/cnc_app.dir/lib/lvgl/src/widgets/lv_img.c.s: cmake_force
 CMakeFiles/cnc_app.dir/lib/lvgl/src/widgets/lv_label.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lvgl/src/widgets/lv_label.c.o: /home/merry/proyecto_cnc_hmi/lib/lvgl/src/widgets/lv_label.c
 CMakeFiles/cnc_app.dir/lib/lvgl/src/widgets/lv_label.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_189) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/widgets/lv_label.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_191) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/widgets/lv_label.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lvgl/src/widgets/lv_label.c.o -MF CMakeFiles/cnc_app.dir/lib/lvgl/src/widgets/lv_label.c.o.d -o CMakeFiles/cnc_app.dir/lib/lvgl/src/widgets/lv_label.c.o -c /home/merry/proyecto_cnc_hmi/lib/lvgl/src/widgets/lv_label.c
 
 CMakeFiles/cnc_app.dir/lib/lvgl/src/widgets/lv_label.c.i: cmake_force
@@ -2718,7 +2746,7 @@ CMakeFiles/cnc_app.dir/lib/lvgl/src/widgets/lv_label.c.s: cmake_force
 CMakeFiles/cnc_app.dir/lib/lvgl/src/widgets/lv_line.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lvgl/src/widgets/lv_line.c.o: /home/merry/proyecto_cnc_hmi/lib/lvgl/src/widgets/lv_line.c
 CMakeFiles/cnc_app.dir/lib/lvgl/src/widgets/lv_line.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_190) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/widgets/lv_line.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_192) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/widgets/lv_line.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lvgl/src/widgets/lv_line.c.o -MF CMakeFiles/cnc_app.dir/lib/lvgl/src/widgets/lv_line.c.o.d -o CMakeFiles/cnc_app.dir/lib/lvgl/src/widgets/lv_line.c.o -c /home/merry/proyecto_cnc_hmi/lib/lvgl/src/widgets/lv_line.c
 
 CMakeFiles/cnc_app.dir/lib/lvgl/src/widgets/lv_line.c.i: cmake_force
@@ -2732,7 +2760,7 @@ CMakeFiles/cnc_app.dir/lib/lvgl/src/widgets/lv_line.c.s: cmake_force
 CMakeFiles/cnc_app.dir/lib/lvgl/src/widgets/lv_objx_templ.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lvgl/src/widgets/lv_objx_templ.c.o: /home/merry/proyecto_cnc_hmi/lib/lvgl/src/widgets/lv_objx_templ.c
 CMakeFiles/cnc_app.dir/lib/lvgl/src/widgets/lv_objx_templ.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_191) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/widgets/lv_objx_templ.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_193) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/widgets/lv_objx_templ.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lvgl/src/widgets/lv_objx_templ.c.o -MF CMakeFiles/cnc_app.dir/lib/lvgl/src/widgets/lv_objx_templ.c.o.d -o CMakeFiles/cnc_app.dir/lib/lvgl/src/widgets/lv_objx_templ.c.o -c /home/merry/proyecto_cnc_hmi/lib/lvgl/src/widgets/lv_objx_templ.c
 
 CMakeFiles/cnc_app.dir/lib/lvgl/src/widgets/lv_objx_templ.c.i: cmake_force
@@ -2746,7 +2774,7 @@ CMakeFiles/cnc_app.dir/lib/lvgl/src/widgets/lv_objx_templ.c.s: cmake_force
 CMakeFiles/cnc_app.dir/lib/lvgl/src/widgets/lv_roller.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lvgl/src/widgets/lv_roller.c.o: /home/merry/proyecto_cnc_hmi/lib/lvgl/src/widgets/lv_roller.c
 CMakeFiles/cnc_app.dir/lib/lvgl/src/widgets/lv_roller.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_192) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/widgets/lv_roller.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_194) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/widgets/lv_roller.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lvgl/src/widgets/lv_roller.c.o -MF CMakeFiles/cnc_app.dir/lib/lvgl/src/widgets/lv_roller.c.o.d -o CMakeFiles/cnc_app.dir/lib/lvgl/src/widgets/lv_roller.c.o -c /home/merry/proyecto_cnc_hmi/lib/lvgl/src/widgets/lv_roller.c
 
 CMakeFiles/cnc_app.dir/lib/lvgl/src/widgets/lv_roller.c.i: cmake_force
@@ -2760,7 +2788,7 @@ CMakeFiles/cnc_app.dir/lib/lvgl/src/widgets/lv_roller.c.s: cmake_force
 CMakeFiles/cnc_app.dir/lib/lvgl/src/widgets/lv_slider.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lvgl/src/widgets/lv_slider.c.o: /home/merry/proyecto_cnc_hmi/lib/lvgl/src/widgets/lv_slider.c
 CMakeFiles/cnc_app.dir/lib/lvgl/src/widgets/lv_slider.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_193) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/widgets/lv_slider.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_195) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/widgets/lv_slider.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lvgl/src/widgets/lv_slider.c.o -MF CMakeFiles/cnc_app.dir/lib/lvgl/src/widgets/lv_slider.c.o.d -o CMakeFiles/cnc_app.dir/lib/lvgl/src/widgets/lv_slider.c.o -c /home/merry/proyecto_cnc_hmi/lib/lvgl/src/widgets/lv_slider.c
 
 CMakeFiles/cnc_app.dir/lib/lvgl/src/widgets/lv_slider.c.i: cmake_force
@@ -2774,7 +2802,7 @@ CMakeFiles/cnc_app.dir/lib/lvgl/src/widgets/lv_slider.c.s: cmake_force
 CMakeFiles/cnc_app.dir/lib/lvgl/src/widgets/lv_switch.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lvgl/src/widgets/lv_switch.c.o: /home/merry/proyecto_cnc_hmi/lib/lvgl/src/widgets/lv_switch.c
 CMakeFiles/cnc_app.dir/lib/lvgl/src/widgets/lv_switch.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_194) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/widgets/lv_switch.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_196) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/widgets/lv_switch.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lvgl/src/widgets/lv_switch.c.o -MF CMakeFiles/cnc_app.dir/lib/lvgl/src/widgets/lv_switch.c.o.d -o CMakeFiles/cnc_app.dir/lib/lvgl/src/widgets/lv_switch.c.o -c /home/merry/proyecto_cnc_hmi/lib/lvgl/src/widgets/lv_switch.c
 
 CMakeFiles/cnc_app.dir/lib/lvgl/src/widgets/lv_switch.c.i: cmake_force
@@ -2788,7 +2816,7 @@ CMakeFiles/cnc_app.dir/lib/lvgl/src/widgets/lv_switch.c.s: cmake_force
 CMakeFiles/cnc_app.dir/lib/lvgl/src/widgets/lv_table.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lvgl/src/widgets/lv_table.c.o: /home/merry/proyecto_cnc_hmi/lib/lvgl/src/widgets/lv_table.c
 CMakeFiles/cnc_app.dir/lib/lvgl/src/widgets/lv_table.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_195) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/widgets/lv_table.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_197) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/widgets/lv_table.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lvgl/src/widgets/lv_table.c.o -MF CMakeFiles/cnc_app.dir/lib/lvgl/src/widgets/lv_table.c.o.d -o CMakeFiles/cnc_app.dir/lib/lvgl/src/widgets/lv_table.c.o -c /home/merry/proyecto_cnc_hmi/lib/lvgl/src/widgets/lv_table.c
 
 CMakeFiles/cnc_app.dir/lib/lvgl/src/widgets/lv_table.c.i: cmake_force
@@ -2802,7 +2830,7 @@ CMakeFiles/cnc_app.dir/lib/lvgl/src/widgets/lv_table.c.s: cmake_force
 CMakeFiles/cnc_app.dir/lib/lvgl/src/widgets/lv_textarea.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lvgl/src/widgets/lv_textarea.c.o: /home/merry/proyecto_cnc_hmi/lib/lvgl/src/widgets/lv_textarea.c
 CMakeFiles/cnc_app.dir/lib/lvgl/src/widgets/lv_textarea.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_196) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/widgets/lv_textarea.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_198) "Building C object CMakeFiles/cnc_app.dir/lib/lvgl/src/widgets/lv_textarea.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lvgl/src/widgets/lv_textarea.c.o -MF CMakeFiles/cnc_app.dir/lib/lvgl/src/widgets/lv_textarea.c.o.d -o CMakeFiles/cnc_app.dir/lib/lvgl/src/widgets/lv_textarea.c.o -c /home/merry/proyecto_cnc_hmi/lib/lvgl/src/widgets/lv_textarea.c
 
 CMakeFiles/cnc_app.dir/lib/lvgl/src/widgets/lv_textarea.c.i: cmake_force
@@ -2816,7 +2844,7 @@ CMakeFiles/cnc_app.dir/lib/lvgl/src/widgets/lv_textarea.c.s: cmake_force
 CMakeFiles/cnc_app.dir/lib/lv_drivers/display/GC9A01.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lv_drivers/display/GC9A01.c.o: /home/merry/proyecto_cnc_hmi/lib/lv_drivers/display/GC9A01.c
 CMakeFiles/cnc_app.dir/lib/lv_drivers/display/GC9A01.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_197) "Building C object CMakeFiles/cnc_app.dir/lib/lv_drivers/display/GC9A01.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_199) "Building C object CMakeFiles/cnc_app.dir/lib/lv_drivers/display/GC9A01.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lv_drivers/display/GC9A01.c.o -MF CMakeFiles/cnc_app.dir/lib/lv_drivers/display/GC9A01.c.o.d -o CMakeFiles/cnc_app.dir/lib/lv_drivers/display/GC9A01.c.o -c /home/merry/proyecto_cnc_hmi/lib/lv_drivers/display/GC9A01.c
 
 CMakeFiles/cnc_app.dir/lib/lv_drivers/display/GC9A01.c.i: cmake_force
@@ -2830,7 +2858,7 @@ CMakeFiles/cnc_app.dir/lib/lv_drivers/display/GC9A01.c.s: cmake_force
 CMakeFiles/cnc_app.dir/lib/lv_drivers/display/ILI9341.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lv_drivers/display/ILI9341.c.o: /home/merry/proyecto_cnc_hmi/lib/lv_drivers/display/ILI9341.c
 CMakeFiles/cnc_app.dir/lib/lv_drivers/display/ILI9341.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_198) "Building C object CMakeFiles/cnc_app.dir/lib/lv_drivers/display/ILI9341.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_200) "Building C object CMakeFiles/cnc_app.dir/lib/lv_drivers/display/ILI9341.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lv_drivers/display/ILI9341.c.o -MF CMakeFiles/cnc_app.dir/lib/lv_drivers/display/ILI9341.c.o.d -o CMakeFiles/cnc_app.dir/lib/lv_drivers/display/ILI9341.c.o -c /home/merry/proyecto_cnc_hmi/lib/lv_drivers/display/ILI9341.c
 
 CMakeFiles/cnc_app.dir/lib/lv_drivers/display/ILI9341.c.i: cmake_force
@@ -2844,7 +2872,7 @@ CMakeFiles/cnc_app.dir/lib/lv_drivers/display/ILI9341.c.s: cmake_force
 CMakeFiles/cnc_app.dir/lib/lv_drivers/display/R61581.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lv_drivers/display/R61581.c.o: /home/merry/proyecto_cnc_hmi/lib/lv_drivers/display/R61581.c
 CMakeFiles/cnc_app.dir/lib/lv_drivers/display/R61581.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_199) "Building C object CMakeFiles/cnc_app.dir/lib/lv_drivers/display/R61581.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_201) "Building C object CMakeFiles/cnc_app.dir/lib/lv_drivers/display/R61581.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lv_drivers/display/R61581.c.o -MF CMakeFiles/cnc_app.dir/lib/lv_drivers/display/R61581.c.o.d -o CMakeFiles/cnc_app.dir/lib/lv_drivers/display/R61581.c.o -c /home/merry/proyecto_cnc_hmi/lib/lv_drivers/display/R61581.c
 
 CMakeFiles/cnc_app.dir/lib/lv_drivers/display/R61581.c.i: cmake_force
@@ -2858,7 +2886,7 @@ CMakeFiles/cnc_app.dir/lib/lv_drivers/display/R61581.c.s: cmake_force
 CMakeFiles/cnc_app.dir/lib/lv_drivers/display/SHARP_MIP.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lv_drivers/display/SHARP_MIP.c.o: /home/merry/proyecto_cnc_hmi/lib/lv_drivers/display/SHARP_MIP.c
 CMakeFiles/cnc_app.dir/lib/lv_drivers/display/SHARP_MIP.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_200) "Building C object CMakeFiles/cnc_app.dir/lib/lv_drivers/display/SHARP_MIP.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_202) "Building C object CMakeFiles/cnc_app.dir/lib/lv_drivers/display/SHARP_MIP.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lv_drivers/display/SHARP_MIP.c.o -MF CMakeFiles/cnc_app.dir/lib/lv_drivers/display/SHARP_MIP.c.o.d -o CMakeFiles/cnc_app.dir/lib/lv_drivers/display/SHARP_MIP.c.o -c /home/merry/proyecto_cnc_hmi/lib/lv_drivers/display/SHARP_MIP.c
 
 CMakeFiles/cnc_app.dir/lib/lv_drivers/display/SHARP_MIP.c.i: cmake_force
@@ -2872,7 +2900,7 @@ CMakeFiles/cnc_app.dir/lib/lv_drivers/display/SHARP_MIP.c.s: cmake_force
 CMakeFiles/cnc_app.dir/lib/lv_drivers/display/SSD1963.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lv_drivers/display/SSD1963.c.o: /home/merry/proyecto_cnc_hmi/lib/lv_drivers/display/SSD1963.c
 CMakeFiles/cnc_app.dir/lib/lv_drivers/display/SSD1963.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_201) "Building C object CMakeFiles/cnc_app.dir/lib/lv_drivers/display/SSD1963.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_203) "Building C object CMakeFiles/cnc_app.dir/lib/lv_drivers/display/SSD1963.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lv_drivers/display/SSD1963.c.o -MF CMakeFiles/cnc_app.dir/lib/lv_drivers/display/SSD1963.c.o.d -o CMakeFiles/cnc_app.dir/lib/lv_drivers/display/SSD1963.c.o -c /home/merry/proyecto_cnc_hmi/lib/lv_drivers/display/SSD1963.c
 
 CMakeFiles/cnc_app.dir/lib/lv_drivers/display/SSD1963.c.i: cmake_force
@@ -2886,7 +2914,7 @@ CMakeFiles/cnc_app.dir/lib/lv_drivers/display/SSD1963.c.s: cmake_force
 CMakeFiles/cnc_app.dir/lib/lv_drivers/display/ST7565.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lv_drivers/display/ST7565.c.o: /home/merry/proyecto_cnc_hmi/lib/lv_drivers/display/ST7565.c
 CMakeFiles/cnc_app.dir/lib/lv_drivers/display/ST7565.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_202) "Building C object CMakeFiles/cnc_app.dir/lib/lv_drivers/display/ST7565.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_204) "Building C object CMakeFiles/cnc_app.dir/lib/lv_drivers/display/ST7565.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lv_drivers/display/ST7565.c.o -MF CMakeFiles/cnc_app.dir/lib/lv_drivers/display/ST7565.c.o.d -o CMakeFiles/cnc_app.dir/lib/lv_drivers/display/ST7565.c.o -c /home/merry/proyecto_cnc_hmi/lib/lv_drivers/display/ST7565.c
 
 CMakeFiles/cnc_app.dir/lib/lv_drivers/display/ST7565.c.i: cmake_force
@@ -2900,7 +2928,7 @@ CMakeFiles/cnc_app.dir/lib/lv_drivers/display/ST7565.c.s: cmake_force
 CMakeFiles/cnc_app.dir/lib/lv_drivers/display/UC1610.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lv_drivers/display/UC1610.c.o: /home/merry/proyecto_cnc_hmi/lib/lv_drivers/display/UC1610.c
 CMakeFiles/cnc_app.dir/lib/lv_drivers/display/UC1610.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_203) "Building C object CMakeFiles/cnc_app.dir/lib/lv_drivers/display/UC1610.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_205) "Building C object CMakeFiles/cnc_app.dir/lib/lv_drivers/display/UC1610.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lv_drivers/display/UC1610.c.o -MF CMakeFiles/cnc_app.dir/lib/lv_drivers/display/UC1610.c.o.d -o CMakeFiles/cnc_app.dir/lib/lv_drivers/display/UC1610.c.o -c /home/merry/proyecto_cnc_hmi/lib/lv_drivers/display/UC1610.c
 
 CMakeFiles/cnc_app.dir/lib/lv_drivers/display/UC1610.c.i: cmake_force
@@ -2914,7 +2942,7 @@ CMakeFiles/cnc_app.dir/lib/lv_drivers/display/UC1610.c.s: cmake_force
 CMakeFiles/cnc_app.dir/lib/lv_drivers/display/drm.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lv_drivers/display/drm.c.o: /home/merry/proyecto_cnc_hmi/lib/lv_drivers/display/drm.c
 CMakeFiles/cnc_app.dir/lib/lv_drivers/display/drm.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_204) "Building C object CMakeFiles/cnc_app.dir/lib/lv_drivers/display/drm.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_206) "Building C object CMakeFiles/cnc_app.dir/lib/lv_drivers/display/drm.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lv_drivers/display/drm.c.o -MF CMakeFiles/cnc_app.dir/lib/lv_drivers/display/drm.c.o.d -o CMakeFiles/cnc_app.dir/lib/lv_drivers/display/drm.c.o -c /home/merry/proyecto_cnc_hmi/lib/lv_drivers/display/drm.c
 
 CMakeFiles/cnc_app.dir/lib/lv_drivers/display/drm.c.i: cmake_force
@@ -2928,7 +2956,7 @@ CMakeFiles/cnc_app.dir/lib/lv_drivers/display/drm.c.s: cmake_force
 CMakeFiles/cnc_app.dir/lib/lv_drivers/display/fbdev.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lv_drivers/display/fbdev.c.o: /home/merry/proyecto_cnc_hmi/lib/lv_drivers/display/fbdev.c
 CMakeFiles/cnc_app.dir/lib/lv_drivers/display/fbdev.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_205) "Building C object CMakeFiles/cnc_app.dir/lib/lv_drivers/display/fbdev.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_207) "Building C object CMakeFiles/cnc_app.dir/lib/lv_drivers/display/fbdev.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lv_drivers/display/fbdev.c.o -MF CMakeFiles/cnc_app.dir/lib/lv_drivers/display/fbdev.c.o.d -o CMakeFiles/cnc_app.dir/lib/lv_drivers/display/fbdev.c.o -c /home/merry/proyecto_cnc_hmi/lib/lv_drivers/display/fbdev.c
 
 CMakeFiles/cnc_app.dir/lib/lv_drivers/display/fbdev.c.i: cmake_force
@@ -2942,7 +2970,7 @@ CMakeFiles/cnc_app.dir/lib/lv_drivers/display/fbdev.c.s: cmake_force
 CMakeFiles/cnc_app.dir/lib/lv_drivers/gtkdrv/gtkdrv.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lv_drivers/gtkdrv/gtkdrv.c.o: /home/merry/proyecto_cnc_hmi/lib/lv_drivers/gtkdrv/gtkdrv.c
 CMakeFiles/cnc_app.dir/lib/lv_drivers/gtkdrv/gtkdrv.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_206) "Building C object CMakeFiles/cnc_app.dir/lib/lv_drivers/gtkdrv/gtkdrv.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_208) "Building C object CMakeFiles/cnc_app.dir/lib/lv_drivers/gtkdrv/gtkdrv.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lv_drivers/gtkdrv/gtkdrv.c.o -MF CMakeFiles/cnc_app.dir/lib/lv_drivers/gtkdrv/gtkdrv.c.o.d -o CMakeFiles/cnc_app.dir/lib/lv_drivers/gtkdrv/gtkdrv.c.o -c /home/merry/proyecto_cnc_hmi/lib/lv_drivers/gtkdrv/gtkdrv.c
 
 CMakeFiles/cnc_app.dir/lib/lv_drivers/gtkdrv/gtkdrv.c.i: cmake_force
@@ -2956,7 +2984,7 @@ CMakeFiles/cnc_app.dir/lib/lv_drivers/gtkdrv/gtkdrv.c.s: cmake_force
 CMakeFiles/cnc_app.dir/lib/lv_drivers/indev/AD_touch.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lv_drivers/indev/AD_touch.c.o: /home/merry/proyecto_cnc_hmi/lib/lv_drivers/indev/AD_touch.c
 CMakeFiles/cnc_app.dir/lib/lv_drivers/indev/AD_touch.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_207) "Building C object CMakeFiles/cnc_app.dir/lib/lv_drivers/indev/AD_touch.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_209) "Building C object CMakeFiles/cnc_app.dir/lib/lv_drivers/indev/AD_touch.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lv_drivers/indev/AD_touch.c.o -MF CMakeFiles/cnc_app.dir/lib/lv_drivers/indev/AD_touch.c.o.d -o CMakeFiles/cnc_app.dir/lib/lv_drivers/indev/AD_touch.c.o -c /home/merry/proyecto_cnc_hmi/lib/lv_drivers/indev/AD_touch.c
 
 CMakeFiles/cnc_app.dir/lib/lv_drivers/indev/AD_touch.c.i: cmake_force
@@ -2970,7 +2998,7 @@ CMakeFiles/cnc_app.dir/lib/lv_drivers/indev/AD_touch.c.s: cmake_force
 CMakeFiles/cnc_app.dir/lib/lv_drivers/indev/FT5406EE8.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lv_drivers/indev/FT5406EE8.c.o: /home/merry/proyecto_cnc_hmi/lib/lv_drivers/indev/FT5406EE8.c
 CMakeFiles/cnc_app.dir/lib/lv_drivers/indev/FT5406EE8.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_208) "Building C object CMakeFiles/cnc_app.dir/lib/lv_drivers/indev/FT5406EE8.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_210) "Building C object CMakeFiles/cnc_app.dir/lib/lv_drivers/indev/FT5406EE8.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lv_drivers/indev/FT5406EE8.c.o -MF CMakeFiles/cnc_app.dir/lib/lv_drivers/indev/FT5406EE8.c.o.d -o CMakeFiles/cnc_app.dir/lib/lv_drivers/indev/FT5406EE8.c.o -c /home/merry/proyecto_cnc_hmi/lib/lv_drivers/indev/FT5406EE8.c
 
 CMakeFiles/cnc_app.dir/lib/lv_drivers/indev/FT5406EE8.c.i: cmake_force
@@ -2984,7 +3012,7 @@ CMakeFiles/cnc_app.dir/lib/lv_drivers/indev/FT5406EE8.c.s: cmake_force
 CMakeFiles/cnc_app.dir/lib/lv_drivers/indev/XPT2046.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lv_drivers/indev/XPT2046.c.o: /home/merry/proyecto_cnc_hmi/lib/lv_drivers/indev/XPT2046.c
 CMakeFiles/cnc_app.dir/lib/lv_drivers/indev/XPT2046.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_209) "Building C object CMakeFiles/cnc_app.dir/lib/lv_drivers/indev/XPT2046.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_211) "Building C object CMakeFiles/cnc_app.dir/lib/lv_drivers/indev/XPT2046.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lv_drivers/indev/XPT2046.c.o -MF CMakeFiles/cnc_app.dir/lib/lv_drivers/indev/XPT2046.c.o.d -o CMakeFiles/cnc_app.dir/lib/lv_drivers/indev/XPT2046.c.o -c /home/merry/proyecto_cnc_hmi/lib/lv_drivers/indev/XPT2046.c
 
 CMakeFiles/cnc_app.dir/lib/lv_drivers/indev/XPT2046.c.i: cmake_force
@@ -2998,7 +3026,7 @@ CMakeFiles/cnc_app.dir/lib/lv_drivers/indev/XPT2046.c.s: cmake_force
 CMakeFiles/cnc_app.dir/lib/lv_drivers/indev/evdev.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lv_drivers/indev/evdev.c.o: /home/merry/proyecto_cnc_hmi/lib/lv_drivers/indev/evdev.c
 CMakeFiles/cnc_app.dir/lib/lv_drivers/indev/evdev.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_210) "Building C object CMakeFiles/cnc_app.dir/lib/lv_drivers/indev/evdev.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_212) "Building C object CMakeFiles/cnc_app.dir/lib/lv_drivers/indev/evdev.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lv_drivers/indev/evdev.c.o -MF CMakeFiles/cnc_app.dir/lib/lv_drivers/indev/evdev.c.o.d -o CMakeFiles/cnc_app.dir/lib/lv_drivers/indev/evdev.c.o -c /home/merry/proyecto_cnc_hmi/lib/lv_drivers/indev/evdev.c
 
 CMakeFiles/cnc_app.dir/lib/lv_drivers/indev/evdev.c.i: cmake_force
@@ -3012,7 +3040,7 @@ CMakeFiles/cnc_app.dir/lib/lv_drivers/indev/evdev.c.s: cmake_force
 CMakeFiles/cnc_app.dir/lib/lv_drivers/indev/libinput.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lv_drivers/indev/libinput.c.o: /home/merry/proyecto_cnc_hmi/lib/lv_drivers/indev/libinput.c
 CMakeFiles/cnc_app.dir/lib/lv_drivers/indev/libinput.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_211) "Building C object CMakeFiles/cnc_app.dir/lib/lv_drivers/indev/libinput.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_213) "Building C object CMakeFiles/cnc_app.dir/lib/lv_drivers/indev/libinput.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lv_drivers/indev/libinput.c.o -MF CMakeFiles/cnc_app.dir/lib/lv_drivers/indev/libinput.c.o.d -o CMakeFiles/cnc_app.dir/lib/lv_drivers/indev/libinput.c.o -c /home/merry/proyecto_cnc_hmi/lib/lv_drivers/indev/libinput.c
 
 CMakeFiles/cnc_app.dir/lib/lv_drivers/indev/libinput.c.i: cmake_force
@@ -3026,7 +3054,7 @@ CMakeFiles/cnc_app.dir/lib/lv_drivers/indev/libinput.c.s: cmake_force
 CMakeFiles/cnc_app.dir/lib/lv_drivers/indev/xkb.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lv_drivers/indev/xkb.c.o: /home/merry/proyecto_cnc_hmi/lib/lv_drivers/indev/xkb.c
 CMakeFiles/cnc_app.dir/lib/lv_drivers/indev/xkb.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_212) "Building C object CMakeFiles/cnc_app.dir/lib/lv_drivers/indev/xkb.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_214) "Building C object CMakeFiles/cnc_app.dir/lib/lv_drivers/indev/xkb.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lv_drivers/indev/xkb.c.o -MF CMakeFiles/cnc_app.dir/lib/lv_drivers/indev/xkb.c.o.d -o CMakeFiles/cnc_app.dir/lib/lv_drivers/indev/xkb.c.o -c /home/merry/proyecto_cnc_hmi/lib/lv_drivers/indev/xkb.c
 
 CMakeFiles/cnc_app.dir/lib/lv_drivers/indev/xkb.c.i: cmake_force
@@ -3040,7 +3068,7 @@ CMakeFiles/cnc_app.dir/lib/lv_drivers/indev/xkb.c.s: cmake_force
 CMakeFiles/cnc_app.dir/lib/lv_drivers/sdl/sdl.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lv_drivers/sdl/sdl.c.o: /home/merry/proyecto_cnc_hmi/lib/lv_drivers/sdl/sdl.c
 CMakeFiles/cnc_app.dir/lib/lv_drivers/sdl/sdl.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_213) "Building C object CMakeFiles/cnc_app.dir/lib/lv_drivers/sdl/sdl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_215) "Building C object CMakeFiles/cnc_app.dir/lib/lv_drivers/sdl/sdl.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lv_drivers/sdl/sdl.c.o -MF CMakeFiles/cnc_app.dir/lib/lv_drivers/sdl/sdl.c.o.d -o CMakeFiles/cnc_app.dir/lib/lv_drivers/sdl/sdl.c.o -c /home/merry/proyecto_cnc_hmi/lib/lv_drivers/sdl/sdl.c
 
 CMakeFiles/cnc_app.dir/lib/lv_drivers/sdl/sdl.c.i: cmake_force
@@ -3054,7 +3082,7 @@ CMakeFiles/cnc_app.dir/lib/lv_drivers/sdl/sdl.c.s: cmake_force
 CMakeFiles/cnc_app.dir/lib/lv_drivers/sdl/sdl_gpu.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lv_drivers/sdl/sdl_gpu.c.o: /home/merry/proyecto_cnc_hmi/lib/lv_drivers/sdl/sdl_gpu.c
 CMakeFiles/cnc_app.dir/lib/lv_drivers/sdl/sdl_gpu.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_214) "Building C object CMakeFiles/cnc_app.dir/lib/lv_drivers/sdl/sdl_gpu.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_216) "Building C object CMakeFiles/cnc_app.dir/lib/lv_drivers/sdl/sdl_gpu.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lv_drivers/sdl/sdl_gpu.c.o -MF CMakeFiles/cnc_app.dir/lib/lv_drivers/sdl/sdl_gpu.c.o.d -o CMakeFiles/cnc_app.dir/lib/lv_drivers/sdl/sdl_gpu.c.o -c /home/merry/proyecto_cnc_hmi/lib/lv_drivers/sdl/sdl_gpu.c
 
 CMakeFiles/cnc_app.dir/lib/lv_drivers/sdl/sdl_gpu.c.i: cmake_force
@@ -3068,7 +3096,7 @@ CMakeFiles/cnc_app.dir/lib/lv_drivers/sdl/sdl_gpu.c.s: cmake_force
 CMakeFiles/cnc_app.dir/lib/lv_drivers/wayland/wayland.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lv_drivers/wayland/wayland.c.o: /home/merry/proyecto_cnc_hmi/lib/lv_drivers/wayland/wayland.c
 CMakeFiles/cnc_app.dir/lib/lv_drivers/wayland/wayland.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_215) "Building C object CMakeFiles/cnc_app.dir/lib/lv_drivers/wayland/wayland.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_217) "Building C object CMakeFiles/cnc_app.dir/lib/lv_drivers/wayland/wayland.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lv_drivers/wayland/wayland.c.o -MF CMakeFiles/cnc_app.dir/lib/lv_drivers/wayland/wayland.c.o.d -o CMakeFiles/cnc_app.dir/lib/lv_drivers/wayland/wayland.c.o -c /home/merry/proyecto_cnc_hmi/lib/lv_drivers/wayland/wayland.c
 
 CMakeFiles/cnc_app.dir/lib/lv_drivers/wayland/wayland.c.i: cmake_force
@@ -3082,7 +3110,7 @@ CMakeFiles/cnc_app.dir/lib/lv_drivers/wayland/wayland.c.s: cmake_force
 CMakeFiles/cnc_app.dir/lib/lv_drivers/win32drv/win32drv.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lv_drivers/win32drv/win32drv.c.o: /home/merry/proyecto_cnc_hmi/lib/lv_drivers/win32drv/win32drv.c
 CMakeFiles/cnc_app.dir/lib/lv_drivers/win32drv/win32drv.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_216) "Building C object CMakeFiles/cnc_app.dir/lib/lv_drivers/win32drv/win32drv.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_218) "Building C object CMakeFiles/cnc_app.dir/lib/lv_drivers/win32drv/win32drv.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lv_drivers/win32drv/win32drv.c.o -MF CMakeFiles/cnc_app.dir/lib/lv_drivers/win32drv/win32drv.c.o.d -o CMakeFiles/cnc_app.dir/lib/lv_drivers/win32drv/win32drv.c.o -c /home/merry/proyecto_cnc_hmi/lib/lv_drivers/win32drv/win32drv.c
 
 CMakeFiles/cnc_app.dir/lib/lv_drivers/win32drv/win32drv.c.i: cmake_force
@@ -3096,7 +3124,7 @@ CMakeFiles/cnc_app.dir/lib/lv_drivers/win32drv/win32drv.c.s: cmake_force
 CMakeFiles/cnc_app.dir/lib/lv_drivers/win_drv.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/lib/lv_drivers/win_drv.c.o: /home/merry/proyecto_cnc_hmi/lib/lv_drivers/win_drv.c
 CMakeFiles/cnc_app.dir/lib/lv_drivers/win_drv.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_217) "Building C object CMakeFiles/cnc_app.dir/lib/lv_drivers/win_drv.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_219) "Building C object CMakeFiles/cnc_app.dir/lib/lv_drivers/win_drv.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/lib/lv_drivers/win_drv.c.o -MF CMakeFiles/cnc_app.dir/lib/lv_drivers/win_drv.c.o.d -o CMakeFiles/cnc_app.dir/lib/lv_drivers/win_drv.c.o -c /home/merry/proyecto_cnc_hmi/lib/lv_drivers/win_drv.c
 
 CMakeFiles/cnc_app.dir/lib/lv_drivers/win_drv.c.i: cmake_force
@@ -3110,7 +3138,7 @@ CMakeFiles/cnc_app.dir/lib/lv_drivers/win_drv.c.s: cmake_force
 CMakeFiles/cnc_app.dir/src/ui/components/ui_comp_hook.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/src/ui/components/ui_comp_hook.c.o: /home/merry/proyecto_cnc_hmi/src/ui/components/ui_comp_hook.c
 CMakeFiles/cnc_app.dir/src/ui/components/ui_comp_hook.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_218) "Building C object CMakeFiles/cnc_app.dir/src/ui/components/ui_comp_hook.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_220) "Building C object CMakeFiles/cnc_app.dir/src/ui/components/ui_comp_hook.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/src/ui/components/ui_comp_hook.c.o -MF CMakeFiles/cnc_app.dir/src/ui/components/ui_comp_hook.c.o.d -o CMakeFiles/cnc_app.dir/src/ui/components/ui_comp_hook.c.o -c /home/merry/proyecto_cnc_hmi/src/ui/components/ui_comp_hook.c
 
 CMakeFiles/cnc_app.dir/src/ui/components/ui_comp_hook.c.i: cmake_force
@@ -3124,7 +3152,7 @@ CMakeFiles/cnc_app.dir/src/ui/components/ui_comp_hook.c.s: cmake_force
 CMakeFiles/cnc_app.dir/src/ui/images/ui_img_324518500.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/src/ui/images/ui_img_324518500.c.o: /home/merry/proyecto_cnc_hmi/src/ui/images/ui_img_324518500.c
 CMakeFiles/cnc_app.dir/src/ui/images/ui_img_324518500.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_219) "Building C object CMakeFiles/cnc_app.dir/src/ui/images/ui_img_324518500.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_221) "Building C object CMakeFiles/cnc_app.dir/src/ui/images/ui_img_324518500.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/src/ui/images/ui_img_324518500.c.o -MF CMakeFiles/cnc_app.dir/src/ui/images/ui_img_324518500.c.o.d -o CMakeFiles/cnc_app.dir/src/ui/images/ui_img_324518500.c.o -c /home/merry/proyecto_cnc_hmi/src/ui/images/ui_img_324518500.c
 
 CMakeFiles/cnc_app.dir/src/ui/images/ui_img_324518500.c.i: cmake_force
@@ -3138,7 +3166,7 @@ CMakeFiles/cnc_app.dir/src/ui/images/ui_img_324518500.c.s: cmake_force
 CMakeFiles/cnc_app.dir/src/ui/images/ui_img_680980976.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/src/ui/images/ui_img_680980976.c.o: /home/merry/proyecto_cnc_hmi/src/ui/images/ui_img_680980976.c
 CMakeFiles/cnc_app.dir/src/ui/images/ui_img_680980976.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_220) "Building C object CMakeFiles/cnc_app.dir/src/ui/images/ui_img_680980976.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_222) "Building C object CMakeFiles/cnc_app.dir/src/ui/images/ui_img_680980976.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/src/ui/images/ui_img_680980976.c.o -MF CMakeFiles/cnc_app.dir/src/ui/images/ui_img_680980976.c.o.d -o CMakeFiles/cnc_app.dir/src/ui/images/ui_img_680980976.c.o -c /home/merry/proyecto_cnc_hmi/src/ui/images/ui_img_680980976.c
 
 CMakeFiles/cnc_app.dir/src/ui/images/ui_img_680980976.c.i: cmake_force
@@ -3152,7 +3180,7 @@ CMakeFiles/cnc_app.dir/src/ui/images/ui_img_680980976.c.s: cmake_force
 CMakeFiles/cnc_app.dir/src/ui/images/ui_img_745144479.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/src/ui/images/ui_img_745144479.c.o: /home/merry/proyecto_cnc_hmi/src/ui/images/ui_img_745144479.c
 CMakeFiles/cnc_app.dir/src/ui/images/ui_img_745144479.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_221) "Building C object CMakeFiles/cnc_app.dir/src/ui/images/ui_img_745144479.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_223) "Building C object CMakeFiles/cnc_app.dir/src/ui/images/ui_img_745144479.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/src/ui/images/ui_img_745144479.c.o -MF CMakeFiles/cnc_app.dir/src/ui/images/ui_img_745144479.c.o.d -o CMakeFiles/cnc_app.dir/src/ui/images/ui_img_745144479.c.o -c /home/merry/proyecto_cnc_hmi/src/ui/images/ui_img_745144479.c
 
 CMakeFiles/cnc_app.dir/src/ui/images/ui_img_745144479.c.i: cmake_force
@@ -3166,7 +3194,7 @@ CMakeFiles/cnc_app.dir/src/ui/images/ui_img_745144479.c.s: cmake_force
 CMakeFiles/cnc_app.dir/src/ui/images/ui_img_hibernacion_png.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/src/ui/images/ui_img_hibernacion_png.c.o: /home/merry/proyecto_cnc_hmi/src/ui/images/ui_img_hibernacion_png.c
 CMakeFiles/cnc_app.dir/src/ui/images/ui_img_hibernacion_png.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_222) "Building C object CMakeFiles/cnc_app.dir/src/ui/images/ui_img_hibernacion_png.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_224) "Building C object CMakeFiles/cnc_app.dir/src/ui/images/ui_img_hibernacion_png.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/src/ui/images/ui_img_hibernacion_png.c.o -MF CMakeFiles/cnc_app.dir/src/ui/images/ui_img_hibernacion_png.c.o.d -o CMakeFiles/cnc_app.dir/src/ui/images/ui_img_hibernacion_png.c.o -c /home/merry/proyecto_cnc_hmi/src/ui/images/ui_img_hibernacion_png.c
 
 CMakeFiles/cnc_app.dir/src/ui/images/ui_img_hibernacion_png.c.i: cmake_force
@@ -3180,7 +3208,7 @@ CMakeFiles/cnc_app.dir/src/ui/images/ui_img_hibernacion_png.c.s: cmake_force
 CMakeFiles/cnc_app.dir/src/ui/images/ui_img_home_24_png.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/src/ui/images/ui_img_home_24_png.c.o: /home/merry/proyecto_cnc_hmi/src/ui/images/ui_img_home_24_png.c
 CMakeFiles/cnc_app.dir/src/ui/images/ui_img_home_24_png.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_223) "Building C object CMakeFiles/cnc_app.dir/src/ui/images/ui_img_home_24_png.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_225) "Building C object CMakeFiles/cnc_app.dir/src/ui/images/ui_img_home_24_png.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/src/ui/images/ui_img_home_24_png.c.o -MF CMakeFiles/cnc_app.dir/src/ui/images/ui_img_home_24_png.c.o.d -o CMakeFiles/cnc_app.dir/src/ui/images/ui_img_home_24_png.c.o -c /home/merry/proyecto_cnc_hmi/src/ui/images/ui_img_home_24_png.c
 
 CMakeFiles/cnc_app.dir/src/ui/images/ui_img_home_24_png.c.i: cmake_force
@@ -3194,7 +3222,7 @@ CMakeFiles/cnc_app.dir/src/ui/images/ui_img_home_24_png.c.s: cmake_force
 CMakeFiles/cnc_app.dir/src/ui/images/ui_img_plus_png.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/src/ui/images/ui_img_plus_png.c.o: /home/merry/proyecto_cnc_hmi/src/ui/images/ui_img_plus_png.c
 CMakeFiles/cnc_app.dir/src/ui/images/ui_img_plus_png.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_224) "Building C object CMakeFiles/cnc_app.dir/src/ui/images/ui_img_plus_png.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_226) "Building C object CMakeFiles/cnc_app.dir/src/ui/images/ui_img_plus_png.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/src/ui/images/ui_img_plus_png.c.o -MF CMakeFiles/cnc_app.dir/src/ui/images/ui_img_plus_png.c.o.d -o CMakeFiles/cnc_app.dir/src/ui/images/ui_img_plus_png.c.o -c /home/merry/proyecto_cnc_hmi/src/ui/images/ui_img_plus_png.c
 
 CMakeFiles/cnc_app.dir/src/ui/images/ui_img_plus_png.c.i: cmake_force
@@ -3208,7 +3236,7 @@ CMakeFiles/cnc_app.dir/src/ui/images/ui_img_plus_png.c.s: cmake_force
 CMakeFiles/cnc_app.dir/src/ui/lv_i18n.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/src/ui/lv_i18n.c.o: /home/merry/proyecto_cnc_hmi/src/ui/lv_i18n.c
 CMakeFiles/cnc_app.dir/src/ui/lv_i18n.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_225) "Building C object CMakeFiles/cnc_app.dir/src/ui/lv_i18n.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_227) "Building C object CMakeFiles/cnc_app.dir/src/ui/lv_i18n.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/src/ui/lv_i18n.c.o -MF CMakeFiles/cnc_app.dir/src/ui/lv_i18n.c.o.d -o CMakeFiles/cnc_app.dir/src/ui/lv_i18n.c.o -c /home/merry/proyecto_cnc_hmi/src/ui/lv_i18n.c
 
 CMakeFiles/cnc_app.dir/src/ui/lv_i18n.c.i: cmake_force
@@ -3222,7 +3250,7 @@ CMakeFiles/cnc_app.dir/src/ui/lv_i18n.c.s: cmake_force
 CMakeFiles/cnc_app.dir/src/ui/screens/ui_main.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/src/ui/screens/ui_main.c.o: /home/merry/proyecto_cnc_hmi/src/ui/screens/ui_main.c
 CMakeFiles/cnc_app.dir/src/ui/screens/ui_main.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_226) "Building C object CMakeFiles/cnc_app.dir/src/ui/screens/ui_main.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_228) "Building C object CMakeFiles/cnc_app.dir/src/ui/screens/ui_main.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/src/ui/screens/ui_main.c.o -MF CMakeFiles/cnc_app.dir/src/ui/screens/ui_main.c.o.d -o CMakeFiles/cnc_app.dir/src/ui/screens/ui_main.c.o -c /home/merry/proyecto_cnc_hmi/src/ui/screens/ui_main.c
 
 CMakeFiles/cnc_app.dir/src/ui/screens/ui_main.c.i: cmake_force
@@ -3236,7 +3264,7 @@ CMakeFiles/cnc_app.dir/src/ui/screens/ui_main.c.s: cmake_force
 CMakeFiles/cnc_app.dir/src/ui/screens/ui_seleccionarTarea.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/src/ui/screens/ui_seleccionarTarea.c.o: /home/merry/proyecto_cnc_hmi/src/ui/screens/ui_seleccionarTarea.c
 CMakeFiles/cnc_app.dir/src/ui/screens/ui_seleccionarTarea.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_227) "Building C object CMakeFiles/cnc_app.dir/src/ui/screens/ui_seleccionarTarea.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_229) "Building C object CMakeFiles/cnc_app.dir/src/ui/screens/ui_seleccionarTarea.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/src/ui/screens/ui_seleccionarTarea.c.o -MF CMakeFiles/cnc_app.dir/src/ui/screens/ui_seleccionarTarea.c.o.d -o CMakeFiles/cnc_app.dir/src/ui/screens/ui_seleccionarTarea.c.o -c /home/merry/proyecto_cnc_hmi/src/ui/screens/ui_seleccionarTarea.c
 
 CMakeFiles/cnc_app.dir/src/ui/screens/ui_seleccionarTarea.c.i: cmake_force
@@ -3250,7 +3278,7 @@ CMakeFiles/cnc_app.dir/src/ui/screens/ui_seleccionarTarea.c.s: cmake_force
 CMakeFiles/cnc_app.dir/src/ui/ui.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/src/ui/ui.c.o: /home/merry/proyecto_cnc_hmi/src/ui/ui.c
 CMakeFiles/cnc_app.dir/src/ui/ui.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_228) "Building C object CMakeFiles/cnc_app.dir/src/ui/ui.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_230) "Building C object CMakeFiles/cnc_app.dir/src/ui/ui.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/src/ui/ui.c.o -MF CMakeFiles/cnc_app.dir/src/ui/ui.c.o.d -o CMakeFiles/cnc_app.dir/src/ui/ui.c.o -c /home/merry/proyecto_cnc_hmi/src/ui/ui.c
 
 CMakeFiles/cnc_app.dir/src/ui/ui.c.i: cmake_force
@@ -3264,7 +3292,7 @@ CMakeFiles/cnc_app.dir/src/ui/ui.c.s: cmake_force
 CMakeFiles/cnc_app.dir/src/ui/ui_events.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/src/ui/ui_events.c.o: /home/merry/proyecto_cnc_hmi/src/ui/ui_events.c
 CMakeFiles/cnc_app.dir/src/ui/ui_events.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_229) "Building C object CMakeFiles/cnc_app.dir/src/ui/ui_events.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_231) "Building C object CMakeFiles/cnc_app.dir/src/ui/ui_events.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/src/ui/ui_events.c.o -MF CMakeFiles/cnc_app.dir/src/ui/ui_events.c.o.d -o CMakeFiles/cnc_app.dir/src/ui/ui_events.c.o -c /home/merry/proyecto_cnc_hmi/src/ui/ui_events.c
 
 CMakeFiles/cnc_app.dir/src/ui/ui_events.c.i: cmake_force
@@ -3278,7 +3306,7 @@ CMakeFiles/cnc_app.dir/src/ui/ui_events.c.s: cmake_force
 CMakeFiles/cnc_app.dir/src/ui/ui_helpers.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/src/ui/ui_helpers.c.o: /home/merry/proyecto_cnc_hmi/src/ui/ui_helpers.c
 CMakeFiles/cnc_app.dir/src/ui/ui_helpers.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_230) "Building C object CMakeFiles/cnc_app.dir/src/ui/ui_helpers.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_232) "Building C object CMakeFiles/cnc_app.dir/src/ui/ui_helpers.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/src/ui/ui_helpers.c.o -MF CMakeFiles/cnc_app.dir/src/ui/ui_helpers.c.o.d -o CMakeFiles/cnc_app.dir/src/ui/ui_helpers.c.o -c /home/merry/proyecto_cnc_hmi/src/ui/ui_helpers.c
 
 CMakeFiles/cnc_app.dir/src/ui/ui_helpers.c.i: cmake_force
@@ -3292,7 +3320,7 @@ CMakeFiles/cnc_app.dir/src/ui/ui_helpers.c.s: cmake_force
 CMakeFiles/cnc_app.dir/src/ui/ui_logic.c.o: CMakeFiles/cnc_app.dir/flags.make
 CMakeFiles/cnc_app.dir/src/ui/ui_logic.c.o: /home/merry/proyecto_cnc_hmi/src/ui/ui_logic.c
 CMakeFiles/cnc_app.dir/src/ui/ui_logic.c.o: CMakeFiles/cnc_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_231) "Building C object CMakeFiles/cnc_app.dir/src/ui/ui_logic.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_233) "Building C object CMakeFiles/cnc_app.dir/src/ui/ui_logic.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cnc_app.dir/src/ui/ui_logic.c.o -MF CMakeFiles/cnc_app.dir/src/ui/ui_logic.c.o.d -o CMakeFiles/cnc_app.dir/src/ui/ui_logic.c.o -c /home/merry/proyecto_cnc_hmi/src/ui/ui_logic.c
 
 CMakeFiles/cnc_app.dir/src/ui/ui_logic.c.i: cmake_force
@@ -3309,6 +3337,8 @@ cnc_app_OBJECTS = \
 "CMakeFiles/cnc_app.dir/src/mqtt/mqtt_service.c.o" \
 "CMakeFiles/cnc_app.dir/src/files/file_manager.c.o" \
 "CMakeFiles/cnc_app.dir/src/logger/logger.c.o" \
+"CMakeFiles/cnc_app.dir/src/websocket/fluidnc_formatter.c.o" \
+"CMakeFiles/cnc_app.dir/src/websocket/websocket_cmd.c.o" \
 "CMakeFiles/cnc_app.dir/lib/lvgl/src/core/lv_disp.c.o" \
 "CMakeFiles/cnc_app.dir/lib/lvgl/src/core/lv_event.c.o" \
 "CMakeFiles/cnc_app.dir/lib/lvgl/src/core/lv_group.c.o" \
@@ -3544,6 +3574,8 @@ cnc_app: CMakeFiles/cnc_app.dir/src/main.c.o
 cnc_app: CMakeFiles/cnc_app.dir/src/mqtt/mqtt_service.c.o
 cnc_app: CMakeFiles/cnc_app.dir/src/files/file_manager.c.o
 cnc_app: CMakeFiles/cnc_app.dir/src/logger/logger.c.o
+cnc_app: CMakeFiles/cnc_app.dir/src/websocket/fluidnc_formatter.c.o
+cnc_app: CMakeFiles/cnc_app.dir/src/websocket/websocket_cmd.c.o
 cnc_app: CMakeFiles/cnc_app.dir/lib/lvgl/src/core/lv_disp.c.o
 cnc_app: CMakeFiles/cnc_app.dir/lib/lvgl/src/core/lv_event.c.o
 cnc_app: CMakeFiles/cnc_app.dir/lib/lvgl/src/core/lv_group.c.o
@@ -3774,7 +3806,7 @@ cnc_app: CMakeFiles/cnc_app.dir/src/ui/ui_logic.c.o
 cnc_app: CMakeFiles/cnc_app.dir/build.make
 cnc_app: /usr/lib/arm-linux-gnueabihf/libSDL2.so
 cnc_app: CMakeFiles/cnc_app.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_232) "Linking C executable cnc_app"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/merry/proyecto_cnc_hmi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_234) "Linking C executable cnc_app"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/cnc_app.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

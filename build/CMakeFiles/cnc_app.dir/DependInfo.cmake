@@ -239,6 +239,8 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/merry/proyecto_cnc_hmi/src/ui/ui_events.c" "CMakeFiles/cnc_app.dir/src/ui/ui_events.c.o" "gcc" "CMakeFiles/cnc_app.dir/src/ui/ui_events.c.o.d"
   "/home/merry/proyecto_cnc_hmi/src/ui/ui_helpers.c" "CMakeFiles/cnc_app.dir/src/ui/ui_helpers.c.o" "gcc" "CMakeFiles/cnc_app.dir/src/ui/ui_helpers.c.o.d"
   "/home/merry/proyecto_cnc_hmi/src/ui/ui_logic.c" "CMakeFiles/cnc_app.dir/src/ui/ui_logic.c.o" "gcc" "CMakeFiles/cnc_app.dir/src/ui/ui_logic.c.o.d"
+  "/home/merry/proyecto_cnc_hmi/src/websocket/fluidnc_formatter.c" "CMakeFiles/cnc_app.dir/src/websocket/fluidnc_formatter.c.o" "gcc" "CMakeFiles/cnc_app.dir/src/websocket/fluidnc_formatter.c.o.d"
+  "/home/merry/proyecto_cnc_hmi/src/websocket/websocket_cmd.c" "CMakeFiles/cnc_app.dir/src/websocket/websocket_cmd.c.o" "gcc" "CMakeFiles/cnc_app.dir/src/websocket/websocket_cmd.c.o.d"
   )
 
 # Targets to which this target links.
