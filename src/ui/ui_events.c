@@ -159,36 +159,52 @@ int verificar_estado_db() {
 }
 
 void RefrescarListaArchivos(lv_event_t * e) {
-    lv_obj_t * lista = ui_listaTareas1;
+    lv_obj_t * roller = ui_listaTareas1;
 
-    if (!lista) {
-        printf("[UI ERROR] No encuentro la lista de tareas.\n");
+    if (!roller) {
+        printf("[UI ERROR] El objeto Roller no existe aún.\n");
         return;
     }
 
-    lv_obj_clean(lista); // Limpiar lista visual
-
-    // 1. VERIFICAR CONEXIÓN A LA DB PRIMERO
-    if (verificar_estado_db() == 0) {
-        // Si Python dijo "ERROR", mostramos esto y salimos
-        lv_list_add_text(lista, "Sin conexion con la DB");
-        return;
-    }
-
-    // 2. Si hay conexión, escaneamos la carpeta
+    // 1. Escanear archivos
     fm_scan_directory(&mis_archivos);
 
     if (mis_archivos.count == 0) {
-        lv_list_add_text(lista, "Sin tareas asignadas");
-    } else {
-        for(int i=0; i<mis_archivos.count; i++) {
-            // Usamos List Button para mostrar los archivos
-            lv_obj_t * btn = lv_list_add_btn(lista, LV_SYMBOL_FILE, mis_archivos.filenames[i]);
-            // El evento de clic se asigna (si lo tenías separado o usas el genérico)
-            // lv_obj_add_event_cb(btn, EventoClickArchivo, LV_EVENT_CLICKED, NULL);
+        lv_roller_set_options(roller, "Sin archivos", LV_ROLLER_MODE_NORMAL);
+        return;
+    }
+
+    // 2. Construir la cadena gigante de forma segura (Memoria Dinámica)
+    // Calculamos el tamaño necesario aprox: 64 chars por archivo * cantidad
+    size_t buffer_size = mis_archivos.count * 65;
+    char *opciones = (char*)malloc(buffer_size); // Pedimos memoria al sistema
+
+    if (opciones == NULL) {
+        printf("[UI CRITICO] No hay memoria para listar archivos.\n");
+        return;
+    }
+
+    // Limpiamos el buffer
+    opciones[0] = '\0';
+
+    for(int i=0; i < mis_archivos.count; i++) {
+        strcat(opciones, mis_archivos.filenames[i]);
+
+        // Agregar salto de línea si no es el último
+        if (i < mis_archivos.count - 1) {
+            strcat(opciones, "\n");
         }
     }
+
+    // 3. Asignar al Roller
+    lv_roller_set_options(roller, opciones, LV_ROLLER_MODE_NORMAL);
+
+    // 4. Liberar la memoria temporal (¡Muy importante!)
+    free(opciones);
+
+    printf("[UI] Roller actualizado con %d archivos.\n", mis_archivos.count);
 }
+
 
 // ... (El resto de funciones agregar_tarea, retrocederMain, etc. se mantienen IGUAL) ...
 void agregar_tarea(lv_event_t * e) {

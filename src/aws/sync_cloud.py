@@ -1,82 +1,117 @@
+#!/usr/bin/env python3
 import requests
 import os
 import time
 import re
 
 # --- CONFIGURACIÓN ---
-SERVER_URL = "http://54.123.45.67:3000" 
+SERVER_URL = "http://18.223.169.118:80"
 API_LISTA = f"{SERVER_URL}/api/ordenes"
-API_BAJAR = f"{SERVER_URL}/api/download"
+STATUS_FILE = "/home/merry/proyecto_cnc_hmi/db_status.txt"
+JSON_FILE = "/home/merry/proyecto_cnc_hmi/ordenes.json"
 
-LOCAL_DIR = "/home/merry/proyecto_cnc_hmi/gcode_files/"
-STATUS_FILE = "/home/merry/proyecto_cnc_hmi/db_status.txt" # <--- NUEVO
+# Carpeta donde guardaremos los archivos en la Raspberry
+CARPETA_DESCARGAS = "/home/merry/proyecto_cnc_hmi/gcode_files"
 
+# ID de esta máquina (para filtrar solo lo que le corresponde a ella)
+MI_ID_MAQUINA = "cnc1"
+
+# --- PREPARACIÓN DEL SISTEMA ---
+if not os.path.exists(CARPETA_DESCARGAS):
+    os.makedirs(CARPETA_DESCARGAS)
+    print(f"✅ Carpeta '{CARPETA_DESCARGAS}' creada.")
+
+# -------------------------------
+#   FUNCIONES AUXILIARES
+# -------------------------------
 def actualizar_estado_db(estado):
-    """Escribe OK o ERROR en un archivo para que C lo lea"""
+    """Escribe OK o ERROR en un archivo para que el programa en C lo lea."""
     try:
         with open(STATUS_FILE, "w") as f:
             f.write(estado)
-    except:
-        pass
+    except Exception as e:
+        print(f"[ERROR] No se pudo escribir {STATUS_FILE}: {e}")
 
 def limpiar_nombre(nombre):
+    """Reemplaza caracteres inválidos para nombres de archivo."""
     return re.sub(r'[^a-zA-Z0-9_.-]', '_', nombre)
 
-def sincronizar():
-    print(f"[SYNC] Consultando {API_LISTA}...")
+def descargar_archivo(id_orden, ruta_guardado):
+    """Descarga un archivo de la orden desde el servidor."""
+    url_descarga = f"{SERVER_URL}/api/orden/archivo/{id_orden}"
+    try:
+        r = requests.get(url_descarga, stream=True)
+        if r.status_code == 200:
+            with open(ruta_guardado, "wb") as f:
+                f.write(r.content)
+            print(f"      ✅ Descarga completada: {ruta_guardado}")
+        else:
+            print(f"      ❌ Falló la descarga. Status: {r.status_code}")
+    except Exception as e:
+        print(f"      ❌ Error escribiendo archivo: {e}")
+
+# -------------------------------
+#   FUNCION PRINCIPAL: SINCRONIZAR Y DESCARGAR
+# -------------------------------
+def sincronizar_y_descargar():
+    print(f"\n[SYNC] Consultando servidor: {API_LISTA}")
     try:
         res = requests.get(API_LISTA, timeout=5)
-        
-        if res.status_code != 200:
-            print(f"[ERROR] Servidor respondio: {res.status_code}")
-            actualizar_estado_db("ERROR") # <--- REPORTAR ERROR
-            return
-
-        # Si llegamos aquí, hay conexión
-        actualizar_estado_db("OK") # <--- REPORTAR OK
-        
-        ordenes = res.json()
-        print(f"[SYNC] {len(ordenes)} ordenes encontradas.")
-
-        for orden in ordenes:
-            nombre_orig = orden.get('archivo_nombre')
-            if not nombre_orig or nombre_orig == 'null': continue
-
-            id_orden = orden.get('id')
-            producto = orden.get('producto', 'Producto')
-            
-            ext = os.path.splitext(nombre_orig)[1] 
-            if not ext: ext = ".gcode"
-            
-            nombre_final = f"{id_orden}_{limpiar_nombre(producto)}{ext}"
-            ruta_local = os.path.join(LOCAL_DIR, nombre_final)
-
-            if not os.path.exists(ruta_local):
-                print(f"[NUEVO] Descargando: {nombre_final}")
-                url_descarga = f"{API_BAJAR}/{id_orden}"
-                try:
-                    r_file = requests.get(url_descarga, stream=True)
-                    if r_file.status_code == 200:
-                        with open(ruta_local, 'wb') as f:
-                            for chunk in r_file.iter_content(chunk_size=8192):
-                                f.write(chunk)
-                        print("[OK] Descarga completada.")
-                    else:
-                        print(f"[FALLO] Error bajando archivo")
-                except:
-                    print("[FALLO] Error de red al bajar archivo")
-            
     except Exception as e:
         print(f"[ERROR CONEXION] {e}")
-        actualizar_estado_db("ERROR") # <--- REPORTAR ERROR EXCEPCIÓN
+        actualizar_estado_db("ERROR")
+        return
 
+    if res.status_code != 200:
+        print(f"[ERROR] Servidor respondió: {res.status_code}")
+        actualizar_estado_db("ERROR")
+        return
+
+    actualizar_estado_db("OK")
+
+    # Convertimos la respuesta a JSON
+    try:
+        ordenes = res.json()
+    except Exception as e:
+        print(f"[ERROR] JSON inválido: {e}")
+        actualizar_estado_db("ERROR")
+        return
+
+    print(f"[SYNC] {len(ordenes)} órdenes encontradas.")
+
+    # Guardar JSON para que el programa en C lo lea
+    try:
+        with open(JSON_FILE, "w") as f:
+            f.write(res.text)
+        print(f"[SYNC] Archivo {JSON_FILE} actualizado.")
+    except Exception as e:
+        print(f"[ERROR] No se pudo escribir {JSON_FILE}: {e}")
+
+    # -------------------------------
+    # Descargar solo archivos asignados a esta máquina
+    # -------------------------------
+    for orden in ordenes:
+        if orden.get("maquina") != MI_ID_MAQUINA:
+            continue
+
+        archivo_nombre = limpiar_nombre(orden.get("archivo_nombre", "sin_nombre.gcode"))
+        ruta_final = os.path.join(CARPETA_DESCARGAS, archivo_nombre)
+
+        if os.path.exists(ruta_final):
+            print(f"   ↳ ✅ Archivo ya existente: {archivo_nombre}")
+            continue
+
+        print(f"   ↳ 📥 Nuevo archivo detectado: {archivo_nombre}")
+        descargar_archivo(orden.get("id"), ruta_final)
+
+# -------------------------------
+#   MAIN LOOP
+# -------------------------------
 if __name__ == "__main__":
-    if not os.path.exists(LOCAL_DIR): os.makedirs(LOCAL_DIR)
-    print("--- INICIANDO MONITOR DE BASE DE DATOS ---")
-    
-    # Estado inicial desconocido
-    actualizar_estado_db("ERROR") 
-    
+    print(f"--- INICIANDO MONITOR DE BASE DE DATOS Y DESCARGAS ({MI_ID_MAQUINA}) ---")
+    actualizar_estado_db("ERROR")  # Estado inicial
+
     while True:
-        sincronizar()
+        sincronizar_y_descargar()
+        print("\n⏳ Esperando 10 segundos para la siguiente consulta...")
         time.sleep(10)
