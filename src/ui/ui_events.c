@@ -143,24 +143,54 @@ void enviar_orden_cnc(const char* comando) {
 }
 
 // --- RESTO DE EVENTOS (Archivos y Movimiento) ---
+// Función auxiliar para leer el estado de la DB (escrito por Python)
+int verificar_estado_db() {
+    FILE *f = fopen("db_status.txt", "r");
+    if (!f) return 0; // Asumimos error si no existe
+
+    char buffer[16];
+    if (fgets(buffer, sizeof(buffer), f)) {
+        fclose(f);
+        if (strstr(buffer, "OK")) return 1;
+    } else {
+        fclose(f);
+    }
+    return 0; // Error
+}
 
 void RefrescarListaArchivos(lv_event_t * e) {
     lv_obj_t * lista = ui_listaTareas1;
-    if (!lista) return;
 
-    lv_obj_clean(lista);
+    if (!lista) {
+        printf("[UI ERROR] No encuentro la lista de tareas.\n");
+        return;
+    }
+
+    lv_obj_clean(lista); // Limpiar lista visual
+
+    // 1. VERIFICAR CONEXIÓN A LA DB PRIMERO
+    if (verificar_estado_db() == 0) {
+        // Si Python dijo "ERROR", mostramos esto y salimos
+        lv_list_add_text(lista, "Sin conexion con la DB");
+        return;
+    }
+
+    // 2. Si hay conexión, escaneamos la carpeta
     fm_scan_directory(&mis_archivos);
 
     if (mis_archivos.count == 0) {
-        lv_list_add_text(lista, "Carpeta Vacia");
+        lv_list_add_text(lista, "Sin tareas asignadas");
     } else {
         for(int i=0; i<mis_archivos.count; i++) {
+            // Usamos List Button para mostrar los archivos
             lv_obj_t * btn = lv_list_add_btn(lista, LV_SYMBOL_FILE, mis_archivos.filenames[i]);
-            // lv_obj_add_event_cb(btn, ...); // Agregar si necesitas selección directa
+            // El evento de clic se asigna (si lo tenías separado o usas el genérico)
+            // lv_obj_add_event_cb(btn, EventoClickArchivo, LV_EVENT_CLICKED, NULL);
         }
     }
 }
 
+// ... (El resto de funciones agregar_tarea, retrocederMain, etc. se mantienen IGUAL) ...
 void agregar_tarea(lv_event_t * e) {
     if (ui_seleccionarTarea) {
         _ui_screen_change(&ui_seleccionarTarea, LV_SCR_LOAD_ANIM_NONE, 0, 0, &ui_seleccionarTarea_screen_init);
