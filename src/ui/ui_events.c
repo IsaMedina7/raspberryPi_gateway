@@ -8,22 +8,46 @@
 #include "../mqtt/mqtt_service.h"
 #include "../files/file_manager.h"
 #include "../logger/logger.h"
+#include "../websocket/websocket_cmd.h" // Tu librería de WS
 #include "../websocket/fluidnc_formatter.h"
-#include "../websocket/websocket_cmd.h"
 #include "ui_logic.h"
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
 
-int maquina_activa_id = 1;
+void ui_update_ip_display(const char * ip);
+
+// --- CONFIGURACIÓN DE MÁQUINAS FIJAS ---
+// Aquí defines tus máquinas manualmente
+typedef struct {
+    int id;
+    const char* nombre;
+    const char* ip;
+} MaquinaFija;
+
+// LISTA DE MÁQUINAS (Edita las IPs aquí)
+MaquinaFija maquinas_fijas[] = {
+    {1, "CNC 01 (Fresadora)", "10.144.228.243"}, // <--- IP MAQUINA 1
+    {2, "CNC 02 (Torno)",     "192.168.1.51"}  // <--- IP MAQUINA 2
+};
+int total_maquinas_fijas = 2;
+
+// Variables Globales
+int maquina_activa_id = 1;      // ID seleccionado (1, 2...)
+char ip_maquina_objetivo[32] = ""; // IP seleccionada
 extern FileList mis_archivos;
-extern SystemState global_state;
 
-// Variable global para que el WebSocket sepa a quién hablarle
-char ip_maquina_objetivo[32] = "";
-int id_maquina_objetivo = 0;
+// --- HELPER: BUSCAR IP ---
+const char* obtener_ip_por_id(int id) {
+    for(int i=0; i<total_maquinas_fijas; i++) {
+        if(maquinas_fijas[i].id == id) {
+            return maquinas_fijas[i].ip;
+        }
+    }
+    return ""; // No encontrada
+}
 
-// --- FUNCIÓN PARA LLENAR EL ROLLER ---
+// --- FUNCIÓN DE INICIO: LLENAR ROLLER (Llamar al iniciar) ---
 void ActualizarRollerMaquinas(void) {
     // CAMBIA 'ui_listMaquinas' POR EL NOMBRE REAL DE TU ROLLER DE MÁQUINAS (EN DASHBOARD)
     lv_obj_t * roller = ui_listMaquinas;
@@ -56,99 +80,87 @@ void ActualizarRollerMaquinas(void) {
     }
 }
 
-// --- EVENTO AL SELECCIONAR EN EL ROLLER ---
-void ui_event_listMaquinas(lv_event_t * e) {
+// Esta función debe llamarse una vez al arrancar la UI
+void InicializarListaMaquinas(void) {
+    lv_obj_t * roller = ui_listMaquinas;
+    if (!roller) return;
+
+    char opciones[512] = "";
+
+    // Construir string: "CNC 01\nCNC 02"
+    for(int i=0; i<total_maquinas_fijas; i++) {
+        strcat(opciones, maquinas_fijas[i].nombre);
+        if (i < total_maquinas_fijas - 1) strcat(opciones, "\n");
+    }
+
+    lv_roller_set_options(roller, opciones, LV_ROLLER_MODE_NORMAL);
+
+    // Seleccionar la primera por defecto
+    lv_roller_set_selected(roller, 0, LV_ANIM_OFF);
+    maquina_activa_id = maquinas_fijas[0].id;
+    strcpy(ip_maquina_objetivo, maquinas_fijas[0].ip);
+
+    // Actualizar Label de IP
+    ui_update_ip_display(ip_maquina_objetivo);
+}
+
+// --- EVENTO: AL CAMBIAR EL ROLLER ---
+void listar_maquinas(lv_event_t * e) {
     lv_obj_t * roller = lv_event_get_target(e);
-    int selected_idx = lv_roller_get_selected(roller);
+    int index = lv_roller_get_selected(roller); // 0, 1...
 
-    // Buscar cuál máquina real corresponde al índice seleccionado
-    // (Esto es simplificado, asumiendo orden 1, 2, 3...)
-    // Lo ideal es volver a recorrer global_state para encontrar la "n-ésima" máquina activa
+    // Actualizar ID y IP según el array fijo
+    if (index < total_maquinas_fijas) {
+        maquina_activa_id = maquinas_fijas[index].id;
+        strcpy(ip_maquina_objetivo, maquinas_fijas[index].ip);
 
-    int count = 0;
-    for(int i=0; i<MAX_MAQUINAS; i++) {
-        if (global_state.maquinas[i].activa) {
-            if (count == selected_idx) {
-                // ¡Encontrada! Guardamos su IP para usarla en WebSockets
-                strncpy(ip_maquina_objetivo, global_state.maquinas[i].ip, 32);
-                id_maquina_objetivo = global_state.maquinas[i].id;
+        // Logs y Visualización
+        char buf[64];
+        snprintf(buf, 64, "Sel: %s (%s)", maquinas_fijas[index].nombre, ip_maquina_objetivo);
+        ui_add_log(buf);
 
-                printf("[UI] Seleccionada M%d IP: %s\n", id_maquina_objetivo, ip_maquina_objetivo);
-
-                // Actualizar Label de IP en la barra superior
-                // (Si tienes la función ui_update_ip_display)
-                // ui_update_ip_display(ip_maquina_objetivo);
-                return;
-            }
-            count++;
-        }
+        ui_update_ip_display(ip_maquina_objetivo);
     }
 }
 
-// --- HELPER ---
+// --- HELPER DE ENVÍO (WEBSOCKET) ---
 void enviar_orden_cnc(const char* comando) {
-    char topico_id[32];
-    sprintf(topico_id, "maquina_%d", maquina_activa_id);
-    // mqtt_send_command(topico_id, comando);
-
-    char log[64];
-    snprintf(log, 64, "M%d: %s", maquina_activa_id, comando);
-    ui_add_log(log);
-
-    const char *ip="192.168.211.243:81"; // IP fija por ahora
-    run_websocket_cmd(ip, comando);
-}
-
-// --- LÓGICA DE ARCHIVOS ---
-
-// Función auxiliar para leer el estado de la DB (escrito por Python)
-int verificar_estado_db() {
-    FILE *f = fopen("db_status.txt", "r");
-    if (!f) return 0; // Asumimos error si no existe
-
-    char buffer[16];
-    if (fgets(buffer, sizeof(buffer), f)) {
-        fclose(f);
-        if (strstr(buffer, "OK")) return 1;
-    } else {
-        fclose(f);
+    if (strlen(ip_maquina_objetivo) == 0) {
+        ui_add_log("ERROR: Sin IP de destino");
+        return;
     }
-    return 0; // Error
+
+    char ip_con_puerto[40];
+    snprintf(ip_con_puerto, 40, "%s:81", ip_maquina_objetivo); // Puerto WebSocket estándar
+
+    // Llamada a tu función de WebSocket
+    run_websocket_cmd(ip_con_puerto, comando);
+
+    // Log visual
+    char log[64];
+    snprintf(log, 64, "M%d TX: %s", maquina_activa_id, comando);
+    ui_add_log(log);
 }
+
+// --- RESTO DE EVENTOS (Archivos y Movimiento) ---
 
 void RefrescarListaArchivos(lv_event_t * e) {
     lv_obj_t * lista = ui_listaTareas1;
+    if (!lista) return;
 
-    if (!lista) {
-        printf("[UI ERROR] No encuentro la lista de tareas.\n");
-        return;
-    }
-
-    lv_obj_clean(lista); // Limpiar lista visual
-
-    // 1. VERIFICAR CONEXIÓN A LA DB PRIMERO
-    if (verificar_estado_db() == 0) {
-        // Si Python dijo "ERROR", mostramos esto y salimos
-        lv_list_add_text(lista, "Sin conexion con la DB");
-        return;
-    }
-
-    // 2. Si hay conexión, escaneamos la carpeta
+    lv_obj_clean(lista);
     fm_scan_directory(&mis_archivos);
 
     if (mis_archivos.count == 0) {
-        lv_list_add_text(lista, "Sin tareas asignadas");
+        lv_list_add_text(lista, "Carpeta Vacia");
     } else {
         for(int i=0; i<mis_archivos.count; i++) {
-            // Usamos List Button para mostrar los archivos
             lv_obj_t * btn = lv_list_add_btn(lista, LV_SYMBOL_FILE, mis_archivos.filenames[i]);
-            // El evento de clic se asigna (si lo tenías separado o usas el genérico)
-            // lv_obj_add_event_cb(btn, EventoClickArchivo, LV_EVENT_CLICKED, NULL);
+            // lv_obj_add_event_cb(btn, ...); // Agregar si necesitas selección directa
         }
     }
 }
 
-// ... (El resto de funciones agregar_tarea, retrocederMain, etc. se mantienen IGUAL) ...
 void agregar_tarea(lv_event_t * e) {
     if (ui_seleccionarTarea) {
         _ui_screen_change(&ui_seleccionarTarea, LV_SCR_LOAD_ANIM_NONE, 0, 0, &ui_seleccionarTarea_screen_init);
@@ -160,10 +172,9 @@ void retrocederMain(lv_event_t * e) {
     _ui_screen_change(&ui_main, LV_SCR_LOAD_ANIM_FADE_ON, 200, 0, &ui_main_screen_init);
 }
 
-// Asignar tarea seleccionada en lista
 void asignar_tarea(lv_event_t * e) {
-    // Lógica simplificada: Asumimos que si dio click es el correcto
-    printf("[UI] Tarea asignada.\n");
+    // Aquí implementas la lógica de envío de archivo por WS
+    printf("[UI] Tarea asignada a %s\n", ip_maquina_objetivo);
     retrocederMain(NULL);
 }
 
@@ -232,9 +243,4 @@ void parado_de_emergencia(lv_event_t * e) {
 }
 
 void parado_total(lv_event_t * e) { mqtt_send_command("todas", "EMERGENCIA"); ui_add_log("PARO TOTAL"); }
-void listar_maquinas(lv_event_t * e) {
-    lv_obj_t * roller = lv_event_get_target(e);
-    maquina_activa_id = lv_roller_get_selected(roller) + 1;
-    char buf[32]; snprintf(buf, 32, "Sel: M%d", maquina_activa_id);
-    ui_add_log(buf);
-}
+

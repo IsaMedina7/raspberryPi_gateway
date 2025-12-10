@@ -60,14 +60,14 @@ void ui_event_allStop(lv_event_t * e)
     }
 }
 
-//void ui_event_listMaquinas(lv_event_t * e)
-//{
- //   lv_event_code_t event_code = lv_event_get_code(e);
+void ui_event_listMaquinas(lv_event_t * e)
+{
+   lv_event_code_t event_code = lv_event_get_code(e);
 
-   // if(event_code == LV_EVENT_VALUE_CHANGED) {
-     //   listar_maquinas(e);
-//    }
-//}
+   if(event_code == LV_EVENT_VALUE_CHANGED) {
+       listar_maquinas(e);
+    }
+}
 
 void ui_event_agregarTareas(lv_event_t * e)
 {
@@ -226,7 +226,7 @@ void ui_main_screen_init(void)
     lv_obj_clear_flag(ui_machines, LV_OBJ_FLAG_SCROLLABLE);      /// Flags
 
     ui_listMaquinas = lv_roller_create(ui_machines);
-    lv_roller_set_options(ui_listMaquinas, "Machine 1\nMachine 2\nMachine 3\nMachine 4", LV_ROLLER_MODE_INFINITE);
+    lv_roller_set_options(ui_listMaquinas, "Machine 1\nMachine 2", LV_ROLLER_MODE_NORMAL);
     lv_obj_set_width(ui_listMaquinas, lv_pct(100));
     lv_obj_set_height(ui_listMaquinas, lv_pct(70));
     lv_obj_set_align(ui_listMaquinas, LV_ALIGN_TOP_MID);

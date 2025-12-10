@@ -12,6 +12,8 @@
 extern "C" {
 #endif
 
+void InicializarListaMaquinas(void);
+
 void IrSeleccionarTarea(lv_event_t * e);
 void retrocederMain(lv_event_t * e);
 void EnviarArchivoDesdeRoller(lv_event_t * e);
