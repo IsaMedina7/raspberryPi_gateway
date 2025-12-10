@@ -27,7 +27,7 @@ typedef struct {
 
 // LISTA DE MÁQUINAS (Edita las IPs aquí)
 MaquinaFija maquinas_fijas[] = {
-    {1, "CNC 01 (Fresadora)", "10.144.228.243"}, // <--- IP MAQUINA 1
+    {1, "CNC 01 (Fresadora)", "10.213.126.243"}, // <--- IP MAQUINA 1
     {2, "CNC 02 (Torno)",     "192.168.1.51"}  // <--- IP MAQUINA 2
 };
 int total_maquinas_fijas = 2;
@@ -208,6 +208,7 @@ void RefrescarListaArchivos(lv_event_t * e) {
 
 // ... (El resto de funciones agregar_tarea, retrocederMain, etc. se mantienen IGUAL) ...
 void agregar_tarea(lv_event_t * e) {
+    system("python3 /home/merry/proyecto_cnc_hmi/src/aws/sync_cloud.py once");
     if (ui_seleccionarTarea) {
         _ui_screen_change(&ui_seleccionarTarea, LV_SCR_LOAD_ANIM_NONE, 0, 0, &ui_seleccionarTarea_screen_init);
         RefrescarListaArchivos(NULL);
@@ -219,8 +220,60 @@ void retrocederMain(lv_event_t * e) {
 }
 
 void asignar_tarea(lv_event_t * e) {
-    // Aquí implementas la lógica de envío de archivo por WS
-    printf("[UI] Tarea asignada a %s\n", ip_maquina_objetivo);
+    // 1. Obtener el objeto Roller
+    lv_obj_t * roller = ui_listaTareas1;
+    if (!roller) {
+        ui_add_log("ERROR: No se encuentra la lista de tareas.");
+        return;
+    }
+
+    // 2. Obtener el texto seleccionado (Nombre del archivo)
+    char seleccion[128];
+    lv_roller_get_selected_str(roller, seleccion, sizeof(seleccion));
+    
+    // 3. Validaciones básicas
+    if (strlen(seleccion) == 0 || strcmp(seleccion, "Sin archivos") == 0 || strcmp(seleccion, "Vacio") == 0) {
+        ui_add_log("ADVERTENCIA: Seleccione un archivo válido.");
+        return; 
+    }
+
+    // --- CORRECCIÓN IP (Lógica momentánea) ---
+    const char *ip_destino = NULL;
+    // Calculamos el tamaño del array automáticamente
+    int total_maquinas = sizeof(maquinas_fijas) / sizeof(maquinas_fijas[0]);
+
+    // Buscamos la IP que corresponde al ID activo
+    for (int i = 0; i < total_maquinas; i++) {
+        if (maquinas_fijas[i].id == maquina_activa_id) {
+            ip_destino = maquinas_fijas[i].ip;
+            break; // Encontrado, salimos del bucle
+        }
+    }
+
+    // Si no encontramos la IP, abortamos para evitar crash
+    if (ip_destino == NULL) {
+        ui_add_log("ERROR: No se encontró IP para la máquina activa.");
+        return;
+    }
+    // ------------------------------------------
+
+    // 4. Feedback en consola visual
+    char log_msg[256];
+    // Nota: cambié %d por %s en el log para mostrar la IP, o puedes dejar el ID si prefieres
+    snprintf(log_msg, sizeof(log_msg), "Asignando '%s' a %s...", seleccion, ip_destino);
+    ui_add_log(log_msg);
+    
+    // Forzamos actualización visual antes de bloquear (opcional pero recomendado)
+    lv_task_handler(); 
+
+    // 5. Construir ruta
+    char path[256];
+    snprintf(path, sizeof(path), "gcode_files/%s", seleccion);
+    
+    // CORRECCIÓN PRINCIPAL: Pasamos 'ip_destino' (cadena) en lugar del ID (entero)
+    upload_file_to_sd(ip_destino, path, seleccion);
+
+    // 6. Regresar al Dashboard automáticamente
     retrocederMain(NULL);
 }
 
@@ -268,9 +321,27 @@ void mover_z_neg(lv_event_t * e) {
 }
 
 void iniciarCorte(lv_event_t * e) { 
+    // 1. Obtener el objeto Roller
+    lv_obj_t * roller = ui_listaTareas1;
+    if (!roller) {
+        // ui_add_log("ERROR: No se encuentra la lista de tareas.");
+        return;
+    }
+
+    // 2. Obtener el texto seleccionado (Nombre del archivo)
+    char seleccion[128];
+    lv_roller_get_selected_str(roller, seleccion, sizeof(seleccion));
+    
+    // 3. Validaciones básicas
+    if (strlen(seleccion) == 0 || strcmp(seleccion, "Sin archivos") == 0 || strcmp(seleccion, "Vacio") == 0) {
+        ui_add_log("ADVERTENCIA: Seleccione un archivo válido.");
+        return; 
+    }
+    char command[256];
+    snprintf(command, sizeof(command), "$SD/Run=/%s", seleccion);
     
     // enviar_orden_cnc("'SD/Run=espiral.nc'"); 
-    enviar_orden_cnc("$LocalFS/Run=espiral.nc"); 
+    enviar_orden_cnc(command); 
 }
 
 void pauseMachine(lv_event_t * e) { 

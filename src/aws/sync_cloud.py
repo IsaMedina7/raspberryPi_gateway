@@ -109,9 +109,4 @@ def sincronizar_y_descargar():
 # -------------------------------
 if __name__ == "__main__":
     print(f"--- INICIANDO MONITOR DE BASE DE DATOS Y DESCARGAS ({MI_ID_MAQUINA}) ---")
-    actualizar_estado_db("ERROR")  # Estado inicial
-
-    while True:
-        sincronizar_y_descargar()
-        print("\n⏳ Esperando 10 segundos para la siguiente consulta...")
-        time.sleep(10)
+    sincronizar_y_descargar()

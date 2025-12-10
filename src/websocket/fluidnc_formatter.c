@@ -2,7 +2,7 @@
 #include <string.h>
 #include <stdlib.h>
 #include <ctype.h>
-// #include "fluidnc_commands.h"
+#include "fluidnc_formatter.h"
 
 // --------------------------------------------------------------------------
 // Formateador de movimiento (Jog)
@@ -80,4 +80,54 @@ int fluidnc_parse_mpos(const char *response, float *x, float *y, float *z) {
     }
 
     return 0; // No se pudo parsear
+}
+
+// --------------------------------------------------------------------------
+// Formateador de comando para subir archivos a la ESP (upload)
+// Formato esperado:
+// "file=@/path/to/local/file.gcode;filename=/test.gcode" http://${FLUIDNC_FQDN}/upload
+// --------------------------------------------------------------------------
+void fluidnc_format_upload(const char *local_path, const char *remote_filename, char *cmd) {
+    if (!local_path || !remote_filename || !cmd) return;
+
+    // Asegurarnos de que el nombre remoto comienza con '/'
+    char remote[256];
+    if (remote_filename[0] == '/') {
+        snprintf(remote, sizeof(remote), "%s", remote_filename);
+    } else {
+        snprintf(remote, sizeof(remote), "/%s", remote_filename);
+    }
+
+    // Formateamos la cadena según el ejemplo. Usamos FLUIDNC_CMD_MAX como tamaño recomendado.
+    // Nota: si la ruta local es muy larga puede truncarse según el tamaño del buffer de salida.
+    snprintf(cmd, FLUIDNC_CMD_MAX, "\"file=@%s;filename=%s\" http://${FLUIDNC_FQDN}/upload", local_path, remote);
+}
+
+// Función simple para subir archivo usando curl via system call
+int upload_file_to_sd(const char *ip, const char *local_path, const char *sd_filename) {
+    char cmd_buffer[2048];
+    
+    // Construimos el comando curl exacto que vimos antes
+    // NOTA: Asumimos puerto 80 para HTTP por defecto, o la IP debe incluirlo si es distinto
+    // En tu caso la IP tiene puerto 81, así que lo manejamos en el formato
+    int ret = snprintf(cmd_buffer, sizeof(cmd_buffer), 
+             "curl -s -F \"file=@%s;filename=%s\" http://%s/upload", 
+             local_path, sd_filename, ip);
+
+    if (ret >= sizeof(cmd_buffer)) {
+        fprintf(stderr, "ERROR: Rutas demasiado largas para el buffer.\n");
+        return 1;
+    }
+
+    printf("Subiendo archivo a SD... Espere.\n");
+    // system devuelve el estado de salida del comando (0 es éxito en shell)
+    int status = system(cmd_buffer);
+    
+    if (status == 0) {
+        printf("\n[Exito] Archivo subido correctamente.\n");
+        return 0;
+    } else {
+        printf("\n[Error] Falló la subida (curl exit code: %d).\n", status);
+        return 1;
+    }
 }

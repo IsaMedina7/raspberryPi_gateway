@@ -53,4 +53,5 @@ CMakeFiles/cnc_app.dir/src/websocket/fluidnc_formatter.c.o: \
  /usr/include/arm-linux-gnueabihf/bits/struct_rwlock.h \
  /usr/include/alloca.h \
  /usr/include/arm-linux-gnueabihf/bits/stdlib-float.h \
- /usr/include/ctype.h
+ /usr/include/ctype.h \
+ /home/merry/proyecto_cnc_hmi/src/websocket/fluidnc_formatter.h

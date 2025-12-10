@@ -36,6 +36,14 @@ void fluidnc_format_stop(char *cmd);
 void fluidnc_format_status(char *cmd);
 
 /**
+ * @brief Formatea el comando HTTP para subir un archivo al ESP (upload).
+ * @param local_path Ruta local del archivo en el sistema que se pasará con el prefijo @ (ej: /tmp/file.gcode).
+ * @param remote_filename Nombre (y opcionalmente ruta) destino en la ESP (se asegurará que comience con '/').
+ * @param cmd Buffer de salida donde se escribirá la cadena formateada. Recomendado usar `FLUIDNC_CMD_MAX` bytes.
+ */
+void fluidnc_format_upload(const char *local_path, const char *remote_filename, char *cmd);
+
+/**
  * @brief Parsea la respuesta de FluidNC para extraer posición XYZ (MPos).
  * Soporta formato legado (Grbl) y busca patrones JSON básicos.
  * * @param response La cadena recibida desde el WebSocket.
@@ -45,6 +53,9 @@ void fluidnc_format_status(char *cmd);
  * @return 1 si se encontró y parseó la posición, 0 si no.
  */
 int fluidnc_parse_mpos(const char *response, float *x, float *y, float *z);
+
+
+int upload_file_to_sd(const char *ip, const char *local_path, const char *sd_filename);
 
 #ifdef __cplusplus
 }
